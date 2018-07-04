@@ -1,0 +1,2241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://schemata.earlyprint.org/schemata/tei_earlyprint.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="c2cdr-S122480">
+  <teiHeader xml:id="c2cdr-S122480-header">
+    <fileDesc>
+      <titleStmt>
+        <title>The sixt set of bookes vvherein are anthemes for versus and chorus, of 5. and 6. parts; apt for violls and voyces: newly composed by Michaell Est, Bachelar of Musicke, and master of the choristers of the cathedrall church in Litchfield.</title>
+        <author>East, Michael, ca. 1580-1648.</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>This text is an enriched version of the TCP digital transcription A21102 of text S122480 in the <ref target="http;//estc.bl.uk">English Short Title Catalog</ref> (STC 7466). Textual changes  and metadata enrichments aim at making the                             text more  computationally tractable, easier to read, and suitable for network-based collaborative                              curation by amateur and professional end users from many walks of life.  The text has been tokenized and linguistically annotated with <ref target="http://morphadorner.northwestern.edu/morphadorner/">MorphAdorner</ref>. The annotation includes standard spellings that support the display of a text in                             a standardized format that preserves archaic forms ('loveth', 'seekest').                              Textual changes aim at restoring the text the author or stationer meant to publish.</edition><respStmt><resp>This text has not been fully proofread</resp><name/></respStmt></editionStmt>
+      <extent>Approx. 11 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+      <publicationStmt>
+        <publisher>EarlyPrint Project</publisher>
+        <pubPlace>Evanston,IL, Notre Dame, IN, St. Louis, MO</pubPlace>
+        <date>2018</date>
+        <idno type="DLPS">A21102</idno>
+        <idno type="STC">STC 7466</idno>
+        <idno type="STC">ESTC S122480</idno>
+        <idno type="EEBO-CITATION">99857606</idno>
+        <idno type="PROQUEST">99857606</idno>
+        <idno type="VID">23367</idno>
+        <availability>
+          <p>
+            This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. This Phase I text is available for reuse, according to the terms of
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 0 1.0 Universal</ref>
+            . The text can be copied, modified, distributed and performed, even for commercial purposes, all without asking permission.
+          </p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Early English books online.</title>
+      </seriesStmt>
+      <notesStmt>
+        <note>(EEBO-TCP ; phase 1, no. A21102)</note>
+        <note>Transcribed from: (Early English Books Online ; image set 23367)</note>
+        <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 577:13 or 1983:15)</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>The sixt set of bookes vvherein are anthemes for versus and chorus, of 5. and 6. parts; apt for violls and voyces: newly composed by Michaell Est, Bachelar of Musicke, and master of the choristers of the cathedrall church in Litchfield.</title>
+            <author>East, Michael, ca. 1580-1648.</author>
+          </titleStmt>
+          <extent>[4], 16; [4], 16; [4], 16; [4], 16; [4], 16; [4], 9-16 p. : music</extent>
+          <publicationStmt>
+            <publisher>Printed by Thomas Snodham, for M.L. and A.B.,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1624.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>Six partbooks. At head of title, part 1: "Cantus."; part 2: "Altus."; part 3: "Tenor"; part 4: "Bassus."; part 5: "Quintus."; part 6: "Sextus.".</note>
+            <note>Printed for Matthew Lownes and A. Browne. Cf. STC.</note>
+            <note>Signatures: [A]² B-C⁴ (Cantus); [A]² B-C⁴ (Altus); [A]² B-C⁴ (Tenor); [A]² B-C⁴ (Bassus); [A]² B-C⁴ (Quintus); [A]² B⁴ (Sextus).</note>
+            <note>Reproductions of the originals in the Folger Shakespeare Library and British Library.</note>
+            <note>Imperfect: item at reel 577:13 is Sextus only.</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">eng</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://authorities.loc.gov/">
+          <term>Part-songs, English -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <xenoData><ns0:epHeader xmlns:ns0="http://earlyprint.org/ns/1.0"><ns0:corpus>eebo</ns0:corpus><ns0:title>The sixt set of bookes, vvherein are anthemes for versus and chorus, of 5. and 6. parts; apt for violls and voyces: newly composed by Michaell Est, Ba</ns0:title><ns0:author>East, Michael</ns0:author><ns0:publicationYear>1624</ns0:publicationYear><ns0:creationYear/><ns0:curator><ns0:name/></ns0:curator><ns0:pageCount>13</ns0:pageCount><ns0:wordCount>1827</ns0:wordCount><ns0:defectiveTokenCount>0</ns0:defectiveTokenCount><ns0:untranscribedForeignCount>0</ns0:untranscribedForeignCount><ns0:untranscribedMathCount>0</ns0:untranscribedMathCount><ns0:untranscribedMusicCount>460</ns0:untranscribedMusicCount><ns0:missingChunkCount>0</ns0:missingChunkCount><ns0:missingPagesCount>13</ns0:missingPagesCount><ns0:defectRate>25177.89</ns0:defectRate><ns0:finalGrade>F</ns0:finalGrade><ns0:defectRangePerGrade> The  rate of 25177.89 defects per 10,000 words puts this text in the F category of texts with  100 or more defects per 10,000 words.</ns0:defectRangePerGrade></ns0:epHeader></xenoData><revisionDesc>
+      <change><date>2005-08</date><label>TCP</label>
+        Assigned for keying and markup
+      </change>
+      <change><date>2005-09</date><label>Aptara</label>
+        Keyed and coded from ProQuest page images
+      </change>
+      <change><date>2005-11</date><label>Emma (Leeson) Huber</label>
+        Sampled and proofread
+      </change>
+      <change><date>2005-11</date><label>Emma (Leeson) Huber</label>
+        Text and markup reviewed and edited
+      </change>
+      <change><date>2006-01</date><label>pfs</label>
+        Batch review (QC) and XML conversion
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="c2cdr-S122480-text">
+    <front xml:id="c2cdr-e0">
+      <div type="title_page" xml:id="c2cdr-e10">
+        <pb facs="tcp:23367:1" xml:id="c2cdr-001-a"/>
+        <pb facs="tcp:23367:1" xml:id="c2cdr-001-b"/>
+        <p xml:id="c2cdr-e20">
+          <w lemma="SEXTUS_nn" pos="n1-nn" reg="SEXTUS" xml:id="c2cdr-001-b-0010">SEXTVS</w>
+          <pc unit="sentence" xml:id="c2cdr-001-b-0020">.</pc>
+          <hi xml:id="c2cdr-e30">
+            <w lemma="the_d" pos="d" xml:id="c2cdr-001-b-0030">The</w>
+            <w lemma="six_crd" pos="ord" reg="sixth" xml:id="c2cdr-001-b-0040">Sixt</w>
+            <w lemma="set_v" pos="vvb" xml:id="c2cdr-001-b-0050">Set</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-001-b-0060">of</w>
+            <w lemma="book_n" pos="n2" reg="Books" xml:id="c2cdr-001-b-0070">Bookes</w>
+            <pc xml:id="c2cdr-001-b-0080">,</pc>
+          </hi>
+          <w lemma="wherein_crq" pos="crq-q" reg="WHEREIN" xml:id="c2cdr-001-b-0090">VVHEREIN</w>
+          <w lemma="be_v" pos="vvb" xml:id="c2cdr-001-b-0100">ARE</w>
+          <hi xml:id="c2cdr-e40">
+            <w lemma="anthem_n" pos="n2" reg="Anthems" xml:id="c2cdr-001-b-0110">Anthemes</w>
+          </hi>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-001-b-0120">for</w>
+          <hi xml:id="c2cdr-e50">
+            <w lemma="versus_f-la" pos="fw-la" xml:id="c2cdr-001-b-0130">Versus</w>
+          </hi>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-001-b-0140">and</w>
+          <hi xml:id="c2cdr-e60">
+            <w lemma="chorus_n" pos="n1" xml:id="c2cdr-001-b-0150">Chorus</w>
+            <pc xml:id="c2cdr-001-b-0160">,</pc>
+          </hi>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-001-b-0170">of</w>
+          <w lemma="5._crd" pos="crd" xml:id="c2cdr-001-b-0180">5.</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-001-b-0190">and</w>
+          <w lemma="6._crd" pos="crd" xml:id="c2cdr-001-b-0200">6.</w>
+          <pc unit="sentence" xml:id="c2cdr-001-b-0210"/>
+          <w lemma="part_n" pos="n2" xml:id="c2cdr-001-b-0220">Parts</w>
+          <pc xml:id="c2cdr-001-b-0230">;</pc>
+          <w lemma="apt_j" pos="j" xml:id="c2cdr-001-b-0240">Apt</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-001-b-0250">for</w>
+          <w lemma="viol_n" pos="n2" reg="Viols" xml:id="c2cdr-001-b-0260">Violls</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-001-b-0270">and</w>
+          <w lemma="voice_n" pos="n2" reg="Voices" xml:id="c2cdr-001-b-0280">Voyces</w>
+          <pc xml:id="c2cdr-001-b-0290">:</pc>
+          <w lemma="new_j" pos="av_j" xml:id="c2cdr-001-b-0300">Newly</w>
+          <w lemma="compose_v" pos="vvn" xml:id="c2cdr-001-b-0310">Composed</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2cdr-001-b-0320">by</w>
+          <hi xml:id="c2cdr-e70">
+            <w lemma="Michael_nn" pos="n1-nn" reg="Michael" xml:id="c2cdr-001-b-0330">Michaell</w>
+            <w lemma="est_f-la" pos="fw-la" xml:id="c2cdr-001-b-0340">Est</w>
+            <pc xml:id="c2cdr-001-b-0350">,</pc>
+          </hi>
+          <w lemma="batchelar_f-la" pos="fw-la" xml:id="c2cdr-001-b-0360">Batchelar</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-001-b-0370">of</w>
+          <hi xml:id="c2cdr-e80">
+            <w lemma="music_n" pos="n1" reg="Music" xml:id="c2cdr-001-b-0380">Musicke</w>
+            <pc xml:id="c2cdr-001-b-0390">,</pc>
+          </hi>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-001-b-0400">and</w>
+          <w lemma="master_n" pos="n1" xml:id="c2cdr-001-b-0410">Master</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-001-b-0420">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-001-b-0430">the</w>
+          <hi xml:id="c2cdr-e90">
+            <w lemma="chorister_n" pos="n2" xml:id="c2cdr-001-b-0440">Choristers</w>
+          </hi>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-001-b-0450">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-001-b-0460">the</w>
+          <w lemma="cathedral_n" pos="n1" reg="Cathedral" xml:id="c2cdr-001-b-0470">Cathedrall</w>
+          <w lemma="church_n" pos="n1" xml:id="c2cdr-001-b-0480">Church</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-001-b-0490">in</w>
+          <w lemma="litchfield_nn" pos="n1-nn" xml:id="c2cdr-001-b-0500">LITCHFIELD</w>
+          <pc unit="sentence" xml:id="c2cdr-001-b-0510">.</pc>
+        </p>
+        <p xml:id="c2cdr-e100">
+          <hi xml:id="c2cdr-e110">
+            <w lemma="LONDON_nn" pos="n1-nn" xml:id="c2cdr-001-b-0520">LONDON</w>
+            <pc xml:id="c2cdr-001-b-0530">:</pc>
+          </hi>
+          <w lemma="print_v" pos="vvn" xml:id="c2cdr-001-b-0540">Printed</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2cdr-001-b-0550">by</w>
+          <w lemma="THOMAS_nn" pos="n1-nn" xml:id="c2cdr-001-b-0560">THOMAS</w>
+          <w lemma="SNODHAM_nn" pos="n1-nn" xml:id="c2cdr-001-b-0570">SNODHAM</w>
+          <pc xml:id="c2cdr-001-b-0580">,</pc>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-001-b-0590">for</w>
+          <hi xml:id="c2cdr-e120">
+            <w lemma="m._ab" pos="n-ab" xml:id="c2cdr-001-b-0600">M.</w>
+            <w lemma="l._ab" pos="n-ab" xml:id="c2cdr-001-b-0610">L.</w>
+          </hi>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-001-b-0620">and</w>
+          <hi xml:id="c2cdr-e130">
+            <w lemma="a._ab" pos="n-ab" xml:id="c2cdr-001-b-0630">A.</w>
+            <w lemma="b._ab" pos="n-ab" xml:id="c2cdr-001-b-0640">B.</w>
+          </hi>
+          <w lemma="1624._crd" pos="crd" xml:id="c2cdr-001-b-0650">1624.</w>
+          <pc unit="sentence" xml:id="c2cdr-001-b-0660"/>
+        </p>
+      </div>
+      <div type="table_of_contents" xml:id="c2cdr-e140">
+        <pb facs="tcp:23367:2" xml:id="c2cdr-002-a"/>
+        <head xml:id="c2cdr-e150">
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-a-0010">The</w>
+          <w lemma="table_n" pos="n1" xml:id="c2cdr-002-a-0020">TABLE</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-a-0030">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-a-0040">the</w>
+          <w lemma="song_n" pos="n2" xml:id="c2cdr-002-a-0050">Songs</w>
+          <pc unit="sentence" xml:id="c2cdr-002-a-0060">.</pc>
+        </head>
+        <list xml:id="c2cdr-e160">
+          <head xml:id="c2cdr-e170">
+            <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-a-0070">Of</w>
+            <w lemma="five_crd" pos="crd" reg="five" xml:id="c2cdr-002-a-0080">fiue</w>
+            <w lemma="part_n" pos="n2" xml:id="c2cdr-002-a-0090">Parts</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0100">.</pc>
+          </head>
+          <item xml:id="c2cdr-e180">
+            <w lemma="as_acp" pos="acp-p" xml:id="c2cdr-002-a-0110">AS</w>
+            <w lemma="they_pn" pos="pns" xml:id="c2cdr-002-a-0120">they</w>
+            <w lemma="depart_v" pos="vvd" xml:id="c2cdr-002-a-0130">departed</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0140">.</pc>
+            <hi xml:id="c2cdr-e190">
+              <w lemma="first_crd" pos="ord" xml:id="c2cdr-002-a-0150">First</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-0160">Part.</w>
+            </hi>
+            <w lemma="ay_uh" pos="uh" reg="ay" xml:id="c2cdr-002-a-0170">I</w>
+          </item>
+          <item xml:id="c2cdr-e200">
+            <w lemma="but_acp" pos="acp-cc" xml:id="c2cdr-002-a-0180">But</w>
+            <w lemma="what_crq" pos="crq-q" xml:id="c2cdr-002-a-0190">what</w>
+            <w lemma="go_v" pos="vvd" xml:id="c2cdr-002-a-0200">went</w>
+            <w lemma="you_pn" pos="pn" xml:id="c2cdr-002-a-0210">you</w>
+            <w lemma="out_av" pos="av" xml:id="c2cdr-002-a-0220">out</w>
+            <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-a-0230">to</w>
+            <w lemma="see_v" pos="vvi" xml:id="c2cdr-002-a-0240">see</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0250">?</pc>
+            <hi xml:id="c2cdr-e210">
+              <w lemma="second_crd" pos="ord" xml:id="c2cdr-002-a-0260">Second</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-0270">Part.</w>
+            </hi>
+            <w lemma="two_crd" pos="crd" reg="TWO" xml:id="c2cdr-002-a-0280">II</w>
+          </item>
+          <item xml:id="c2cdr-e220">
+            <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-a-0290">For</w>
+            <w lemma="this_d" pos="d" xml:id="c2cdr-002-a-0300">this</w>
+            <w lemma="be_v" pos="vvz" xml:id="c2cdr-002-a-0310">is</w>
+            <w lemma="he_pn" pos="pns" reg="he" xml:id="c2cdr-002-a-0320">hee</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0330">.</pc>
+            <hi xml:id="c2cdr-e230">
+              <w lemma="three_crd" pos="ord" xml:id="c2cdr-002-a-0340">Third</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-0350">Part.</w>
+            </hi>
+            <w lemma="iii_crd" pos="crd" xml:id="c2cdr-002-a-0360">III</w>
+          </item>
+          <item xml:id="c2cdr-e240">
+            <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-a-0370">I</w>
+            <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-002-a-0380">haue</w>
+            <w lemma="roar_v" pos="vvn" xml:id="c2cdr-002-a-0390">roared</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0400">.</pc>
+            <hi xml:id="c2cdr-e250">
+              <w lemma="first_crd" pos="ord" xml:id="c2cdr-002-a-0410">First</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-0420">Part.</w>
+            </hi>
+            <w lemma="four_crd" pos="crd" xml:id="c2cdr-002-a-0430">IIII</w>
+          </item>
+          <item xml:id="c2cdr-e260">
+            <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-a-0440">I</w>
+            <w lemma="be_v" pos="vvm" xml:id="c2cdr-002-a-0450">am</w>
+            <w lemma="bring_v" pos="vvn" xml:id="c2cdr-002-a-0460">brought</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0470">.</pc>
+            <hi xml:id="c2cdr-e270">
+              <w lemma="second_crd" pos="ord" xml:id="c2cdr-002-a-0480">Second</w>
+              <w lemma="part_n" pos="n1" xml:id="c2cdr-002-a-0490">part</w>
+              <pc xml:id="c2cdr-002-a-0500">.</pc>
+            </hi>
+            <w lemma="v_sy" pos="sy" xml:id="c2cdr-002-a-0510">V</w>
+          </item>
+          <item xml:id="c2cdr-e280">
+            <w lemma="my_pn" pos="po" xml:id="c2cdr-002-a-0520">My</w>
+            <w lemma="loin_n" pos="n2" reg="loins" xml:id="c2cdr-002-a-0530">loynes</w>
+            <w lemma="be_v" pos="vvb" xml:id="c2cdr-002-a-0540">are</w>
+            <w lemma="fill_v" pos="vvn" xml:id="c2cdr-002-a-0550">filled</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0560">.</pc>
+            <hi xml:id="c2cdr-e290">
+              <w lemma="three_crd" pos="ord" xml:id="c2cdr-002-a-0570">Third</w>
+              <w lemma="part_n" pos="n1" xml:id="c2cdr-002-a-0580">part</w>
+              <pc xml:id="c2cdr-002-a-0590">.</pc>
+            </hi>
+            <w lemma="vi_crd" pos="crd" xml:id="c2cdr-002-a-0600">VI</w>
+          </item>
+          <item xml:id="c2cdr-e300">
+            <w lemma="blow_v" pos="vvb" xml:id="c2cdr-002-a-0610">Blow</w>
+            <w lemma="out_av" pos="av" xml:id="c2cdr-002-a-0620">out</w>
+            <w lemma="the_d" pos="d" xml:id="c2cdr-002-a-0630">the</w>
+            <w lemma="trumpet_n" pos="n1" xml:id="c2cdr-002-a-0640">Trumpet</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0650">.</pc>
+            <hi xml:id="c2cdr-e310">
+              <w lemma="first_crd" pos="ord" xml:id="c2cdr-002-a-0660">First</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-0670">Part.</w>
+            </hi>
+            <w lemma="vii_crd" pos="crd" xml:id="c2cdr-002-a-0680">VII</w>
+          </item>
+          <item xml:id="c2cdr-e320">
+            <w lemma="let_v" pos="vvb" xml:id="c2cdr-002-a-0690">Let</w>
+            <w lemma="all_d" pos="d" xml:id="c2cdr-002-a-0700">all</w>
+            <w lemma="the_d" pos="d" xml:id="c2cdr-002-a-0710">the</w>
+            <w lemma="inhabitant_n" pos="n2" xml:id="c2cdr-002-a-0720">Inhabitants</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-a-0730">of</w>
+            <w lemma="the_d" pos="d" xml:id="c2cdr-002-a-0740">the</w>
+            <w lemma="earth_n" pos="n1" xml:id="c2cdr-002-a-0750">earth</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0760">.</pc>
+            <hi xml:id="c2cdr-e330">
+              <w lemma="second_crd" pos="ord" xml:id="c2cdr-002-a-0770">Second</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-0780">Part.</w>
+            </hi>
+            <w lemma="Viii_crd" pos="crd" xml:id="c2cdr-002-a-0790">VIII</w>
+          </item>
+        </list>
+        <list xml:id="c2cdr-e340">
+          <head xml:id="c2cdr-e350">
+            <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-a-0800">Of</w>
+            <w lemma="six_crd" pos="crd" reg="six" xml:id="c2cdr-002-a-0810">sixe</w>
+            <w lemma="part_n" pos="n2" xml:id="c2cdr-002-a-0820">Parts</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0830">.</pc>
+          </head>
+          <item xml:id="c2cdr-e360">
+            <w lemma="how_crq" pos="crq-q" xml:id="c2cdr-002-a-0840">How</w>
+            <w lemma="shall_vm" pos="vmb" xml:id="c2cdr-002-a-0850">shall</w>
+            <w lemma="a_d" pos="d" xml:id="c2cdr-002-a-0860">a</w>
+            <w lemma="young_j" pos="j" xml:id="c2cdr-002-a-0870">young</w>
+            <w lemma="man_n" pos="n1" xml:id="c2cdr-002-a-0880">man</w>
+            <w lemma="cleanse_v" pos="vvi" xml:id="c2cdr-002-a-0890">cleanse</w>
+            <w lemma="his_pn" pos="po" xml:id="c2cdr-002-a-0900">his</w>
+            <w lemma="way_n" pos="n2" reg="ways" xml:id="c2cdr-002-a-0910">waies</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-0920">?</pc>
+            <hi xml:id="c2cdr-e370">
+              <w lemma="first_crd" pos="ord" xml:id="c2cdr-002-a-0930">First</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-0940">Part.</w>
+            </hi>
+            <w lemma="ix_crd" pos="crd" xml:id="c2cdr-002-a-0950">IX</w>
+          </item>
+          <item xml:id="c2cdr-e380">
+            <w lemma="thy_pn" pos="po" xml:id="c2cdr-002-a-0960">Thy</w>
+            <w lemma="word_n" pos="n2" xml:id="c2cdr-002-a-0970">words</w>
+            <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-002-a-0980">haue</w>
+            <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-a-0990">I</w>
+            <w lemma="hide_v" pos="vvn" xml:id="c2cdr-002-a-1000">hid</w>
+            <w lemma="within_acp" pos="acp-p" xml:id="c2cdr-002-a-1010">within</w>
+            <w lemma="my_pn" pos="po" xml:id="c2cdr-002-a-1020">my</w>
+            <w lemma="heart_n" pos="n1" xml:id="c2cdr-002-a-1030">heart</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-1040">.</pc>
+            <hi xml:id="c2cdr-e390">
+              <w lemma="second_crd" pos="ord" xml:id="c2cdr-002-a-1050">Second</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-1060">Part.</w>
+            </hi>
+            <w lemma="x_crd" pos="crd" xml:id="c2cdr-002-a-1070">X</w>
+          </item>
+          <item xml:id="c2cdr-e400">
+            <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-002-a-1080">With</w>
+            <w lemma="my_pn" pos="po" xml:id="c2cdr-002-a-1090">my</w>
+            <w lemma="lip_n" pos="n2" xml:id="c2cdr-002-a-1100">lips</w>
+            <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-002-a-1110">haue</w>
+            <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-a-1120">I</w>
+            <w lemma="be_v" pos="vvn" reg="been" xml:id="c2cdr-002-a-1130">bin</w>
+            <w lemma="tell_v" pos="vvg" xml:id="c2cdr-002-a-1140">telling</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-1150">.</pc>
+            <hi xml:id="c2cdr-e410">
+              <w lemma="three_crd" pos="ord" xml:id="c2cdr-002-a-1160">Third</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-1170">Part.</w>
+            </hi>
+            <w lemma="xi_crd" pos="crd" xml:id="c2cdr-002-a-1180">XI</w>
+          </item>
+          <item xml:id="c2cdr-e420">
+            <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-a-1190">I</w>
+            <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-002-a-1200">haue</w>
+            <w lemma="have_v" pos="vvn" xml:id="c2cdr-002-a-1210">had</w>
+            <w lemma="as_acp" pos="acp-p" xml:id="c2cdr-002-a-1220">as</w>
+            <w lemma="great_j" pos="j" xml:id="c2cdr-002-a-1230">great</w>
+            <w lemma="delight_n" pos="n1" xml:id="c2cdr-002-a-1240">delight</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-1250">.</pc>
+            <hi xml:id="c2cdr-e430">
+              <w lemma="four_crd" pos="ord" xml:id="c2cdr-002-a-1260">Fourth</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-1270">Part.</w>
+            </hi>
+            <w lemma="Xii_crd" pos="crd" xml:id="c2cdr-002-a-1280">XII</w>
+          </item>
+          <item xml:id="c2cdr-e440">
+            <w lemma="awake_v" pos="vvb" xml:id="c2cdr-002-a-1290">Awake</w>
+            <pc xml:id="c2cdr-002-a-1300">.</pc>
+            <w lemma="xiii_crd" pos="crd" xml:id="c2cdr-002-a-1310">XIII</w>
+          </item>
+          <item xml:id="c2cdr-e450">
+            <w lemma="sing_v" pos="vvb" xml:id="c2cdr-002-a-1320">Sing</w>
+            <w lemma="we_pn" pos="pns" xml:id="c2cdr-002-a-1330">we</w>
+            <w lemma="merry_j" pos="av_j" xml:id="c2cdr-002-a-1340">merrily</w>
+            <w lemma="to_acp" pos="acp-p" xml:id="c2cdr-002-a-1350">to</w>
+            <w lemma="God_nn" pos="n1-nn" xml:id="c2cdr-002-a-1360">God</w>
+            <pc xml:id="c2cdr-002-a-1361" unit="sentence">.</pc>
+            <hi xml:id="c2cdr-e460">
+              <w lemma="first_crd" pos="ord" xml:id="c2cdr-002-a-1370">First</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-1380">Part.</w>
+            </hi>
+            <w lemma="xiiii_crd" pos="crd" xml:id="c2cdr-002-a-1390">XIIII</w>
+          </item>
+          <item xml:id="c2cdr-e470">
+            <w lemma="take_v" pos="vvb" xml:id="c2cdr-002-a-1400">Take</w>
+            <w lemma="the_d" pos="d" xml:id="c2cdr-002-a-1410">the</w>
+            <w lemma="psalm_n" pos="n1" reg="Psalm" xml:id="c2cdr-002-a-1420">Psalme</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-1430">.</pc>
+            <hi xml:id="c2cdr-e480">
+              <w lemma="second_crd" pos="ord" xml:id="c2cdr-002-a-1440">Second</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-1450">Part.</w>
+            </hi>
+            <w lemma="xv_crd" pos="crd" xml:id="c2cdr-002-a-1460">XV</w>
+          </item>
+          <item xml:id="c2cdr-e490">
+            <w lemma="blow_v" pos="vvb" xml:id="c2cdr-002-a-1470">Blow</w>
+            <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2cdr-002-a-1480">vp</w>
+            <w lemma="the_d" pos="d" xml:id="c2cdr-002-a-1490">the</w>
+            <w lemma="trumpet_n" pos="n1" xml:id="c2cdr-002-a-1500">Trumpet</w>
+            <pc unit="sentence" xml:id="c2cdr-002-a-1510">.</pc>
+            <hi xml:id="c2cdr-e500">
+              <w lemma="three_crd" pos="ord" xml:id="c2cdr-002-a-1520">Third</w>
+              <w lemma="part._ab" pos="n-ab" xml:id="c2cdr-002-a-1530">Part.</w>
+            </hi>
+            <w lemma="Xvi_crd" pos="crd" xml:id="c2cdr-002-a-1540">XVI</w>
+          </item>
+        </list>
+        <p xml:id="c2cdr-e510">
+          <w lemma="to_acp" pos="acp-p" xml:id="c2cdr-002-a-1550">To</w>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2cdr-002-a-1560">which</w>
+          <w lemma="be_v" pos="vvz" xml:id="c2cdr-002-a-1570">is</w>
+          <w lemma="add_v" pos="vvn" xml:id="c2cdr-002-a-1580">added</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-a-1590">in</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-a-1600">a</w>
+          <w lemma="vacant_j" pos="j" xml:id="c2cdr-002-a-1610">vacant</w>
+          <w lemma="page_n" pos="n1" xml:id="c2cdr-002-a-1620">page</w>
+          <pc xml:id="c2cdr-002-a-1630">,</pc>
+          <w lemma="before_acp" pos="acp-p" xml:id="c2cdr-002-a-1640">before</w>
+          <w lemma="these_d" pos="d" xml:id="c2cdr-002-a-1650">these</w>
+          <w lemma="other_d" pos="d" xml:id="c2cdr-002-a-1660">other</w>
+          <w lemma="song_n" pos="n2" xml:id="c2cdr-002-a-1670">Songs</w>
+          <pc xml:id="c2cdr-002-a-1680">,</pc>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-a-1690">an</w>
+          <w lemma="air_n" pos="n1" reg="Air" xml:id="c2cdr-002-a-1700">Aire</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-a-1710">of</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-a-1720">a</w>
+          <w lemma="Canzo_nn" pos="n1-nn" xml:id="c2cdr-002-a-1730">Canzo</w>
+          <pc xml:id="c2cdr-002-a-1740">,</pc>
+          <w lemma="compose_v" pos="vvn" xml:id="c2cdr-002-a-1750">Composed</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-a-1760">in</w>
+          <w lemma="honour_n" pos="n1" xml:id="c2cdr-002-a-1770">honour</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-a-1780">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-a-1790">the</w>
+          <w lemma="most_d" pos="av-s_d" xml:id="c2cdr-002-a-1800">most</w>
+          <w lemma="illustrious_j" pos="j" xml:id="c2cdr-002-a-1810">illustrious</w>
+          <w lemma="princess_n" pos="n1" reg="Princess" xml:id="c2cdr-002-a-1820">Princesse</w>
+          <pc xml:id="c2cdr-002-a-1830">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-a-1840">the</w>
+          <hi xml:id="c2cdr-e520">
+            <w lemma="lady_n" pos="n1" reg="Lady" xml:id="c2cdr-002-a-1850">Ladie</w>
+            <w lemma="Elizabeth_nn" pos="n1-nn" xml:id="c2cdr-002-a-1860">Elizabeth</w>
+            <pc xml:id="c2cdr-002-a-1870">,</pc>
+          </hi>
+          <w lemma="etc._ab" pos="n-ab" reg="etc." xml:id="c2cdr-002-a-1880">&amp;c.</w>
+          <pc unit="sentence" xml:id="c2cdr-002-a-1890"/>
+        </p>
+      </div>
+      <div type="dedication" xml:id="c2cdr-e530">
+        <pb facs="tcp:23367:2" xml:id="c2cdr-002-b"/>
+        <head xml:id="c2cdr-e540">
+          <w lemma="to_acp" pos="acp-p" xml:id="c2cdr-002-b-0010">TO</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-0020">THE</w>
+          <w lemma="right_j" pos="n1_j" xml:id="c2cdr-002-b-0030">RIGHT</w>
+          <w lemma="reverend_j" pos="j" xml:id="c2cdr-002-b-0040">REVEREND</w>
+          <w lemma="father_n" pos="n1" xml:id="c2cdr-002-b-0050">FATHER</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-0060">in</w>
+          <w lemma="God_nn" pos="n1-nn" xml:id="c2cdr-002-b-0070">God</w>
+          <pc xml:id="c2cdr-002-b-0080">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-0090">and</w>
+          <w lemma="right_j" pos="av_j" xml:id="c2cdr-002-b-0100">Right</w>
+          <w lemma="honourable_j" pos="j" xml:id="c2cdr-002-b-0110">Honourable</w>
+          <w lemma="lord_n" pos="n1" xml:id="c2cdr-002-b-0120">LORD</w>
+          <pc xml:id="c2cdr-002-b-0130">,</pc>
+          <w lemma="john_nn" pos="n1-nn" xml:id="c2cdr-002-b-0140">JOHN</w>
+          <pc xml:id="c2cdr-002-b-0150">,</pc>
+          <w lemma="lord_n" pos="n1" xml:id="c2cdr-002-b-0160">Lord</w>
+          <w lemma="bishop_n" pos="n1" xml:id="c2cdr-002-b-0170">Bishop</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-0180">of</w>
+          <w lemma="Lincoln_nn" pos="n1-nn" reg="Lincoln" xml:id="c2cdr-002-b-0190">Lincolne</w>
+          <pc xml:id="c2cdr-002-b-0200">,</pc>
+          <w lemma="lord_n" pos="n1" xml:id="c2cdr-002-b-0210">Lord</w>
+          <w lemma="keeper_n" pos="n1" xml:id="c2cdr-002-b-0220">Keeper</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-0230">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-0240">the</w>
+          <w lemma="great_j" pos="j" xml:id="c2cdr-002-b-0250">great</w>
+          <w lemma="seal_n" pos="n1" reg="SEAL" xml:id="c2cdr-002-b-0260">SEALE</w>
+          <pc xml:id="c2cdr-002-b-0270">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-0280">of</w>
+          <w lemma="his_pn" pos="po" xml:id="c2cdr-002-b-0290">his</w>
+          <w lemma="majesty_n" pos="n1g" reg="Majesty's" xml:id="c2cdr-002-b-0300">Maiesties</w>
+          <w lemma="most_d" pos="av-s_d" xml:id="c2cdr-002-b-0310">most</w>
+          <w lemma="honourable_j" pos="j" xml:id="c2cdr-002-b-0320">Honourable</w>
+          <w lemma="privy_j" pos="j" reg="PRIVY" xml:id="c2cdr-002-b-0330">PRIVIE</w>
+          <w lemma="council_n" pos="n1" reg="COUNCIL" xml:id="c2cdr-002-b-0340">COVNCELL</w>
+          <pc xml:id="c2cdr-002-b-0350">,</pc>
+          <w lemma="etc._ab" pos="n-ab" reg="etc." xml:id="c2cdr-002-b-0360">&amp;c.</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-0370"/>
+        </head>
+        <opener xml:id="c2cdr-e550">
+          <salute xml:id="c2cdr-e560">
+            <w lemma="right_j" pos="av_j" xml:id="c2cdr-002-b-0380">Right</w>
+            <w lemma="reverend_j" pos="j" reg="Reverend" xml:id="c2cdr-002-b-0390">Reuerend</w>
+            <pc xml:id="c2cdr-002-b-0400">,</pc>
+            <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-0410">and</w>
+            <w lemma="right_j" pos="av_j" xml:id="c2cdr-002-b-0420">Right</w>
+            <w lemma="honourable_j" pos="j" xml:id="c2cdr-002-b-0430">Honourable</w>
+            <pc xml:id="c2cdr-002-b-0440">:</pc>
+          </salute>
+        </opener>
+        <p xml:id="c2cdr-e570">
+          <w lemma="i_pn" pos="pns" rendition="#decorinit" xml:id="c2cdr-002-b-0450">I</w>
+          <w lemma="have_v" pos="vvb" reg="Have" xml:id="c2cdr-002-b-0460">Haue</w>
+          <w lemma="little_j" pos="j" xml:id="c2cdr-002-b-0470">little</w>
+          <w lemma="learning_n" pos="n1" xml:id="c2cdr-002-b-0480">Learning</w>
+          <pc xml:id="c2cdr-002-b-0490">,</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2cdr-002-b-0500">but</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-0510">I</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-002-b-0520">haue</w>
+          <w lemma="so_av" pos="av" xml:id="c2cdr-002-b-0530">so</w>
+          <w lemma="much_d" pos="d" xml:id="c2cdr-002-b-0540">much</w>
+          <w lemma="music_n" pos="n1" reg="Music" xml:id="c2cdr-002-b-0550">Musicke</w>
+          <pc xml:id="c2cdr-002-b-0560">,</pc>
+          <w lemma="as_acp" pos="acp-cs" xml:id="c2cdr-002-b-0570">as</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-b-0580">to</w>
+          <w lemma="know_v" pos="vvi" xml:id="c2cdr-002-b-0590">know</w>
+          <w lemma="there_av" pos="av" xml:id="c2cdr-002-b-0600">there</w>
+          <w lemma="be_v" pos="vvz" xml:id="c2cdr-002-b-0610">is</w>
+          <w lemma="no_d" pos="d-x" xml:id="c2cdr-002-b-0620">no</w>
+          <w lemma="discord_n" pos="n1" xml:id="c2cdr-002-b-0630">discord</w>
+          <w lemma="so_av" pos="av" xml:id="c2cdr-002-b-0640">so</w>
+          <w lemma="harsh_j" pos="j" xml:id="c2cdr-002-b-0650">harsh</w>
+          <pc xml:id="c2cdr-002-b-0660">,</pc>
+          <w lemma="as_acp" pos="acp-cs" xml:id="c2cdr-002-b-0670">as</w>
+          <w lemma="when_crq" pos="crq-cs" xml:id="c2cdr-002-b-0680">when</w>
+          <w lemma="benefit_n" pos="n2" xml:id="c2cdr-002-b-0690">Benefits</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-0700">and</w>
+          <w lemma="ungratefulness_n" pos="n1" reg="ungratefulness" xml:id="c2cdr-002-b-0710">vngratefulnesse</w>
+          <w lemma="be_v" pos="vvb" xml:id="c2cdr-002-b-0720">are</w>
+          <w lemma="put_v" pos="vvn" xml:id="c2cdr-002-b-0730">put</w>
+          <w lemma="together_av" pos="av" xml:id="c2cdr-002-b-0740">together</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-0750">.</pc>
+          <w lemma="this_d" pos="d" xml:id="c2cdr-002-b-0760">This</w>
+          <w lemma="be_v" pos="vvz" xml:id="c2cdr-002-b-0770">is</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-0780">a</w>
+          <w lemma="discord_n" pos="n1" xml:id="c2cdr-002-b-0790">discord</w>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-0800">that</w>
+          <w lemma="can_vm" pos="vmb-x" xml:id="c2cdr-002-b-0810">cannot</w>
+          <w lemma="be_v" pos="vvi" xml:id="c2cdr-002-b-0820">be</w>
+          <w lemma="temper_v" pos="vvn" xml:id="c2cdr-002-b-0830">tempered</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2cdr-002-b-0840">by</w>
+          <w lemma="any_d" pos="d" xml:id="c2cdr-002-b-0850">any</w>
+          <w lemma="art_n" pos="n1" xml:id="c2cdr-002-b-0860">art</w>
+          <pc xml:id="c2cdr-002-b-0870">,</pc>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-b-0880">to</w>
+          <w lemma="make_v" pos="vvi" xml:id="c2cdr-002-b-0890">make</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-0900">a</w>
+          <w lemma="grace_n" pos="n1" xml:id="c2cdr-002-b-0910">grace</w>
+          <pc xml:id="c2cdr-002-b-0920">,</pc>
+          <w lemma="or_cc" pos="cc" xml:id="c2cdr-002-b-0930">or</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-b-0940">to</w>
+          <w lemma="make_v" pos="vvi" xml:id="c2cdr-002-b-0950">make</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-0960">the</w>
+          <w lemma="harmony_n" pos="n1" reg="harmony" xml:id="c2cdr-002-b-0970">harmonie</w>
+          <w lemma="more_d" pos="av-c_d" xml:id="c2cdr-002-b-0980">more</w>
+          <w lemma="rare_j" pos="j" xml:id="c2cdr-002-b-0990">rare</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-1000">and</w>
+          <w lemma="artificial_j" pos="j" reg="artificial" xml:id="c2cdr-002-b-1010">artificiall</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-1020">.</pc>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-1030">It</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-1040">were</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-1050">a</w>
+          <w lemma="shame_n" pos="n1" xml:id="c2cdr-002-b-1060">shame</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-1070">for</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-002-b-1080">me</w>
+          <w lemma="therefore_av" pos="av" xml:id="c2cdr-002-b-1090">therefore</w>
+          <pc xml:id="c2cdr-002-b-1100">,</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-1110">that</w>
+          <w lemma="know_v" pos="vvb" xml:id="c2cdr-002-b-1120">know</w>
+          <w lemma="somewhat_av" pos="av" xml:id="c2cdr-002-b-1130">somewhat</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-1140">in</w>
+          <w lemma="music_n" pos="n1" reg="Music" xml:id="c2cdr-002-b-1150">Musicke</w>
+          <pc xml:id="c2cdr-002-b-1160">,</pc>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-b-1170">to</w>
+          <w lemma="commit_v" pos="vvi" xml:id="c2cdr-002-b-1180">commit</w>
+          <w lemma="such_d" pos="d" xml:id="c2cdr-002-b-1190">such</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-1200">an</w>
+          <w lemma="unpardonable_j" pos="j" reg="unpardonable" xml:id="c2cdr-002-b-1210">vnpardonable</w>
+          <w lemma="error_n" pos="n1" reg="error" xml:id="c2cdr-002-b-1220">errour</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-1230">in</w>
+          <w lemma="manner_n" pos="n2" xml:id="c2cdr-002-b-1240">manners</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-1250">.</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-1260">And</w>
+          <w lemma="this_d" pos="d" xml:id="c2cdr-002-b-1270">this</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-1280">I</w>
+          <w lemma="must_vm" pos="vmb" xml:id="c2cdr-002-b-1290">must</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-1300">of</w>
+          <w lemma="necessity_n" pos="n1" reg="necessity" xml:id="c2cdr-002-b-1310">necessitie</w>
+          <w lemma="do_v" pos="vvb" reg="do" xml:id="c2cdr-002-b-1320">doe</w>
+          <pc xml:id="c2cdr-002-b-1330">,</pc>
+          <w lemma="if_cs" pos="cs" xml:id="c2cdr-002-b-1340">if</w>
+          <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-002-b-1350">with</w>
+          <w lemma="all_d" pos="d" xml:id="c2cdr-002-b-1360">all</w>
+          <w lemma="humility_n" pos="n1" xml:id="c2cdr-002-b-1370">humility</w>
+          <w lemma="from_acp" pos="acp-p" xml:id="c2cdr-002-b-1380">from</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-1390">the</w>
+          <w lemma="deep_j" pos="j-s" xml:id="c2cdr-002-b-1400">deepest</w>
+          <w lemma="thought_n" pos="n2" xml:id="c2cdr-002-b-1410">thoughts</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-1420">of</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-002-b-1430">my</w>
+          <w lemma="heart_n" pos="n1" xml:id="c2cdr-002-b-1440">heart</w>
+          <pc xml:id="c2cdr-002-b-1450">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-1460">in</w>
+          <w lemma="private_j" pos="j" reg="private" xml:id="c2cdr-002-b-1470">priuate</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-1480">and</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-1490">in</w>
+          <w lemma="public_j" pos="j" reg="public" xml:id="c2cdr-002-b-1500">publique</w>
+          <pc xml:id="c2cdr-002-b-1510">,</pc>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-1520">I</w>
+          <w lemma="do_v" pos="vvb" reg="do" xml:id="c2cdr-002-b-1530">doe</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-1540">not</w>
+          <w lemma="express_v" pos="vvi" reg="express" xml:id="c2cdr-002-b-1550">expresse</w>
+          <w lemma="all_d" pos="d" xml:id="c2cdr-002-b-1560">all</w>
+          <w lemma="possible_j" pos="j" xml:id="c2cdr-002-b-1570">possible</w>
+          <w lemma="thankfulness_n" pos="n1" reg="thankfulness" xml:id="c2cdr-002-b-1580">thankefulnesse</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-b-1590">to</w>
+          <w lemma="so_av" pos="av" xml:id="c2cdr-002-b-1600">so</w>
+          <w lemma="great_j" pos="j" xml:id="c2cdr-002-b-1610">Great</w>
+          <pc xml:id="c2cdr-002-b-1620">,</pc>
+          <w lemma="so_av" pos="av" xml:id="c2cdr-002-b-1630">so</w>
+          <w lemma="wise_j" pos="j" xml:id="c2cdr-002-b-1640">Wise</w>
+          <pc xml:id="c2cdr-002-b-1650">,</pc>
+          <w lemma="so_av" pos="av" xml:id="c2cdr-002-b-1660">so</w>
+          <w lemma="learned_j" pos="j" xml:id="c2cdr-002-b-1670">Learned</w>
+          <pc xml:id="c2cdr-002-b-1680">,</pc>
+          <w lemma="so_av" pos="av" xml:id="c2cdr-002-b-1690">so</w>
+          <w lemma="noble_j" pos="j" xml:id="c2cdr-002-b-1700">Noble</w>
+          <pc xml:id="c2cdr-002-b-1710">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-1720">and</w>
+          <w lemma="bountiful_j" pos="j" reg="bountiful" xml:id="c2cdr-002-b-1730">bountifull</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-1740">a</w>
+          <w lemma="patron_n" pos="n1" xml:id="c2cdr-002-b-1750">Patron</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-1760">and</w>
+          <w lemma="benefactor_n" pos="n1" reg="Benefactor" xml:id="c2cdr-002-b-1770">Benefactour</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-1780">.</pc>
+          <w lemma="goodness_n" pos="n1" reg="Goodness" xml:id="c2cdr-002-b-1790">Goodnesse</w>
+          <w lemma="be_v" pos="vvz" xml:id="c2cdr-002-b-1800">is</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-1810">not</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-b-1820">to</w>
+          <w lemma="be_v" pos="vvi" xml:id="c2cdr-002-b-1830">be</w>
+          <w lemma="esteem_v" pos="vvn" xml:id="c2cdr-002-b-1840">esteemed</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2cdr-002-b-1850">by</w>
+          <w lemma="quantity_n" pos="n1" xml:id="c2cdr-002-b-1860">quantity</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-1870">.</pc>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-1880">A</w>
+          <w lemma="hand_n" pos="n1" xml:id="c2cdr-002-b-1890">Hand</w>
+          <w lemma="or_cc" pos="cc" xml:id="c2cdr-002-b-1900">or</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-1910">an</w>
+          <w lemma="eye_n" pos="n1" xml:id="c2cdr-002-b-1920">Eye</w>
+          <w lemma="draw_v" pos="vvn" reg="drawn" xml:id="c2cdr-002-b-1930">drawne</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2cdr-002-b-1940">by</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-1950">a</w>
+          <w lemma="curious_j" pos="j" xml:id="c2cdr-002-b-1960">curious</w>
+          <w lemma="painter_n" pos="n1" xml:id="c2cdr-002-b-1970">Painter</w>
+          <pc xml:id="c2cdr-002-b-1980">,</pc>
+          <w lemma="be_v" pos="vvz" xml:id="c2cdr-002-b-1990">is</w>
+          <w lemma="worth_j" pos="j" xml:id="c2cdr-002-b-2000">worth</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-2010">a</w>
+          <w lemma="large_j" pos="j" xml:id="c2cdr-002-b-2020">large</w>
+          <w lemma="table_n" pos="n1" xml:id="c2cdr-002-b-2030">Table</w>
+          <w lemma="do_v" pos="vvn" xml:id="c2cdr-002-b-2040">done</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2cdr-002-b-2050">by</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-2060">an</w>
+          <w lemma="ordinary_j" pos="j" reg="ordinary" xml:id="c2cdr-002-b-2070">ordinarie</w>
+          <w lemma="hand_n" pos="n1" xml:id="c2cdr-002-b-2080">Hand</w>
+          <pc xml:id="c2cdr-002-b-2090">:</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2cdr-002-b-2100">But</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-2110">your</w>
+          <w lemma="lordship_n" pos="n1g" reg="Lordship's" xml:id="c2cdr-002-b-2120">Lordships</w>
+          <w lemma="beneficence_n" pos="n1" xml:id="c2cdr-002-b-2130">Beneficence</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-2140">was</w>
+          <w lemma="both_d" pos="d" xml:id="c2cdr-002-b-2150">both</w>
+          <w lemma="great_j" pos="j" xml:id="c2cdr-002-b-2160">great</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-2170">and</w>
+          <w lemma="good_j" pos="j" xml:id="c2cdr-002-b-2180">good</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-2190">.</pc>
+          <w lemma="for_acp" pos="acp-cs" xml:id="c2cdr-002-b-2200">For</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-2210">it</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-2220">was</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-2230">an</w>
+          <w lemma="annuity_n" pos="n1" xml:id="c2cdr-002-b-2240">Annuity</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-2250">for</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-002-b-2260">my</w>
+          <w lemma="life_n" pos="n1" xml:id="c2cdr-002-b-2270">life</w>
+          <pc xml:id="c2cdr-002-b-2280">;</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-2290">and</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-2300">it</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-2310">was</w>
+          <w lemma="do_v" pos="vvn" xml:id="c2cdr-002-b-2320">done</w>
+          <w lemma="so_av" pos="av" xml:id="c2cdr-002-b-2330">so</w>
+          <pc xml:id="c2cdr-002-b-2340">,</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-2350">that</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-2360">it</w>
+          <w lemma="have_v" pos="vvd" xml:id="c2cdr-002-b-2370">had</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-2380">in</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-2390">it</w>
+          <w lemma="all_d" pos="d" xml:id="c2cdr-002-b-2400">all</w>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-2410">that</w>
+          <w lemma="can_vm" pos="vmb" xml:id="c2cdr-002-b-2420">can</w>
+          <w lemma="commend_v" pos="vvi" xml:id="c2cdr-002-b-2430">commend</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-2440">a</w>
+          <w lemma="good_j" pos="j" xml:id="c2cdr-002-b-2450">good</w>
+          <w lemma="deed_n" pos="n1" xml:id="c2cdr-002-b-2460">deed</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-2470">.</pc>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-2480">It</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-2490">was</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-2500">not</w>
+          <w lemma="do_v" pos="vvn" xml:id="c2cdr-002-b-2510">done</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-2520">for</w>
+          <w lemma="alliance_n" pos="n1" reg="alliance" xml:id="c2cdr-002-b-2530">allyance</w>
+          <pc xml:id="c2cdr-002-b-2540">,</pc>
+          <w lemma="or_cc" pos="cc" xml:id="c2cdr-002-b-2550">or</w>
+          <w lemma="former_j" pos="j" xml:id="c2cdr-002-b-2560">former</w>
+          <w lemma="knowledge_n" pos="n1" xml:id="c2cdr-002-b-2570">knowledge</w>
+          <pc xml:id="c2cdr-002-b-2580">,</pc>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2cdr-002-b-2590">which</w>
+          <w lemma="make_v" pos="vvz" xml:id="c2cdr-002-b-2600">makes</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-2610">a</w>
+          <w lemma="benefit_n" pos="n1" xml:id="c2cdr-002-b-2620">benefit</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-2630">a</w>
+          <w lemma="debt_n" pos="n1" xml:id="c2cdr-002-b-2640">debt</w>
+          <pc xml:id="c2cdr-002-b-2650">:</pc>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-2660">Not</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-2670">for</w>
+          <w lemma="service_n" pos="n1" reg="Service" xml:id="c2cdr-002-b-2680">Seruice</w>
+          <w lemma="past_j" pos="j" xml:id="c2cdr-002-b-2690">past</w>
+          <pc xml:id="c2cdr-002-b-2700">;</pc>
+          <w lemma="for_acp" pos="acp-cs" xml:id="c2cdr-002-b-2710">for</w>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-2720">that</w>
+          <w lemma="be_v" pos="vvz" xml:id="c2cdr-002-b-2730">is</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-2740">not</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-2750">a</w>
+          <w lemma="benefit_n" pos="n1" xml:id="c2cdr-002-b-2760">benefit</w>
+          <pc xml:id="c2cdr-002-b-2770">,</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2cdr-002-b-2780">but</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-2790">a</w>
+          <w lemma="reward_n" pos="n1" xml:id="c2cdr-002-b-2800">reward</w>
+          <pc xml:id="c2cdr-002-b-2810">:</pc>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-2820">Not</w>
+          <w lemma="wring_v" pos="vvn" xml:id="c2cdr-002-b-2830">wrung</w>
+          <w lemma="or_cc" pos="cc" xml:id="c2cdr-002-b-2840">or</w>
+          <w lemma="force_v" pos="vvn" xml:id="c2cdr-002-b-2850">forced</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2cdr-002-b-2860">by</w>
+          <w lemma="long_j" pos="j" xml:id="c2cdr-002-b-2870">long</w>
+          <w lemma="suit_n" pos="n1" xml:id="c2cdr-002-b-2880">suit</w>
+          <pc xml:id="c2cdr-002-b-2890">,</pc>
+          <w lemma="or_cc" pos="cc" xml:id="c2cdr-002-b-2900">or</w>
+          <w lemma="mediation_n" pos="n1" xml:id="c2cdr-002-b-2910">mediation</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-2920">of</w>
+          <w lemma="friend_n" pos="n2" xml:id="c2cdr-002-b-2930">friends</w>
+          <pc xml:id="c2cdr-002-b-2940">,</pc>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2cdr-002-b-2950">which</w>
+          <w lemma="pull_v" pos="vvz" reg="pulls" xml:id="c2cdr-002-b-2960">puls</w>
+          <w lemma="down_acp" pos="acp-av" reg="down" xml:id="c2cdr-002-b-2970">downe</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-2980">the</w>
+          <w lemma="price_n" pos="n1" xml:id="c2cdr-002-b-2990">price</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-3000">of</w>
+          <w lemma="any_d" pos="d" xml:id="c2cdr-002-b-3010">any</w>
+          <w lemma="benefit_n" pos="n1" xml:id="c2cdr-002-b-3020">benefit</w>
+          <pc xml:id="c2cdr-002-b-3030">:</pc>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-3040">Not</w>
+          <w lemma="after_acp" pos="acp-p" xml:id="c2cdr-002-b-3050">after</w>
+          <w lemma="long_j" pos="j" xml:id="c2cdr-002-b-3060">long</w>
+          <w lemma="delay_n" pos="n1" xml:id="c2cdr-002-b-3070">delay</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-3080">and</w>
+          <w lemma="much_d" pos="d" xml:id="c2cdr-002-b-3090">much</w>
+          <w lemma="wait_v" pos="j_vg" reg="waiting" xml:id="c2cdr-002-b-3100">wayting</w>
+          <pc xml:id="c2cdr-002-b-3110">,</pc>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2cdr-002-b-3120">which</w>
+          <w lemma="be_v" pos="vvz" xml:id="c2cdr-002-b-3130">is</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-3140">the</w>
+          <w lemma="torment_n" pos="n1" xml:id="c2cdr-002-b-3150">torment</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-3160">of</w>
+          <w lemma="suitor_n" pos="n2" reg="Suitors" xml:id="c2cdr-002-b-3170">Suitours</w>
+          <pc xml:id="c2cdr-002-b-3180">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-3190">and</w>
+          <w lemma="make_v" pos="vvz" xml:id="c2cdr-002-b-3200">makes</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-3210">a</w>
+          <w lemma="benefit_n" pos="n1" xml:id="c2cdr-002-b-3220">benefit</w>
+          <w lemma="pay_v" pos="vvn" reg="paid" xml:id="c2cdr-002-b-3230">payd</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-3240">for</w>
+          <w lemma="before_acp" pos="acp-p" xml:id="c2cdr-002-b-3250">before</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-3260">it</w>
+          <w lemma="come_v" pos="vvb" xml:id="c2cdr-002-b-3270">come</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-3280">.</pc>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-3290">Not</w>
+          <w lemma="do_v" pos="vvn" xml:id="c2cdr-002-b-3300">done</w>
+          <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-002-b-3310">with</w>
+          <w lemma="wayward_j" pos="j" xml:id="c2cdr-002-b-3320">wayward</w>
+          <w lemma="look_n" pos="n2" reg="looks" xml:id="c2cdr-002-b-3330">lookes</w>
+          <pc xml:id="c2cdr-002-b-3340">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-3350">and</w>
+          <w lemma="chide_v" pos="vvg" xml:id="c2cdr-002-b-3360">chiding</w>
+          <pc xml:id="c2cdr-002-b-3370">,</pc>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2cdr-002-b-3380">which</w>
+          <w lemma="under_acp" pos="acp-p" reg="under" xml:id="c2cdr-002-b-3390">vnder</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-3400">the</w>
+          <w lemma="colour_n" pos="n1" xml:id="c2cdr-002-b-3410">colour</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-3420">of</w>
+          <w lemma="good_j" pos="j" xml:id="c2cdr-002-b-3430">good</w>
+          <w lemma="counsel_n" pos="n1" reg="counsel" xml:id="c2cdr-002-b-3440">counsell</w>
+          <pc xml:id="c2cdr-002-b-3450">,</pc>
+          <w lemma="give_v" pos="vvz" reg="gives" xml:id="c2cdr-002-b-3460">giues</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-3470">a</w>
+          <w lemma="benefit_n" pos="n1" xml:id="c2cdr-002-b-3480">benefit</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-3490">a</w>
+          <w lemma="bitter_j" pos="j" xml:id="c2cdr-002-b-3500">bitter</w>
+          <w lemma="taste_n" pos="n1" xml:id="c2cdr-002-b-3510">taste</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-3520">of</w>
+          <w lemma="contumely_n" pos="n1" reg="contumely" xml:id="c2cdr-002-b-3530">contumelie</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-3540">.</pc>
+          <w lemma="nor_cc" pos="cc-x" xml:id="c2cdr-002-b-3550">Nor</w>
+          <w lemma="win_v" pos="vvn" reg="won" xml:id="c2cdr-002-b-3560">wonne</w>
+          <w lemma="after_acp" pos="acp-p" xml:id="c2cdr-002-b-3570">after</w>
+          <w lemma="some_d" pos="d" xml:id="c2cdr-002-b-3580">some</w>
+          <w lemma="denial_n" pos="n2" reg="denials" xml:id="c2cdr-002-b-3590">denyals</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-3600">and</w>
+          <w lemma="repulse_n" pos="n2" xml:id="c2cdr-002-b-3610">repulses</w>
+          <pc xml:id="c2cdr-002-b-3620">;</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-3630">that</w>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2cdr-002-b-3640">which</w>
+          <w lemma="we_pn" pos="pns" xml:id="c2cdr-002-b-3650">we</w>
+          <w lemma="wrestle_v" pos="vvi" reg="wrestle" xml:id="c2cdr-002-b-3660">wrastle</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-3670">for</w>
+          <pc xml:id="c2cdr-002-b-3680">,</pc>
+          <w lemma="we_pn" pos="pns" xml:id="c2cdr-002-b-3690">we</w>
+          <w lemma="account_v" pos="vvb" xml:id="c2cdr-002-b-3700">account</w>
+          <w lemma="our_pn" pos="po" xml:id="c2cdr-002-b-3710">our</w>
+          <w lemma="own_d" pos="d" reg="own" xml:id="c2cdr-002-b-3720">owne</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-3730">.</pc>
+          <w lemma="neither_d" pos="av_d" xml:id="c2cdr-002-b-3740">Neither</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-3750">was</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-3760">it</w>
+          <w lemma="give_v" pos="vvn" reg="given" xml:id="c2cdr-002-b-3770">giuen</w>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2cdr-002-b-3780">vpon</w>
+          <w lemma="no_d" pos="d-x" xml:id="c2cdr-002-b-3790">no</w>
+          <w lemma="cause_n" pos="n1" xml:id="c2cdr-002-b-3800">cause</w>
+          <pc xml:id="c2cdr-002-b-3810">,</pc>
+          <w lemma="for_acp" pos="acp-cs" xml:id="c2cdr-002-b-3820">for</w>
+          <w lemma="so_av" pos="av" xml:id="c2cdr-002-b-3830">so</w>
+          <w lemma="benefit_n" pos="n2" xml:id="c2cdr-002-b-3840">benefits</w>
+          <w lemma="be_v" pos="vvb" xml:id="c2cdr-002-b-3850">are</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-3860">not</w>
+          <w lemma="place_v" pos="vvn" xml:id="c2cdr-002-b-3870">placed</w>
+          <w lemma="but_acp" pos="acp-av" xml:id="c2cdr-002-b-3880">but</w>
+          <w lemma="cast_v" pos="vvn" xml:id="c2cdr-002-b-3890">cast</w>
+          <w lemma="away_av" pos="av" xml:id="c2cdr-002-b-3900">away</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-3910">.</pc>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-3920">It</w>
+          <w lemma="have_v" pos="vvd" xml:id="c2cdr-002-b-3930">had</w>
+          <w lemma="none_pn" pos="pi-x" xml:id="c2cdr-002-b-3940">none</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-3950">of</w>
+          <w lemma="these_d" pos="d" xml:id="c2cdr-002-b-3960">these</w>
+          <pc xml:id="c2cdr-002-b-3970">,</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2cdr-002-b-3980">but</w>
+          <w lemma="all_d" pos="d" xml:id="c2cdr-002-b-3990">all</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-4000">the</w>
+          <w lemma="contrary_j" pos="j" xml:id="c2cdr-002-b-4010">contrary</w>
+          <w lemma="commendation_n" pos="n2" xml:id="c2cdr-002-b-4020">commendations</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-4030">.</pc>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-4040">For</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-4050">your</w>
+          <w lemma="lordship_n" pos="n1" xml:id="c2cdr-002-b-4060">Lordship</w>
+          <w lemma="confer_v" pos="vvd" xml:id="c2cdr-002-b-4070">conferred</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-4080">it</w>
+          <w lemma="on_acp" pos="acp-p" xml:id="c2cdr-002-b-4090">on</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-002-b-4100">me</w>
+          <w lemma="when_crq" pos="crq-cs" xml:id="c2cdr-002-b-4110">when</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-4120">I</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-4130">was</w>
+          <w lemma="unknown_j" pos="j" reg="unknown" xml:id="c2cdr-002-b-4140">vnknowne</w>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2cdr-002-b-4150">vnto</w>
+          <w lemma="you_pn" pos="pn" xml:id="c2cdr-002-b-4160">you</w>
+          <pc xml:id="c2cdr-002-b-4170">,</pc>
+          <w lemma="when_crq" pos="crq-cs" xml:id="c2cdr-002-b-4180">when</w>
+          <w lemma="no_d" pos="d-x" xml:id="c2cdr-002-b-4190">no</w>
+          <w lemma="man_n" pos="n1" xml:id="c2cdr-002-b-4200">man</w>
+          <w lemma="have_v" pos="vvd" xml:id="c2cdr-002-b-4210">had</w>
+          <w lemma="ever_av" pos="av" reg="ever" xml:id="c2cdr-002-b-4220">euer</w>
+          <w lemma="speak_v" pos="vvn" xml:id="c2cdr-002-b-4230">spoken</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-4240">for</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-002-b-4250">me</w>
+          <pc xml:id="c2cdr-002-b-4260">;</pc>
+          <w lemma="when_crq" pos="crq-cs" xml:id="c2cdr-002-b-4270">when</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-4280">I</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-4290">was</w>
+          <w lemma="far_j" pos="av_j" reg="far" xml:id="c2cdr-002-b-4300">farre</w>
+          <w lemma="remote_j" pos="j" xml:id="c2cdr-002-b-4310">remote</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-4320">and</w>
+          <w lemma="least_d" pos="d-s" xml:id="c2cdr-002-b-4330">least</w>
+          <w lemma="thought_n" pos="n1" xml:id="c2cdr-002-b-4340">thought</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-4350">of</w>
+          <w lemma="so_av" pos="av" xml:id="c2cdr-002-b-4360">so</w>
+          <w lemma="honourable_j" pos="j" xml:id="c2cdr-002-b-4370">Honourable</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-4380">a</w>
+          <w lemma="friend_n" pos="n1" xml:id="c2cdr-002-b-4390">friend</w>
+          <pc xml:id="c2cdr-002-b-4400">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-4410">and</w>
+          <w lemma="less_d" pos="av-c_d" reg="less" xml:id="c2cdr-002-b-4420">lesse</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-4430">of</w>
+          <w lemma="such_d" pos="d" xml:id="c2cdr-002-b-4440">such</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-4450">a</w>
+          <w lemma="favour_n" pos="n1" reg="favour" xml:id="c2cdr-002-b-4460">fauour</w>
+          <pc xml:id="c2cdr-002-b-4470">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-4480">and</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-4490">it</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-4500">was</w>
+          <w lemma="send_v" pos="vvn" xml:id="c2cdr-002-b-4510">sent</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2cdr-002-b-4520">by</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-4530">your</w>
+          <w lemma="lordship_n" pos="n1" xml:id="c2cdr-002-b-4540">Lordship</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2cdr-002-b-4550">to</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-002-b-4560">me</w>
+          <pc xml:id="c2cdr-002-b-4570">;</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-4580">and</w>
+          <w lemma="all_d" pos="d" xml:id="c2cdr-002-b-4590">all</w>
+          <w lemma="this_d" pos="d" xml:id="c2cdr-002-b-4600">this</w>
+          <w lemma="do_v" pos="vvn" xml:id="c2cdr-002-b-4610">done</w>
+          <w lemma="so_av" pos="av" xml:id="c2cdr-002-b-4620">so</w>
+          <pc xml:id="c2cdr-002-b-4630">,</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-4640">that</w>
+          <w lemma="when_crq" pos="crq-cs" xml:id="c2cdr-002-b-4650">when</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-4660">I</w>
+          <w lemma="come_v" pos="vvd" xml:id="c2cdr-002-b-4670">came</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-b-4680">to</w>
+          <w lemma="send_v" pos="vvn" xml:id="c2cdr-002-b-4690">sent</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-002-b-4700">my</w>
+          <w lemma="thanks_n" pos="n2" reg="thanks" xml:id="c2cdr-002-b-4710">thankes</w>
+          <pc xml:id="c2cdr-002-b-4720">,</pc>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-4730">your</w>
+          <w lemma="lordship_n" pos="n1" xml:id="c2cdr-002-b-4740">Lordship</w>
+          <w lemma="know_v" pos="vvd" xml:id="c2cdr-002-b-4750">knew</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-4760">not</w>
+          <w lemma="who_crq" pos="crq-r" xml:id="c2cdr-002-b-4770">who</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-4780">I</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-4790">was</w>
+          <pc xml:id="c2cdr-002-b-4800">;</pc>
+          <w lemma="yet_av" pos="av" xml:id="c2cdr-002-b-4810">yet</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-4820">was</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-4830">it</w>
+          <w lemma="do_v" pos="vvn" xml:id="c2cdr-002-b-4840">done</w>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2cdr-002-b-4850">vpon</w>
+          <w lemma="hear_v" pos="vvg" xml:id="c2cdr-002-b-4860">hearing</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-4870">of</w>
+          <w lemma="some_d" pos="d" xml:id="c2cdr-002-b-4880">some</w>
+          <w lemma="motet_n" pos="n1g" reg="Motet's" xml:id="c2cdr-002-b-4890">Motects</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-4900">of</w>
+          <w lemma="i_pn" pos="png" xml:id="c2cdr-002-b-4910">mine</w>
+          <pc xml:id="c2cdr-002-b-4920">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-4930">of</w>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2cdr-002-b-4940">which</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-4950">I</w>
+          <w lemma="will_vm" pos="vmd" xml:id="c2cdr-002-b-4960">would</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-4970">not</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-4980">in</w>
+          <w lemma="modesty_n" pos="n1" xml:id="c2cdr-002-b-4990">modesty</w>
+          <w lemma="speak_v" pos="vvi" reg="speak" xml:id="c2cdr-002-b-5000">speake</w>
+          <pc xml:id="c2cdr-002-b-5010">,</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2cdr-002-b-5020">but</w>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-5030">that</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-5040">it</w>
+          <w lemma="make_v" pos="vvz" xml:id="c2cdr-002-b-5050">makes</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-5060">for</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-5070">your</w>
+          <w lemma="lordship_n" pos="n1g" reg="Lordship's" xml:id="c2cdr-002-b-5080">Lordships</w>
+          <w lemma="just_j" pos="j" reg="just" xml:id="c2cdr-002-b-5090">iust</w>
+          <w lemma="praise_n" pos="n1" xml:id="c2cdr-002-b-5100">praise</w>
+          <pc xml:id="c2cdr-002-b-5110">;</pc>
+          <w lemma="he_pn" pos="pns" xml:id="c2cdr-002-b-5120">He</w>
+          <w lemma="do_v" pos="vvz" xml:id="c2cdr-002-b-5130">doth</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-5140">not</w>
+          <w lemma="give_v" pos="vvi" reg="give" xml:id="c2cdr-002-b-5150">giue</w>
+          <pc xml:id="c2cdr-002-b-5160">,</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2cdr-002-b-5170">but</w>
+          <w lemma="throw_v" pos="vvb" xml:id="c2cdr-002-b-5180">throw</w>
+          <w lemma="away_av" pos="av" xml:id="c2cdr-002-b-5190">away</w>
+          <pc xml:id="c2cdr-002-b-5200">,</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-5210">that</w>
+          <w lemma="have_v" pos="vvz" xml:id="c2cdr-002-b-5220">hath</w>
+          <w lemma="no_d" pos="d-x" xml:id="c2cdr-002-b-5230">no</w>
+          <w lemma="reason_n" pos="n1" xml:id="c2cdr-002-b-5240">reason</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-5250">for</w>
+          <w lemma="his_pn" pos="po" xml:id="c2cdr-002-b-5260">his</w>
+          <w lemma="give_v" pos="vvg" reg="giving" xml:id="c2cdr-002-b-5270">giuing</w>
+          <pc xml:id="c2cdr-002-b-5280">:</pc>
+          <w lemma="let_v" pos="vvb" xml:id="c2cdr-002-b-5290">Let</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-5300">the</w>
+          <w lemma="world_n" pos="n1" xml:id="c2cdr-002-b-5310">world</w>
+          <w lemma="then_av" pos="av" xml:id="c2cdr-002-b-5320">then</w>
+          <w lemma="be_v" pos="vvi" xml:id="c2cdr-002-b-5330">be</w>
+          <w lemma="judge_n" pos="n1" reg="judge" xml:id="c2cdr-002-b-5340">iudge</w>
+          <pc xml:id="c2cdr-002-b-5350">,</pc>
+          <w lemma="if_cs" pos="cs" xml:id="c2cdr-002-b-5360">if</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-5370">I</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-002-b-5380">haue</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-5390">not</w>
+          <w lemma="good_j" pos="j" xml:id="c2cdr-002-b-5400">good</w>
+          <w lemma="cause_n" pos="n1" xml:id="c2cdr-002-b-5410">cause</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-b-5420">to</w>
+          <w lemma="profess_v" pos="vvi" reg="profess" xml:id="c2cdr-002-b-5430">professe</w>
+          <w lemma="all_d" pos="d" xml:id="c2cdr-002-b-5440">all</w>
+          <w lemma="thankfulness_n" pos="n1" reg="thankfulness" xml:id="c2cdr-002-b-5450">thankefulnesse</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-5460">.</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-5470">And</w>
+          <w lemma="if_cs" pos="cs" xml:id="c2cdr-002-b-5480">if</w>
+          <w lemma="every_d" pos="d" reg="every" xml:id="c2cdr-002-b-5490">euery</w>
+          <w lemma="man_n" pos="n1" xml:id="c2cdr-002-b-5500">man</w>
+          <pc xml:id="c2cdr-002-b-5510">,</pc>
+          <w lemma="who_crq" pos="crq-ro" xml:id="c2cdr-002-b-5520">whom</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-5530">your</w>
+          <w lemma="lordship_n" pos="n1" xml:id="c2cdr-002-b-5540">Lordship</w>
+          <w lemma="have_v" pos="vvz" xml:id="c2cdr-002-b-5550">hath</w>
+          <w lemma="thus_av" pos="av" xml:id="c2cdr-002-b-5560">thus</w>
+          <w lemma="prevent_v" pos="vvn" reg="prevented" xml:id="c2cdr-002-b-5570">preuented</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-5580">in</w>
+          <w lemma="great_j" pos="j-c" xml:id="c2cdr-002-b-5590">greater</w>
+          <w lemma="matter_n" pos="n2" xml:id="c2cdr-002-b-5600">matters</w>
+          <pc xml:id="c2cdr-002-b-5610" join="right">(</pc>
+          <w lemma="as_acp" pos="acp-cs" xml:id="c2cdr-002-b-5620">as</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-5630">I</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-002-b-5640">haue</w>
+          <w lemma="hear_v" pos="vvn" xml:id="c2cdr-002-b-5650">heard</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-5660">of</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-5670">a</w>
+          <w lemma="great_j" pos="j" xml:id="c2cdr-002-b-5680">great</w>
+          <w lemma="many_d" pos="av_d" xml:id="c2cdr-002-b-5690">many</w>
+          <w lemma="since_acp" pos="acp-cs" xml:id="c2cdr-002-b-5700">since</w>
+          <w lemma="this_d" pos="d" xml:id="c2cdr-002-b-5710">this</w>
+          <w lemma="favour_n" pos="n1" reg="favour" xml:id="c2cdr-002-b-5720">fauour</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-5730">was</w>
+          <w lemma="do_v" pos="vvn" xml:id="c2cdr-002-b-5740">done</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2cdr-002-b-5750">to</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-002-b-5760">me</w>
+          <pc xml:id="c2cdr-002-b-5770">)</pc>
+          <w lemma="have_v" pos="vvd" xml:id="c2cdr-002-b-5780">had</w>
+          <w lemma="opportunity_n" pos="n1" xml:id="c2cdr-002-b-5790">opportunity</w>
+          <w lemma="or_cc" pos="cc" xml:id="c2cdr-002-b-5800">or</w>
+          <w lemma="will_vm" pos="vmd" xml:id="c2cdr-002-b-5810">would</w>
+          <w lemma="take_v" pos="vvi" xml:id="c2cdr-002-b-5820">take</w>
+          <w lemma="occasion_n" pos="n1" xml:id="c2cdr-002-b-5830">occasion</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-b-5840">to</w>
+          <w lemma="give_v" pos="vvi" reg="give" xml:id="c2cdr-002-b-5850">giue</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-5860">your</w>
+          <w lemma="lordship_n" pos="n1" xml:id="c2cdr-002-b-5870">Lordship</w>
+          <w lemma="thank_v" pos="vvz" reg="thanks" xml:id="c2cdr-002-b-5880">thankes</w>
+          <w lemma="as_acp" pos="acp-p" xml:id="c2cdr-002-b-5890">as</w>
+          <w lemma="this_d" pos="d" xml:id="c2cdr-002-b-5900">this</w>
+          <w lemma="paper_n" pos="n1" xml:id="c2cdr-002-b-5910">Paper</w>
+          <w lemma="do_v" pos="vvz" xml:id="c2cdr-002-b-5920">doth</w>
+          <pc xml:id="c2cdr-002-b-5930">,</pc>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-5940">it</w>
+          <w lemma="will_vm" pos="vmd" xml:id="c2cdr-002-b-5950">would</w>
+          <w lemma="turn_v" pos="vvi" reg="turn" xml:id="c2cdr-002-b-5960">turne</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-5970">the</w>
+          <w lemma="envy_n" pos="n1" reg="envy" xml:id="c2cdr-002-b-5980">enuy</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-5990">of</w>
+          <w lemma="some_d" pos="d" xml:id="c2cdr-002-b-6000">some</w>
+          <w lemma="ill-disposed_j" pos="j" xml:id="c2cdr-002-b-6010">ill-disposed</w>
+          <pc xml:id="c2cdr-002-b-6020">,</pc>
+          <w lemma="into_acp" pos="acp-p" xml:id="c2cdr-002-b-6030">into</w>
+          <w lemma="admiration_n" pos="n1" xml:id="c2cdr-002-b-6040">admiration</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-6050">of</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-6060">your</w>
+          <w lemma="sweet_j" pos="j" xml:id="c2cdr-002-b-6070">sweet</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-6080">and</w>
+          <w lemma="noble_j" pos="j" xml:id="c2cdr-002-b-6090">noble</w>
+          <w lemma="nature_n" pos="n1" xml:id="c2cdr-002-b-6100">nature</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-6110">.</pc>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-6120">For</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-002-b-6130">my</w>
+          <w lemma="poor_j" pos="j" reg="poor" xml:id="c2cdr-002-b-6140">poore</w>
+          <w lemma="self_n" pos="n1" reg="self" xml:id="c2cdr-002-b-6150">selfe</w>
+          <pc xml:id="c2cdr-002-b-6160">,</pc>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-6170">I</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-002-b-6180">haue</w>
+          <w lemma="hasten_v" pos="vvn" xml:id="c2cdr-002-b-6190">hastened</w>
+          <w lemma="these_d" pos="d" xml:id="c2cdr-002-b-6200">these</w>
+          <w lemma="few_d" pos="d" xml:id="c2cdr-002-b-6210">few</w>
+          <w lemma="motet_n" pos="n1g" reg="Motet's" xml:id="c2cdr-002-b-6220">Motects</w>
+          <pc xml:id="c2cdr-002-b-6230">,</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-6240">that</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-6250">I</w>
+          <w lemma="may_vm" pos="vmd" xml:id="c2cdr-002-b-6260">might</w>
+          <w lemma="show_v" pos="vvi" xml:id="c2cdr-002-b-6270">show</w>
+          <w lemma="some_d" pos="d" xml:id="c2cdr-002-b-6280">some</w>
+          <w lemma="part_n" pos="n1" xml:id="c2cdr-002-b-6290">part</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-6300">of</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-002-b-6310">my</w>
+          <w lemma="thankfulness_n" pos="n1" reg="thankfulness" xml:id="c2cdr-002-b-6320">thankefulnesse</w>
+          <pc xml:id="c2cdr-002-b-6330">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-6340">and</w>
+          <w lemma="be_v" pos="vvi" xml:id="c2cdr-002-b-6350">be</w>
+          <w lemma="further_j" pos="av-c_j" xml:id="c2cdr-002-b-6360">further</w>
+          <w lemma="indebt_v" pos="vvn" xml:id="c2cdr-002-b-6370">indebted</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2cdr-002-b-6380">to</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-6390">your</w>
+          <w lemma="lordship_n" pos="n1" xml:id="c2cdr-002-b-6400">Lordship</w>
+          <pc xml:id="c2cdr-002-b-6410">,</pc>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-6420">for</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-002-b-6430">a</w>
+          <w lemma="new_j" pos="j" xml:id="c2cdr-002-b-6440">new</w>
+          <w lemma="favour_n" pos="n1" reg="favour" xml:id="c2cdr-002-b-6450">fauour</w>
+          <pc xml:id="c2cdr-002-b-6460">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-6470">in</w>
+          <w lemma="take_v" pos="vvg" xml:id="c2cdr-002-b-6480">taking</w>
+          <w lemma="they_pn" pos="pno" xml:id="c2cdr-002-b-6490">them</w>
+          <w lemma="under_acp" pos="acp-p" reg="under" xml:id="c2cdr-002-b-6500">vnder</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-6510">your</w>
+          <w lemma="lordship_n" pos="n1g" reg="Lordship's" xml:id="c2cdr-002-b-6520">Lordships</w>
+          <w lemma="protection_n" pos="n1" xml:id="c2cdr-002-b-6530">protection</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-6540">.</pc>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-6550">I</w>
+          <w lemma="know_v" pos="vvb" xml:id="c2cdr-002-b-6560">know</w>
+          <w lemma="they_pn" pos="pns" xml:id="c2cdr-002-b-6570">they</w>
+          <w lemma="be_v" pos="vvb" xml:id="c2cdr-002-b-6580">are</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-6590">not</w>
+          <w lemma="worthy_j" pos="j" xml:id="c2cdr-002-b-6600">worthy</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-6610">your</w>
+          <w lemma="lordship_n" pos="n1g" reg="Lordship's" xml:id="c2cdr-002-b-6620">Lordships</w>
+          <w lemma="ear_n" pos="n1" reg="ear" xml:id="c2cdr-002-b-6630">eare</w>
+          <pc xml:id="c2cdr-002-b-6640">,</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2cdr-002-b-6650">but</w>
+          <w lemma="thankfulness_n" pos="n1" reg="thankfulness" xml:id="c2cdr-002-b-6660">thankefulnesse</w>
+          <w lemma="consist_v" pos="vvz" xml:id="c2cdr-002-b-6670">consists</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-002-b-6680">not</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-6690">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-6700">the</w>
+          <w lemma="mean_n" pos="n2" reg="means" xml:id="c2cdr-002-b-6710">meanes</w>
+          <pc xml:id="c2cdr-002-b-6720">,</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2cdr-002-b-6730">but</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-6740">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-6750">the</w>
+          <w lemma="heart_n" pos="n1" xml:id="c2cdr-002-b-6760">heart</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-6770">of</w>
+          <w lemma="he_pn" pos="pno" xml:id="c2cdr-002-b-6780">him</w>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-6790">that</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-6800">for</w>
+          <w lemma="benefit_n" pos="n2" xml:id="c2cdr-002-b-6810">benefits</w>
+          <w lemma="be_v" pos="vvz" xml:id="c2cdr-002-b-6820">is</w>
+          <w lemma="engage_v" pos="vvn" xml:id="c2cdr-002-b-6830">engaged</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-6840">.</pc>
+          <w lemma="yet_av" pos="av" xml:id="c2cdr-002-b-6850">Yet</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-6860">it</w>
+          <w lemma="will_vm" pos="vmd" xml:id="c2cdr-002-b-6870">would</w>
+          <w lemma="be_v" pos="vvi" xml:id="c2cdr-002-b-6880">be</w>
+          <w lemma="some_d" pos="d" xml:id="c2cdr-002-b-6890">some</w>
+          <w lemma="content_n" pos="n1" xml:id="c2cdr-002-b-6900">content</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2cdr-002-b-6910">to</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-002-b-6920">me</w>
+          <pc xml:id="c2cdr-002-b-6930">,</pc>
+          <w lemma="if_cs" pos="cs" xml:id="c2cdr-002-b-6940">if</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-6950">I</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-002-b-6960">were</w>
+          <w lemma="sure_j" pos="j" xml:id="c2cdr-002-b-6970">sure</w>
+          <pc xml:id="c2cdr-002-b-6980">,</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2cdr-002-b-6990">that</w>
+          <w lemma="as_acp" pos="acp-p" xml:id="c2cdr-002-b-7000">as</w>
+          <w lemma="many_d" pos="d" xml:id="c2cdr-002-b-7010">many</w>
+          <w lemma="eye_n" pos="n2" xml:id="c2cdr-002-b-7020">eyes</w>
+          <w lemma="will_vm" pos="vmd" xml:id="c2cdr-002-b-7030">would</w>
+          <w lemma="look_v" pos="vvi" reg="look" xml:id="c2cdr-002-b-7040">looke</w>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2cdr-002-b-7050">vpon</w>
+          <w lemma="this_d" pos="d" xml:id="c2cdr-002-b-7060">this</w>
+          <w lemma="epistle_n" pos="n1" xml:id="c2cdr-002-b-7070">Epistle</w>
+          <pc xml:id="c2cdr-002-b-7080">,</pc>
+          <w lemma="as_acp" pos="acp-cs" xml:id="c2cdr-002-b-7090">as</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2cdr-002-b-7100">it</w>
+          <w lemma="may_vm" pos="vmb" xml:id="c2cdr-002-b-7110">may</w>
+          <w lemma="be_v" pos="vvi" xml:id="c2cdr-002-b-7120">be</w>
+          <w lemma="there_av" pos="av" xml:id="c2cdr-002-b-7130">there</w>
+          <w lemma="will_vm" pos="vmb" xml:id="c2cdr-002-b-7140">will</w>
+          <w lemma="be_v" pos="vvi" xml:id="c2cdr-002-b-7150">be</w>
+          <w lemma="ear_n" pos="n2" reg="ears" xml:id="c2cdr-002-b-7160">eares</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-002-b-7170">to</w>
+          <w lemma="hear_v" pos="vvi" reg="hear" xml:id="c2cdr-002-b-7180">heare</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-7190">the</w>
+          <w lemma="song_n" pos="n2" xml:id="c2cdr-002-b-7200">Songs</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-7210">I</w>
+          <w lemma="present_v" pos="vvb" xml:id="c2cdr-002-b-7220">present</w>
+          <pc unit="sentence" xml:id="c2cdr-002-b-7230">.</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2cdr-002-b-7240">But</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-7250">I</w>
+          <w lemma="must_vm" pos="vmb" xml:id="c2cdr-002-b-7260">must</w>
+          <w lemma="be_v" pos="vvi" xml:id="c2cdr-002-b-7270">be</w>
+          <w lemma="content_j" pos="j" xml:id="c2cdr-002-b-7280">content</w>
+          <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-002-b-7290">with</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-002-b-7300">the</w>
+          <w lemma="inward_j" pos="j" xml:id="c2cdr-002-b-7310">inward</w>
+          <w lemma="testimony_n" pos="n1" reg="testimony" xml:id="c2cdr-002-b-7320">testimonie</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-002-b-7330">of</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-002-b-7340">my</w>
+          <w lemma="heart_n" pos="n1" xml:id="c2cdr-002-b-7350">heart</w>
+          <pc xml:id="c2cdr-002-b-7360">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-002-b-7370">in</w>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2cdr-002-b-7380">which</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-002-b-7390">I</w>
+          <w lemma="will_vm" pos="vmb" xml:id="c2cdr-002-b-7400">will</w>
+          <w lemma="daily_j" pos="av_j" xml:id="c2cdr-002-b-7410">daily</w>
+          <w lemma="pray_v" pos="vvi" xml:id="c2cdr-002-b-7420">pray</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-002-b-7430">for</w>
+          <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-7440">your</w>
+          <w lemma="lordship_n" pos="n1g" reg="Lordship's" xml:id="c2cdr-002-b-7450">Lordships</w>
+          <w lemma="happiness_n" pos="n1" reg="happiness" xml:id="c2cdr-002-b-7460">happinesse</w>
+          <pc xml:id="c2cdr-002-b-7470">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-7480">and</w>
+          <w lemma="honour_n" pos="n1" xml:id="c2cdr-002-b-7490">honour</w>
+          <pc xml:id="c2cdr-002-b-7500">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-002-b-7510">and</w>
+          <w lemma="rest_v" pos="vvi" xml:id="c2cdr-002-b-7520">rest</w>
+        </p>
+        <closer xml:id="c2cdr-e580">
+          <signed xml:id="c2cdr-e590">
+            <w lemma="your_pn" pos="po" xml:id="c2cdr-002-b-7530">Your</w>
+            <w lemma="lordship_n" pos="n1g" reg="Lordship's" xml:id="c2cdr-002-b-7540">Lordships</w>
+            <w lemma="most_d" pos="av-s_d" xml:id="c2cdr-002-b-7550">most</w>
+            <w lemma="humble_j" pos="av_j" xml:id="c2cdr-002-b-7560">humbly</w>
+            <w lemma="devote_v" pos="j_vn" reg="devoted" xml:id="c2cdr-002-b-7570">deuoted</w>
+            <pc xml:id="c2cdr-002-b-7580">,</pc>
+            <w lemma="Michael_nn" pos="n1-nn" reg="MICHAEL" xml:id="c2cdr-002-b-7590">MICHAELL</w>
+            <w lemma="est._ab" pos="n-ab" xml:id="c2cdr-002-b-7600">EST.</w>
+            <pc unit="sentence" xml:id="c2cdr-002-b-7610"/>
+          </signed>
+        </closer>
+      </div>
+    </front>
+    <body xml:id="c2cdr-e600">
+      <head xml:id="c2cdr-e610">
+        <pb facs="tcp:23367:3" xml:id="c2cdr-003-a"/>
+        <pb facs="tcp:23367:3" xml:id="c2cdr-003-b"/>
+        <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-003-b-0010">Of</w>
+        <w lemma="6._crd" pos="crd" xml:id="c2cdr-003-b-0020">6.</w>
+        <w lemma="voc_f-la" pos="fw-la" xml:id="c2cdr-003-b-0030">voc</w>
+        <pc unit="sentence" xml:id="c2cdr-003-b-0040">.</pc>
+        <w lemma="SEXTUS_nn" pos="n1-nn" reg="SEXTUS" xml:id="c2cdr-003-b-0050">SEXTVS</w>
+        <pc unit="sentence" xml:id="c2cdr-003-b-0060">.</pc>
+      </head>
+      <div n="9" type="song" xml:id="c2cdr-e620">
+        <head xml:id="c2cdr-e630">
+          <w lemma="ix_crd" pos="crd" xml:id="c2cdr-003-b-0070">IX</w>
+          <pc unit="sentence" xml:id="c2cdr-003-b-0080">.</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-003-b-0090">The</w>
+          <w lemma="first_crd" pos="ord" xml:id="c2cdr-003-b-0100">first</w>
+          <w lemma="part_n" pos="n1" xml:id="c2cdr-003-b-0110">part</w>
+          <pc unit="sentence" xml:id="c2cdr-003-b-0120">.</pc>
+        </head>
+        <p xml:id="c2cdr-e640">
+          <w lemma="how_crq" pos="crq-q" rendition="#decorinit" xml:id="c2cdr-003-b-0130">HOw</w>
+          <w lemma="shall_vm" pos="vmb" xml:id="c2cdr-003-b-0140">shall</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-003-b-0150">a</w>
+          <w lemma="young_j" pos="j" xml:id="c2cdr-003-b-0160">young</w>
+          <w lemma="man_n" pos="n1" xml:id="c2cdr-003-b-0170">man</w>
+          <pc unit="sentence" xml:id="c2cdr-003-b-0180">?</pc>
+          <gap reason="music" xml:id="c2cdr-e650"/>
+        </p>
+        <p xml:id="c2cdr-e670">
+          <hi xml:id="c2cdr-e680">
+            <w lemma="chorus_n" pos="n1" xml:id="c2cdr-003-b-0190">Chorus</w>
+            <pc unit="sentence" xml:id="c2cdr-003-b-0200">.</pc>
+          </hi>
+        </p>
+        <p xml:id="c2cdr-e690">
+          <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-003-b-0210">With</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-003-b-0220">my</w>
+          <w lemma="whole_j" pos="j" xml:id="c2cdr-003-b-0230">whole</w>
+          <w lemma="heart_n" pos="n1" xml:id="c2cdr-003-b-0240">heart</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-003-b-0250">haue</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-003-b-0260">I</w>
+          <w lemma="seek_v" pos="vvd" xml:id="c2cdr-003-b-0270">sought</w>
+          <w lemma="thou_pn" pos="pno" xml:id="c2cdr-003-b-0280">thee</w>
+          <pc xml:id="c2cdr-003-b-0290">,</pc>
+          <gap reason="music" xml:id="c2cdr-e700"/>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-003-b-0300">haue</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-003-b-0310">I</w>
+          <w lemma="seek_v" pos="vvd" xml:id="c2cdr-003-b-0320">sought</w>
+          <w lemma="thou_pn" pos="pno" xml:id="c2cdr-003-b-0330">thee</w>
+          <pc xml:id="c2cdr-003-b-0340">,</pc>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-003-b-0350">haue</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-003-b-0360">I</w>
+          <w lemma="seek_v" pos="vvd" xml:id="c2cdr-003-b-0370">sought</w>
+          <w lemma="thou_pn" pos="pno" xml:id="c2cdr-003-b-0380">thee</w>
+          <pc xml:id="c2cdr-003-b-0390">,</pc>
+          <w lemma="o_uh" pos="uh" xml:id="c2cdr-003-b-0400">O</w>
+          <pc xml:id="c2cdr-003-b-0410">,</pc>
+          <w lemma="o_uh" pos="uh" xml:id="c2cdr-003-b-0420">O</w>
+          <w lemma="let_v" pos="vvb" xml:id="c2cdr-003-b-0430">let</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-003-b-0440">me</w>
+          <w lemma="not_x" pos="xx" xml:id="c2cdr-003-b-0450">not</w>
+          <w lemma="go_v" pos="vvi" reg="go" xml:id="c2cdr-003-b-0460">goe</w>
+          <w lemma="wrong_j" pos="j" xml:id="c2cdr-003-b-0470">wrong</w>
+          <pc xml:id="c2cdr-003-b-0480">,</pc>
+          <w lemma="out_av" pos="av" xml:id="c2cdr-003-b-0490">out</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-003-b-0500">of</w>
+          <gap reason="music" xml:id="c2cdr-e720"/>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-003-b-0510">thy</w>
+          <w lemma="commandment_n" pos="n2" reg="commandments" xml:id="c2cdr-003-b-0520">commandements</w>
+          <pc xml:id="c2cdr-003-b-0530">,</pc>
+          <w lemma="out_av" pos="av" xml:id="c2cdr-003-b-0540">out</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-003-b-0550">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-003-b-0560">thy</w>
+          <w lemma="commandment_n" pos="n2" reg="commandments" xml:id="c2cdr-003-b-0570">commandements</w>
+          <pc xml:id="c2cdr-003-b-0580">,</pc>
+          <w lemma="out_av" pos="av" xml:id="c2cdr-003-b-0590">out</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-003-b-0600">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-003-b-0610">thy</w>
+          <w lemma="commandment_n" pos="n2" reg="commandments" xml:id="c2cdr-003-b-0620">commandements</w>
+          <pc unit="sentence" xml:id="c2cdr-003-b-0630">.</pc>
+        </p>
+      </div>
+      <div n="10" type="song" xml:id="c2cdr-e740">
+        <pb facs="tcp:23367:4" xml:id="c2cdr-004-a"/>
+        <head xml:id="c2cdr-e750">
+          <w lemma="x._crd" pos="crd" xml:id="c2cdr-004-a-0010">X.</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-004-a-0020">The</w>
+          <w lemma="second_crd" pos="ord" xml:id="c2cdr-004-a-0030">second</w>
+          <w lemma="part_n" pos="n1" xml:id="c2cdr-004-a-0040">part</w>
+          <pc unit="sentence" xml:id="c2cdr-004-a-0050">.</pc>
+        </head>
+        <p xml:id="c2cdr-e760">
+          <w lemma="thy_pn" pos="po" rendition="#decorinit" xml:id="c2cdr-004-a-0060">THy</w>
+          <w lemma="word_n" pos="n2" xml:id="c2cdr-004-a-0070">words</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-004-a-0080">haue</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-004-a-0090">I</w>
+          <w lemma="hide_v" pos="vvn" xml:id="c2cdr-004-a-0100">hid</w>
+          <pc unit="sentence" xml:id="c2cdr-004-a-0110">.</pc>
+          <gap reason="music" xml:id="c2cdr-e770"/>
+        </p>
+        <p xml:id="c2cdr-e790">
+          <hi xml:id="c2cdr-e800">
+            <w lemma="chorus_n" pos="n1" xml:id="c2cdr-004-a-0120">Chorus</w>
+            <pc unit="sentence" xml:id="c2cdr-004-a-0130">.</pc>
+          </hi>
+        </p>
+        <p xml:id="c2cdr-e810">
+          <w lemma="o_uh" pos="uh" xml:id="c2cdr-004-a-0140">O</w>
+          <w lemma="teach_v" pos="vvb" xml:id="c2cdr-004-a-0150">teach</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-004-a-0160">me</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-a-0170">thy</w>
+          <w lemma="sta_f-la" pos="fw-la" xml:id="c2cdr-004-a-0180">sta</w>
+          <pc xml:id="c2cdr-004-a-0190">-</pc>
+          <gap reason="music" xml:id="c2cdr-e820"/>
+          <w lemma="tute_n" pos="n2" xml:id="c2cdr-004-a-0200">tutes</w>
+          <pc xml:id="c2cdr-004-a-0210">,</pc>
+          <w lemma="o_uh" pos="uh" xml:id="c2cdr-004-a-0220">O</w>
+          <w lemma="teach_v" pos="vvb" xml:id="c2cdr-004-a-0230">teach</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-004-a-0240">me</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-a-0250">thy</w>
+          <w lemma="statute_n" pos="n2" xml:id="c2cdr-004-a-0260">statutes</w>
+          <pc xml:id="c2cdr-004-a-0270">,</pc>
+          <w lemma="o_uh" pos="uh" xml:id="c2cdr-004-a-0280">O</w>
+          <w lemma="teach_v" pos="vvb" xml:id="c2cdr-004-a-0290">teach</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-004-a-0300">me</w>
+          <pc xml:id="c2cdr-004-a-0310">,</pc>
+          <w lemma="o_uh" pos="uh" xml:id="c2cdr-004-a-0320">O</w>
+          <w lemma="teach_v" pos="vvb" xml:id="c2cdr-004-a-0330">teach</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-004-a-0340">me</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-a-0350">thy</w>
+          <w lemma="statute_n" pos="n2" xml:id="c2cdr-004-a-0360">statutes</w>
+          <pc xml:id="c2cdr-004-a-0370">,</pc>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-a-0380">thy</w>
+          <w lemma="sta_f-la" pos="fw-la" xml:id="c2cdr-004-a-0390">sta</w>
+          <pc xml:id="c2cdr-004-a-0400">-</pc>
+          <gap reason="music" xml:id="c2cdr-e840"/>
+          <w lemma="tute_n" pos="n2" xml:id="c2cdr-004-a-0410">tutes</w>
+          <pc xml:id="c2cdr-004-a-0420">,</pc>
+          <w lemma="o_uh" pos="uh" xml:id="c2cdr-004-a-0430">O</w>
+          <w lemma="teach_v" pos="vvb" xml:id="c2cdr-004-a-0440">teach</w>
+          <w lemma="i_pn" pos="pno" xml:id="c2cdr-004-a-0450">me</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-a-0460">thy</w>
+          <w lemma="sta_f-la" pos="fw-la" xml:id="c2cdr-004-a-0470">sta</w>
+          <pc xml:id="c2cdr-004-a-0480">-</pc>
+          <w lemma="tutes_f-la" pos="fw-la" xml:id="c2cdr-004-a-0490">tutes</w>
+          <pc unit="sentence" xml:id="c2cdr-004-a-0500">.</pc>
+        </p>
+      </div>
+      <div n="11" type="song" xml:id="c2cdr-e860">
+        <pb facs="tcp:23367:4" xml:id="c2cdr-004-b"/>
+        <head xml:id="c2cdr-e870">
+          <w lemma="xi_crd" pos="crd" xml:id="c2cdr-004-b-0010">XI</w>
+          <pc unit="sentence" xml:id="c2cdr-004-b-0020">.</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-004-b-0030">The</w>
+          <w lemma="three_crd" pos="ord" xml:id="c2cdr-004-b-0040">third</w>
+          <w lemma="part_n" pos="n1" xml:id="c2cdr-004-b-0050">part</w>
+          <pc unit="sentence" xml:id="c2cdr-004-b-0060">.</pc>
+        </head>
+        <p xml:id="c2cdr-e880">
+          <w lemma="with_acp" pos="acp-p" rendition="#decorinit" xml:id="c2cdr-004-b-0070">WIth</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-004-b-0080">my</w>
+          <w lemma="lip_n" pos="n2" xml:id="c2cdr-004-b-0090">lips</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-004-b-0100">haue</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-004-b-0110">I</w>
+          <w lemma="be_v" pos="vvn" reg="been" xml:id="c2cdr-004-b-0120">bin</w>
+          <w lemma="tell_v" pos="vvg" xml:id="c2cdr-004-b-0130">telling</w>
+          <pc unit="sentence" xml:id="c2cdr-004-b-0140">.</pc>
+          <gap reason="music" xml:id="c2cdr-e890"/>
+        </p>
+        <p xml:id="c2cdr-e910">
+          <hi xml:id="c2cdr-e920">
+            <w lemma="chorus_n" pos="n1" xml:id="c2cdr-004-b-0150">Chorus</w>
+            <pc unit="sentence" xml:id="c2cdr-004-b-0160">.</pc>
+          </hi>
+        </p>
+        <p xml:id="c2cdr-e930">
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-004-b-0170">of</w>
+          <w lemma="all_d" pos="d" xml:id="c2cdr-004-b-0180">all</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-004-b-0190">the</w>
+          <w lemma="judgement_n" pos="n2" reg="judgements" xml:id="c2cdr-004-b-0200">iudgements</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-004-b-0210">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-b-0220">thy</w>
+          <w lemma="mouth_n" pos="n1" xml:id="c2cdr-004-b-0230">mouth</w>
+          <pc xml:id="c2cdr-004-b-0240">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-004-b-0250">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-b-0260">thy</w>
+          <w lemma="mouth_n" pos="n1" xml:id="c2cdr-004-b-0270">mouth</w>
+          <pc xml:id="c2cdr-004-b-0280">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-004-b-0290">the</w>
+          <gap reason="music" xml:id="c2cdr-e940"/>
+          <w lemma="judgement_n" pos="n2" reg="judgements" xml:id="c2cdr-004-b-0300">iudgements</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-004-b-0310">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-b-0320">thy</w>
+          <w lemma="mouth_n" pos="n1" xml:id="c2cdr-004-b-0330">mouth</w>
+          <pc xml:id="c2cdr-004-b-0340">,</pc>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-b-0350">thy</w>
+          <w lemma="mouth_n" pos="n1" xml:id="c2cdr-004-b-0360">mouth</w>
+          <pc xml:id="c2cdr-004-b-0370">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-004-b-0380">the</w>
+          <w lemma="judgement_n" pos="n2" reg="judgements" xml:id="c2cdr-004-b-0390">iudgements</w>
+          <pc xml:id="c2cdr-004-b-0400">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-004-b-0410">the</w>
+          <w lemma="judgement_n" pos="n2" reg="judgements" xml:id="c2cdr-004-b-0420">iudgements</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-004-b-0430">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-b-0440">thy</w>
+          <gap reason="music" xml:id="c2cdr-e960"/>
+          <w lemma="mouth_n" pos="n1" xml:id="c2cdr-004-b-0450">mouth</w>
+          <pc xml:id="c2cdr-004-b-0460">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-004-b-0470">the</w>
+          <w lemma="judgement_n" pos="n2" reg="judgements" xml:id="c2cdr-004-b-0480">iudgements</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-004-b-0490">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-b-0500">thy</w>
+          <w lemma="mouth_n" pos="n1" xml:id="c2cdr-004-b-0510">mouth</w>
+          <pc xml:id="c2cdr-004-b-0520">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-004-b-0530">the</w>
+          <w lemma="judgement_n" pos="n2" reg="judgements" xml:id="c2cdr-004-b-0540">iudgements</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-004-b-0550">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-004-b-0560">thy</w>
+          <w lemma="mouth_n" pos="n1" xml:id="c2cdr-004-b-0570">mouth</w>
+          <pc unit="sentence" xml:id="c2cdr-004-b-0580">.</pc>
+        </p>
+      </div>
+      <div n="12" type="song" xml:id="c2cdr-e980">
+        <pb facs="tcp:23367:5" xml:id="c2cdr-005-a"/>
+        <head xml:id="c2cdr-e990">
+          <w lemma="Xii_crd" pos="crd" xml:id="c2cdr-005-a-0010">XII</w>
+          <pc unit="sentence" xml:id="c2cdr-005-a-0020">.</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-005-a-0030">The</w>
+          <w lemma="four_crd" pos="ord" xml:id="c2cdr-005-a-0040">fourth</w>
+          <w lemma="part_n" pos="n1" xml:id="c2cdr-005-a-0050">part</w>
+          <pc unit="sentence" xml:id="c2cdr-005-a-0060">.</pc>
+        </head>
+        <p xml:id="c2cdr-e1000">
+          <gap reason="music" xml:id="c2cdr-e1010"/>
+          <hi xml:id="c2cdr-e1030">
+            <w lemma="verse_n" pos="n1" xml:id="c2cdr-005-a-0070">Verse</w>
+            <pc unit="sentence" xml:id="c2cdr-005-a-0080">.</pc>
+          </hi>
+        </p>
+        <p xml:id="c2cdr-e1040">
+          <w lemma="i_pn" pos="pns" rendition="#decorinit" xml:id="c2cdr-005-a-0090">I</w>
+          <w lemma="have_v" pos="vvb" reg="Have" xml:id="c2cdr-005-a-0100">Haue</w>
+          <w lemma="have_v" pos="vvn" xml:id="c2cdr-005-a-0110">had</w>
+          <w lemma="as_acp" pos="acp-p" xml:id="c2cdr-005-a-0120">as</w>
+          <w lemma="great_j" pos="j" xml:id="c2cdr-005-a-0130">great</w>
+          <w lemma="delight_n" pos="n1" xml:id="c2cdr-005-a-0140">delight</w>
+          <pc xml:id="c2cdr-005-a-0150">,</pc>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-005-a-0160">I</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-005-a-0170">haue</w>
+          <w lemma="have_v" pos="vvn" xml:id="c2cdr-005-a-0180">had</w>
+          <w lemma="as_acp" pos="acp-p" xml:id="c2cdr-005-a-0190">as</w>
+          <w lemma="great_j" pos="j" xml:id="c2cdr-005-a-0200">great</w>
+          <gap reason="music" xml:id="c2cdr-e1050"/>
+          <w lemma="delight_n" pos="n1" xml:id="c2cdr-005-a-0210">delight</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-005-a-0220">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-005-a-0230">the</w>
+          <w lemma="way_n" pos="n1" xml:id="c2cdr-005-a-0240">way</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-005-a-0250">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-0260">thy</w>
+          <w lemma="testi_f-la" pos="fw-la" xml:id="c2cdr-005-a-0270">testi</w>
+          <pc xml:id="c2cdr-005-a-0280">-</pc>
+          <w lemma="money_n" pos="n2" xml:id="c2cdr-005-a-0290" reg="moneys">monies</w>
+          <pc xml:id="c2cdr-005-a-0300">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-005-a-0310">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-0320">thy</w>
+          <w lemma="testimony_n" pos="n2" xml:id="c2cdr-005-a-0330">testimonies</w>
+          <pc xml:id="c2cdr-005-a-0340">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-005-a-0350">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-0360">thy</w>
+          <w lemma="testi_f-la" pos="fw-la" xml:id="c2cdr-005-a-0370">testi</w>
+          <pc xml:id="c2cdr-005-a-0380">-</pc>
+          <gap reason="music" xml:id="c2cdr-e1070"/>
+          <w lemma="money_n" pos="n2" xml:id="c2cdr-005-a-0390" reg="moneys">monies</w>
+          <pc xml:id="c2cdr-005-a-0400">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-005-a-0410">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-0420">thy</w>
+          <w lemma="testi_f-la" pos="fw-la" xml:id="c2cdr-005-a-0430">testi</w>
+          <pc xml:id="c2cdr-005-a-0440">-</pc>
+          <w lemma="more_d" pos="d" xml:id="c2cdr-005-a-0450" reg="more">mo</w>
+          <pc xml:id="c2cdr-005-a-0460">-</pc>
+          <w lemma="nie_n" pos="n2" xml:id="c2cdr-005-a-0470">nies</w>
+          <pc xml:id="c2cdr-005-a-0480">,</pc>
+          <w lemma="as_acp" pos="acp-cs" xml:id="c2cdr-005-a-0490">as</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-005-a-0500">in</w>
+          <w lemma="all_d" pos="d" xml:id="c2cdr-005-a-0510">all</w>
+          <w lemma="manner_n" pos="n1" xml:id="c2cdr-005-a-0520">manner</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-005-a-0530">of</w>
+          <w lemma="riches_n" pos="n2" xml:id="c2cdr-005-a-0540">riches</w>
+          <pc xml:id="c2cdr-005-a-0550">,</pc>
+          <w lemma="all_d" pos="d" xml:id="c2cdr-005-a-0560">all</w>
+          <w lemma="manner_n" pos="n1" xml:id="c2cdr-005-a-0570">manner</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-005-a-0580">of</w>
+          <w lemma="riches_n" pos="n2" xml:id="c2cdr-005-a-0590">riches</w>
+          <pc xml:id="c2cdr-005-a-0600">,</pc>
+          <gap reason="music" xml:id="c2cdr-e1090"/>
+          <hi xml:id="c2cdr-e1110">
+            <w lemma="chorus_n" pos="n1" xml:id="c2cdr-005-a-0610">Chorus</w>
+            <pc xml:id="c2cdr-005-a-0620">.</pc>
+          </hi>
+          <w lemma="all_d" pos="d" xml:id="c2cdr-005-a-0630">all</w>
+          <w lemma="manner_n" pos="n1" xml:id="c2cdr-005-a-0640">manner</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-005-a-0650">of</w>
+          <w lemma="riches_n" pos="n2" xml:id="c2cdr-005-a-0660">riches</w>
+          <pc xml:id="c2cdr-005-a-0670">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-005-a-0680">of</w>
+          <w lemma="ri_f-mi" pos="fw-mi" xml:id="c2cdr-005-a-0690">ri</w>
+          <pc xml:id="c2cdr-005-a-0700">-</pc>
+          <w lemma="che_n" pos="n2" xml:id="c2cdr-005-a-0710">ches</w>
+          <pc xml:id="c2cdr-005-a-0720">,</pc>
+          <w lemma="for_acp" pos="acp-cs" xml:id="c2cdr-005-a-0730">For</w>
+          <w lemma="i_pn" pos="pns" xml:id="c2cdr-005-a-0740">I</w>
+          <w lemma="will_vm" pos="vmb" xml:id="c2cdr-005-a-0750">will</w>
+          <w lemma="talk_v" pos="vvi" reg="talk" xml:id="c2cdr-005-a-0760">talke</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-005-a-0770">of</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-0780">thy</w>
+          <w lemma="commandment_n" pos="n2" reg="commandments" xml:id="c2cdr-005-a-0790">commandements</w>
+          <pc xml:id="c2cdr-005-a-0800">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-005-a-0810">of</w>
+          <gap reason="music" xml:id="c2cdr-e1120"/>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-0820">thy</w>
+          <w lemma="commandment_n" pos="n2" reg="commandments" xml:id="c2cdr-005-a-0830">commandements</w>
+          <pc xml:id="c2cdr-005-a-0840">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-a-0850">and</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-005-a-0860">haue</w>
+          <w lemma="respect_n" pos="n1" xml:id="c2cdr-005-a-0870">respect</w>
+          <pc xml:id="c2cdr-005-a-0880">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-a-0890">and</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-005-a-0900">haue</w>
+          <w lemma="respect_n" pos="n1" xml:id="c2cdr-005-a-0910">respect</w>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2cdr-005-a-0920">vnto</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-0930">thy</w>
+          <w lemma="way_n" pos="n2" reg="ways" xml:id="c2cdr-005-a-0940">waies</w>
+          <pc xml:id="c2cdr-005-a-0950">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-a-0960">and</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-005-a-0970">haue</w>
+          <gap reason="music" xml:id="c2cdr-e1140"/>
+          <w lemma="re_f-mi" pos="fw-mi" xml:id="c2cdr-005-a-0980">re</w>
+          <pc xml:id="c2cdr-005-a-0990">-</pc>
+          <w lemma="spect_v" pos="vvb" xml:id="c2cdr-005-a-1000">spect</w>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2cdr-005-a-1010">vnto</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-1020">thy</w>
+          <w lemma="way_n" pos="n2" reg="ways" xml:id="c2cdr-005-a-1030">waies</w>
+          <pc xml:id="c2cdr-005-a-1040">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-a-1050">and</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2cdr-005-a-1060">haue</w>
+          <w lemma="respect_n" pos="n1" xml:id="c2cdr-005-a-1070">respect</w>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2cdr-005-a-1080">vnto</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-1090">thy</w>
+          <w lemma="way_n" pos="n2" reg="ways" xml:id="c2cdr-005-a-1100">waies</w>
+          <pc xml:id="c2cdr-005-a-1110">,</pc>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2cdr-005-a-1120">vnto</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-1130">thy</w>
+          <w lemma="way_n" pos="n2" reg="ways" xml:id="c2cdr-005-a-1140">waies</w>
+          <pc xml:id="c2cdr-005-a-1150">,</pc>
+          <gap reason="music" xml:id="c2cdr-e1160"/>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2cdr-005-a-1160">vnto</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-a-1170">thy</w>
+          <w lemma="way_n" pos="n2" reg="ways" xml:id="c2cdr-005-a-1180">waies</w>
+          <pc unit="sentence" xml:id="c2cdr-005-a-1190">.</pc>
+        </p>
+      </div>
+      <div n="13" type="song" xml:id="c2cdr-e1180">
+        <pb facs="tcp:23367:5" xml:id="c2cdr-005-b"/>
+        <head xml:id="c2cdr-e1190">
+          <w lemma="xiii_crd" pos="crd" xml:id="c2cdr-005-b-0010">XIII</w>
+          <pc unit="sentence" xml:id="c2cdr-005-b-0020">.</pc>
+        </head>
+        <p xml:id="c2cdr-e1200">
+          <gap reason="music" xml:id="c2cdr-e1210"/>
+          <w lemma="awake_v" pos="vvb" rendition="#decorinit" xml:id="c2cdr-005-b-0030">AWake</w>
+          <pc xml:id="c2cdr-005-b-0040">,</pc>
+          <w lemma="awake_v" pos="vvb" xml:id="c2cdr-005-b-0050">awake</w>
+          <pc xml:id="c2cdr-005-b-0060">,</pc>
+          <w lemma="awake_j" pos="j" xml:id="c2cdr-005-b-0070">awake</w>
+          <pc xml:id="c2cdr-005-b-0080">,</pc>
+          <w lemma="awake_j" pos="j" xml:id="c2cdr-005-b-0090">awake</w>
+          <pc xml:id="c2cdr-005-b-0100">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0110">and</w>
+          <w lemma="stand_v" pos="vvb" xml:id="c2cdr-005-b-0120">stand</w>
+          <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2cdr-005-b-0130">vp</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-005-b-0140">to</w>
+          <w lemma="judge_v" pos="vvi" reg="judge" xml:id="c2cdr-005-b-0150">iudge</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0160">my</w>
+          <gap reason="music" xml:id="c2cdr-e1230"/>
+          <w lemma="quarrel_n" pos="n1" reg="quarrel" xml:id="c2cdr-005-b-0170">quarell</w>
+          <pc xml:id="c2cdr-005-b-0180">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0190">and</w>
+          <w lemma="stand_v" pos="vvb" xml:id="c2cdr-005-b-0200">stand</w>
+          <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2cdr-005-b-0210">vp</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0220">and</w>
+          <w lemma="stand_v" pos="vvi" xml:id="c2cdr-005-b-0230">stand</w>
+          <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2cdr-005-b-0240">vp</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-005-b-0250">to</w>
+          <w lemma="judge_v" pos="vvi" reg="judge" xml:id="c2cdr-005-b-0260">iudge</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0270">my</w>
+          <w lemma="quarrel_n" pos="n1" reg="quarrel" xml:id="c2cdr-005-b-0280">quarell</w>
+          <pc xml:id="c2cdr-005-b-0290">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0300">and</w>
+          <w lemma="stand_v" pos="vvb" xml:id="c2cdr-005-b-0310">stand</w>
+          <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2cdr-005-b-0320">vp</w>
+          <pc xml:id="c2cdr-005-b-0330">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0340">and</w>
+          <w lemma="stand_v" pos="vvi" xml:id="c2cdr-005-b-0350">stand</w>
+          <gap reason="music" xml:id="c2cdr-e1250"/>
+          <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2cdr-005-b-0360">vp</w>
+          <pc xml:id="c2cdr-005-b-0370">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0380">and</w>
+          <w lemma="stand_v" pos="vvb" xml:id="c2cdr-005-b-0390">stand</w>
+          <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2cdr-005-b-0400">vp</w>
+          <pc xml:id="c2cdr-005-b-0410">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0420">and</w>
+          <w lemma="stand_v" pos="vvb" xml:id="c2cdr-005-b-0430">stand</w>
+          <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2cdr-005-b-0440">vp</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-005-b-0450">to</w>
+          <w lemma="judge_v" pos="vvi" reg="judge" xml:id="c2cdr-005-b-0460">iudge</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0470">my</w>
+          <w lemma="qua_f-la" pos="fw-la" xml:id="c2cdr-005-b-0480">qua</w>
+          <pc xml:id="c2cdr-005-b-0490">-</pc>
+          <w lemma="rell_ab" pos="n-ab" xml:id="c2cdr-005-b-0500">rell</w>
+          <pc xml:id="c2cdr-005-b-0510">,</pc>
+          <w lemma="avenge_v" pos="vvb" reg="Avenge" xml:id="c2cdr-005-b-0520">Auenge</w>
+          <w lemma="thou_pn" pos="pns" xml:id="c2cdr-005-b-0530">thou</w>
+          <gap reason="music" xml:id="c2cdr-e1270"/>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0540">my</w>
+          <w lemma="cause_n" pos="n1" xml:id="c2cdr-005-b-0550">cause</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-005-b-0560">in</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-b-0570">thy</w>
+          <w lemma="strength_n" pos="n1" xml:id="c2cdr-005-b-0580">strength</w>
+          <pc xml:id="c2cdr-005-b-0590">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-005-b-0600">in</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-b-0610">thy</w>
+          <w lemma="strength_n" pos="n1" xml:id="c2cdr-005-b-0620">strength</w>
+          <pc xml:id="c2cdr-005-b-0630">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-005-b-0640">in</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-b-0650">thy</w>
+          <w lemma="strength_n" pos="n1" xml:id="c2cdr-005-b-0660">strength</w>
+          <pc xml:id="c2cdr-005-b-0670">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-005-b-0680">in</w>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-b-0690">thy</w>
+          <w lemma="strength_n" pos="n1" xml:id="c2cdr-005-b-0700">strength</w>
+          <pc xml:id="c2cdr-005-b-0710">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-005-b-0720">in</w>
+          <gap reason="music" xml:id="c2cdr-e1290"/>
+          <w lemma="thy_pn" pos="po" xml:id="c2cdr-005-b-0730">thy</w>
+          <w lemma="strength_n" pos="n1" xml:id="c2cdr-005-b-0740">strength</w>
+          <pc xml:id="c2cdr-005-b-0750">,</pc>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0760">my</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-005-b-0770">God</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0780">and</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0790">my</w>
+          <w lemma="lord_n" pos="n1" xml:id="c2cdr-005-b-0800">Lord</w>
+          <pc xml:id="c2cdr-005-b-0810">,</pc>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0820">my</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-005-b-0830">God</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0840">and</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0850">my</w>
+          <w lemma="lord_n" pos="n1" xml:id="c2cdr-005-b-0860">Lord</w>
+          <pc xml:id="c2cdr-005-b-0870">,</pc>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0880">my</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-005-b-0890">God</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0900">and</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0910">my</w>
+          <gap reason="music" xml:id="c2cdr-e1310"/>
+        </p>
+        <p xml:id="c2cdr-e1330">
+          <w lemma="lord_n" pos="n1" xml:id="c2cdr-005-b-0920">Lord</w>
+          <pc xml:id="c2cdr-005-b-0930">,</pc>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0940">my</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-005-b-0950">God</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-0960">and</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-0970">my</w>
+          <w lemma="lord_n" pos="n1" xml:id="c2cdr-005-b-0980">Lord</w>
+          <pc xml:id="c2cdr-005-b-0990">,</pc>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-1000">my</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-005-b-1010">God</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-1020">and</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-1030">my</w>
+          <w lemma="lord_n" pos="n1" xml:id="c2cdr-005-b-1040">Lord</w>
+          <pc xml:id="c2cdr-005-b-1050">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-005-b-1060">and</w>
+          <w lemma="my_pn" pos="po" xml:id="c2cdr-005-b-1070">my</w>
+          <w lemma="Lord_n" pos="n1" xml:id="c2cdr-005-b-1080">Lord</w>
+          <pc xml:id="c2cdr-005-b-1081" unit="sentence">.</pc>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-005-b-1090">A</w>
+          <pc xml:id="c2cdr-005-b-1100">-</pc>
+          <w lemma="man_n" pos="n2" xml:id="c2cdr-005-b-1110">men</w>
+          <pc xml:id="c2cdr-005-b-1120">,</pc>
+          <gap reason="music" xml:id="c2cdr-e1340"/>
+          <w lemma="a_sy" pos="sy" xml:id="c2cdr-005-b-1130">A</w>
+          <pc xml:id="c2cdr-005-b-1140">-</pc>
+          <w lemma="man_n" pos="n2" reg="mwn" xml:id="c2cdr-005-b-1150">men</w>
+          <pc xml:id="c2cdr-005-b-1160">,</pc>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-005-b-1170">A</w>
+          <pc xml:id="c2cdr-005-b-1180">-</pc>
+          <w lemma="man_n" pos="n2" xml:id="c2cdr-005-b-1190">men</w>
+          <pc xml:id="c2cdr-005-b-1200">,</pc>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-005-b-1210">A</w>
+          <pc xml:id="c2cdr-005-b-1220">-</pc>
+          <w lemma="man_n" pos="n2" xml:id="c2cdr-005-b-1230">men</w>
+          <pc xml:id="c2cdr-005-b-1240">,</pc>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-005-b-1250">A</w>
+          <pc xml:id="c2cdr-005-b-1260">-</pc>
+          <w lemma="man_n" pos="n2" xml:id="c2cdr-005-b-1270">men</w>
+          <pc unit="sentence" xml:id="c2cdr-005-b-1280">.</pc>
+        </p>
+      </div>
+      <div n="14" type="song" xml:id="c2cdr-e1360">
+        <pb facs="tcp:23367:6" xml:id="c2cdr-006-a"/>
+        <head xml:id="c2cdr-e1370">
+          <w lemma="xiiii_crd" pos="crd" xml:id="c2cdr-006-a-0010">XIIII</w>
+          <pc unit="sentence" xml:id="c2cdr-006-a-0020">.</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-a-0030">The</w>
+          <w lemma="first_crd" pos="ord" xml:id="c2cdr-006-a-0040">first</w>
+          <w lemma="part_n" pos="n1" xml:id="c2cdr-006-a-0050">part</w>
+          <pc unit="sentence" xml:id="c2cdr-006-a-0060">.</pc>
+        </head>
+        <p xml:id="c2cdr-e1380">
+          <gap reason="music" xml:id="c2cdr-e1390"/>
+          <w lemma="sing_v" pos="vvg" rendition="#decorinit" xml:id="c2cdr-006-a-0070">SIng</w>
+          <w lemma="we_pn" pos="pns" xml:id="c2cdr-006-a-0080">we</w>
+          <pc unit="sentence" xml:id="c2cdr-006-a-0090">.</pc>
+        </p>
+        <p xml:id="c2cdr-e1410">
+          <gap reason="music" xml:id="c2cdr-e1420"/>
+          <hi xml:id="c2cdr-e1440">
+            <w lemma="verse_n" pos="n1" xml:id="c2cdr-006-a-0100">Verse</w>
+            <pc unit="sentence" xml:id="c2cdr-006-a-0110">.</pc>
+          </hi>
+        </p>
+        <p xml:id="c2cdr-e1450">
+          <w lemma="sing_v" pos="vvg" xml:id="c2cdr-006-a-0120">Sing</w>
+          <w lemma="we_pn" pos="pns" xml:id="c2cdr-006-a-0130">we</w>
+          <w lemma="merry_j" pos="av_j" xml:id="c2cdr-006-a-0140">merrily</w>
+          <pc xml:id="c2cdr-006-a-0150">,</pc>
+          <w lemma="merry_j" pos="av_j" xml:id="c2cdr-006-a-0160">merrily</w>
+          <gap reason="music" xml:id="c2cdr-e1460"/>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-006-a-0170">to</w>
+          <w lemma="God_nn" pos="n1-nn" xml:id="c2cdr-006-a-0180">God</w>
+          <w lemma="our_pn" pos="po" xml:id="c2cdr-006-a-0190">our</w>
+          <w lemma="strength_n" pos="n1" xml:id="c2cdr-006-a-0200">strength</w>
+          <pc xml:id="c2cdr-006-a-0210">,</pc>
+          <w lemma="sing_v" pos="vvb" xml:id="c2cdr-006-a-0220">sing</w>
+          <w lemma="we_pn" pos="pns" xml:id="c2cdr-006-a-0230">we</w>
+          <w lemma="merry_j" pos="av_j" xml:id="c2cdr-006-a-0240">merrily</w>
+          <pc xml:id="c2cdr-006-a-0250">,</pc>
+          <w lemma="merry_uh" pos="uh" reg="merry" xml:id="c2cdr-006-a-0260">merri</w>
+          <pc xml:id="c2cdr-006-a-0270">-</pc>
+          <w lemma="lie_v" pos="vvb" reg="lie" xml:id="c2cdr-006-a-0280">ly</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2cdr-006-a-0290">to</w>
+          <w lemma="God_nn" pos="n1-nn" xml:id="c2cdr-006-a-0300">God</w>
+          <w lemma="our_pn" pos="po" xml:id="c2cdr-006-a-0310">our</w>
+          <w lemma="strength_n" pos="n1" xml:id="c2cdr-006-a-0320">strength</w>
+          <pc xml:id="c2cdr-006-a-0330">,</pc>
+          <w lemma="sing_v" pos="vvb" xml:id="c2cdr-006-a-0340">sing</w>
+          <w lemma="we_pn" pos="pns" xml:id="c2cdr-006-a-0350">we</w>
+          <gap reason="music" xml:id="c2cdr-e1480"/>
+          <w lemma="merry_j" pos="av_j" xml:id="c2cdr-006-a-0360">merrily</w>
+          <pc xml:id="c2cdr-006-a-0370">,</pc>
+          <w lemma="merri-_av" pos="av" xml:id="c2cdr-006-a-0380">merri-ly</w>
+          <pc xml:id="c2cdr-006-a-0390">,</pc>
+          <w lemma="merry_uh" pos="uh" reg="merry" xml:id="c2cdr-006-a-0400">merri</w>
+          <pc xml:id="c2cdr-006-a-0410">-</pc>
+          <w lemma="lie_v" pos="vvb" reg="lie" xml:id="c2cdr-006-a-0420">ly</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2cdr-006-a-0430">to</w>
+          <w lemma="God_nn" pos="n1-nn" xml:id="c2cdr-006-a-0440">God</w>
+          <w lemma="our_pn" pos="po" xml:id="c2cdr-006-a-0450">our</w>
+          <w lemma="strength_n" pos="n1" xml:id="c2cdr-006-a-0460">strength</w>
+          <pc xml:id="c2cdr-006-a-0470">,</pc>
+          <w lemma="make_v" pos="vvb" xml:id="c2cdr-006-a-0480">Make</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-006-a-0490">a</w>
+          <w lemma="cheerful_j" pos="j" reg="cheerful" xml:id="c2cdr-006-a-0500">cheerefull</w>
+          <w lemma="noise_n" pos="n1" reg="noise" xml:id="c2cdr-006-a-0510">noyse</w>
+          <pc xml:id="c2cdr-006-a-0520">,</pc>
+          <gap reason="music" xml:id="c2cdr-e1500"/>
+          <w lemma="make_v" pos="vvi" xml:id="c2cdr-006-a-0530">make</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-006-a-0540">a</w>
+          <w lemma="cheerful_j" pos="j" reg="cheerful" xml:id="c2cdr-006-a-0550">cheerefull</w>
+          <w lemma="noise_n" pos="n1" reg="noise" xml:id="c2cdr-006-a-0560">noyse</w>
+          <pc xml:id="c2cdr-006-a-0570">,</pc>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-006-a-0580">a</w>
+          <w lemma="cheerful_j" pos="j" reg="cheerful" xml:id="c2cdr-006-a-0590">cheerefull</w>
+          <w lemma="noise_n" pos="n1" reg="noise" xml:id="c2cdr-006-a-0600">noyse</w>
+          <pc xml:id="c2cdr-006-a-0610">,</pc>
+          <w lemma="make_v" pos="vvb" xml:id="c2cdr-006-a-0620">make</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-006-a-0630">a</w>
+          <w lemma="cheerful_j" pos="j" reg="cheerful" xml:id="c2cdr-006-a-0640">cheerefull</w>
+          <w lemma="noise_n" pos="n1" reg="noise" xml:id="c2cdr-006-a-0650">noyse</w>
+          <pc xml:id="c2cdr-006-a-0660">,</pc>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-006-a-0670">a</w>
+          <w lemma="cheerful_j" pos="j" reg="cheerful" xml:id="c2cdr-006-a-0680">cheerefull</w>
+          <gap reason="music" xml:id="c2cdr-e1520"/>
+          <w lemma="noise_n" pos="n1" reg="noise" xml:id="c2cdr-006-a-0690">noyse</w>
+          <pc xml:id="c2cdr-006-a-0700">,</pc>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-006-a-0710">a</w>
+          <w lemma="cheerful_j" pos="j" reg="cheerful" xml:id="c2cdr-006-a-0720">cheerefull</w>
+          <w lemma="noise_n" pos="n1" reg="noise" xml:id="c2cdr-006-a-0730">noyse</w>
+          <pc xml:id="c2cdr-006-a-0740">,</pc>
+          <w lemma="make_v" pos="vvb" xml:id="c2cdr-006-a-0750">make</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-006-a-0760">a</w>
+          <w lemma="cheerful_j" pos="j" reg="cheerful" xml:id="c2cdr-006-a-0770">cheerefull</w>
+          <w lemma="noise_n" pos="n1" reg="noise" xml:id="c2cdr-006-a-0780">noyse</w>
+          <pc xml:id="c2cdr-006-a-0790">,</pc>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-006-a-0800">a</w>
+          <w lemma="cheerful_j" pos="j" reg="cheerful" xml:id="c2cdr-006-a-0810">cheerefull</w>
+          <w lemma="noise_n" pos="n1" reg="noise" xml:id="c2cdr-006-a-0820">noyse</w>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2cdr-006-a-0830">vnto</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-a-0840">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-006-a-0850">God</w>
+        </p>
+        <p xml:id="c2cdr-e1540">
+          <gap reason="music" xml:id="c2cdr-e1550"/>
+          <hi xml:id="c2cdr-e1570">
+            <w lemma="chorus_n" pos="n1" xml:id="c2cdr-006-a-0860">Chorus</w>
+            <pc xml:id="c2cdr-006-a-0870">.</pc>
+          </hi>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-006-a-0880">of</w>
+          <hi xml:id="c2cdr-e1580">
+            <w lemma="jacob_nn" pos="n1-nn" reg="jacob" xml:id="c2cdr-006-a-0890">Iacob</w>
+            <pc xml:id="c2cdr-006-a-0900">,</pc>
+          </hi>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2cdr-006-a-0910">vnto</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-a-0920">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-006-a-0930">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-006-a-0940">of</w>
+          <hi xml:id="c2cdr-e1590">
+            <w lemma="jacob_nn" pos="n1-nn" reg="jacob" xml:id="c2cdr-006-a-0950">Iacob</w>
+            <pc xml:id="c2cdr-006-a-0960">,</pc>
+          </hi>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2cdr-006-a-0970">vnto</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-a-0980">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-006-a-0990">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-006-a-1000">of</w>
+          <hi xml:id="c2cdr-e1600">
+            <w lemma="ja_zz" pos="zz" reg="ja" xml:id="c2cdr-006-a-1010">Ia</w>
+            <pc xml:id="c2cdr-006-a-1020">-</pc>
+            <w lemma="cob_n" pos="n1" xml:id="c2cdr-006-a-1030">cob</w>
+            <pc xml:id="c2cdr-006-a-1040">,</pc>
+          </hi>
+          <w lemma="un_f-fr" pos="fw-fr" reg="un" xml:id="c2cdr-006-a-1050">vn</w>
+          <pc xml:id="c2cdr-006-a-1060">-</pc>
+          <gap reason="music" xml:id="c2cdr-e1610"/>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2cdr-006-a-1070">to</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-a-1080">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-006-a-1090">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-006-a-1100">of</w>
+          <hi xml:id="c2cdr-e1630">
+            <w lemma="jacob_nn" pos="n1-nn" reg="jacob" xml:id="c2cdr-006-a-1110">Iacob</w>
+            <pc xml:id="c2cdr-006-a-1120">,</pc>
+          </hi>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-a-1130">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-006-a-1140">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-006-a-1150">of</w>
+          <hi xml:id="c2cdr-e1640">
+            <w lemma="ja_zz" pos="zz" reg="ja" xml:id="c2cdr-006-a-1160">Ia</w>
+            <pc xml:id="c2cdr-006-a-1170">-</pc>
+            <w lemma="cob_n" pos="n1" xml:id="c2cdr-006-a-1180">cob</w>
+            <pc xml:id="c2cdr-006-a-1190">,</pc>
+          </hi>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-a-1200">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-006-a-1210">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-006-a-1220">of</w>
+          <hi xml:id="c2cdr-e1650">
+            <w lemma="ja_zz" pos="zz" reg="ja" xml:id="c2cdr-006-a-1230">Ia</w>
+            <pc xml:id="c2cdr-006-a-1240">-</pc>
+            <w lemma="cob_n" pos="n1" xml:id="c2cdr-006-a-1250">cob</w>
+            <pc unit="sentence" xml:id="c2cdr-006-a-1260">.</pc>
+          </hi>
+        </p>
+      </div>
+      <div n="15" type="song" xml:id="c2cdr-e1660">
+        <pb facs="tcp:23367:6" xml:id="c2cdr-006-b"/>
+        <head xml:id="c2cdr-e1670">
+          <w lemma="xv._ab" pos="n-ab" xml:id="c2cdr-006-b-0010">XV.</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0020">The</w>
+          <w lemma="second_crd" pos="ord" xml:id="c2cdr-006-b-0030">second</w>
+          <w lemma="part_n" pos="n1" xml:id="c2cdr-006-b-0040">part</w>
+          <pc unit="sentence" xml:id="c2cdr-006-b-0050">.</pc>
+        </head>
+        <p xml:id="c2cdr-e1680">
+          <gap reason="music" xml:id="c2cdr-e1690"/>
+          <w lemma="take_v" pos="vvb" rendition="#decorinit" xml:id="c2cdr-006-b-0060">TAke</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0070">the</w>
+          <w lemma="psalm_n" pos="n1" reg="Psalm" xml:id="c2cdr-006-b-0080">Psalme</w>
+          <pc unit="sentence" xml:id="c2cdr-006-b-0090">.</pc>
+          <gap reason="music" xml:id="c2cdr-e1710"/>
+        </p>
+        <p xml:id="c2cdr-e1730">
+          <hi xml:id="c2cdr-e1740">
+            <w lemma="verse_n" pos="n1" xml:id="c2cdr-006-b-0100">Verse</w>
+            <pc unit="sentence" xml:id="c2cdr-006-b-0110">.</pc>
+          </hi>
+          <w lemma="take_v" pos="vvb" xml:id="c2cdr-006-b-0120">Take</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0130">the</w>
+          <w lemma="psalm_n" pos="n1" reg="Psalm" xml:id="c2cdr-006-b-0140">Psalme</w>
+          <pc xml:id="c2cdr-006-b-0150">,</pc>
+          <w lemma="bring_v" pos="vvb" xml:id="c2cdr-006-b-0160">bring</w>
+          <w lemma="hither_av" pos="av" xml:id="c2cdr-006-b-0170">hither</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0180">the</w>
+          <w lemma="Tabret_nn" pos="n1-nn" xml:id="c2cdr-006-b-0190">Tabret</w>
+          <pc xml:id="c2cdr-006-b-0200">,</pc>
+          <w lemma="take_v" pos="vvb" xml:id="c2cdr-006-b-0210">Take</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0220">the</w>
+          <w lemma="psalm_n" pos="n1" reg="Psalm" xml:id="c2cdr-006-b-0230">Psalme</w>
+          <pc xml:id="c2cdr-006-b-0240">,</pc>
+          <w lemma="bring_v" pos="vvb" xml:id="c2cdr-006-b-0250">bring</w>
+          <w lemma="hither_av" pos="av" xml:id="c2cdr-006-b-0260">hither</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0270">the</w>
+          <gap reason="music" xml:id="c2cdr-e1750"/>
+          <hi xml:id="c2cdr-e1770">
+            <w lemma="chorus_n" pos="n1" xml:id="c2cdr-006-b-0280">Chorus</w>
+            <pc unit="sentence" xml:id="c2cdr-006-b-0290">.</pc>
+          </hi>
+          <w lemma="Tabret_nn" pos="n1-nn" xml:id="c2cdr-006-b-0300">Tabret</w>
+          <pc xml:id="c2cdr-006-b-0310">,</pc>
+          <w lemma="take_v" pos="vvb" xml:id="c2cdr-006-b-0320">take</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0330">the</w>
+          <w lemma="psalm_n" pos="n1" reg="Psalm" xml:id="c2cdr-006-b-0340">Psalme</w>
+          <pc xml:id="c2cdr-006-b-0350">,</pc>
+          <w lemma="bring_v" pos="vvb" xml:id="c2cdr-006-b-0360">bring</w>
+          <w lemma="hither_av" pos="av" xml:id="c2cdr-006-b-0370">hither</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0380">the</w>
+          <w lemma="ta_uh" pos="uh" xml:id="c2cdr-006-b-0390">Ta</w>
+          <pc xml:id="c2cdr-006-b-0400">-</pc>
+          <w lemma="bret_v" pos="vvb" xml:id="c2cdr-006-b-0410">bret</w>
+          <pc xml:id="c2cdr-006-b-0420">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0430">The</w>
+          <w lemma="merry_j" pos="j" xml:id="c2cdr-006-b-0440">merry</w>
+          <pc xml:id="c2cdr-006-b-0450">,</pc>
+          <gap reason="music" xml:id="c2cdr-e1780"/>
+          <w lemma="merry_j" pos="j" xml:id="c2cdr-006-b-0460">merry</w>
+          <w lemma="harp_n" pos="n1" reg="Harp" xml:id="c2cdr-006-b-0470">Harpe</w>
+          <pc xml:id="c2cdr-006-b-0480">,</pc>
+          <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-006-b-0490">with</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0500">the</w>
+          <w lemma="lute_n" pos="n1" xml:id="c2cdr-006-b-0510">Lute</w>
+          <pc xml:id="c2cdr-006-b-0520">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0530">the</w>
+          <w lemma="merry_j" pos="j" xml:id="c2cdr-006-b-0540">merry</w>
+          <w lemma="harp_n" pos="n1" reg="Harp" xml:id="c2cdr-006-b-0550">Harpe</w>
+          <pc xml:id="c2cdr-006-b-0560">,</pc>
+          <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-006-b-0570">with</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0580">the</w>
+          <w lemma="lute_n" pos="n1" xml:id="c2cdr-006-b-0590">Lute</w>
+          <pc xml:id="c2cdr-006-b-0600">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0610">the</w>
+          <w lemma="lute_n" pos="n1" xml:id="c2cdr-006-b-0620">Lute</w>
+          <pc xml:id="c2cdr-006-b-0630">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0640">the</w>
+          <gap reason="music" xml:id="c2cdr-e1800"/>
+          <w lemma="merry_j" pos="j" xml:id="c2cdr-006-b-0650">merry</w>
+          <w lemma="harp_n" pos="n1" reg="Harp" xml:id="c2cdr-006-b-0660">Harpe</w>
+          <pc xml:id="c2cdr-006-b-0670">,</pc>
+          <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-006-b-0680">with</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0690">the</w>
+          <w lemma="lute_n" pos="n1" xml:id="c2cdr-006-b-0700">Lute</w>
+          <pc xml:id="c2cdr-006-b-0710">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0720">The</w>
+          <w lemma="merry_j" pos="j" xml:id="c2cdr-006-b-0730">merry</w>
+          <w lemma="harp_n" pos="n1" reg="Harp" xml:id="c2cdr-006-b-0740">Harpe</w>
+          <pc xml:id="c2cdr-006-b-0750">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0760">the</w>
+          <w lemma="merry_j" pos="j" xml:id="c2cdr-006-b-0770">merry</w>
+          <w lemma="harp_n" pos="n1" reg="Harp" xml:id="c2cdr-006-b-0780">Harpe</w>
+          <pc xml:id="c2cdr-006-b-0790">,</pc>
+          <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-006-b-0800">with</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0810">the</w>
+          <w lemma="lute_n" pos="n1" xml:id="c2cdr-006-b-0820">Lute</w>
+          <pc xml:id="c2cdr-006-b-0830">,</pc>
+          <gap reason="music" xml:id="c2cdr-e1820"/>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0840">the</w>
+          <w lemma="lute_n" pos="n1" xml:id="c2cdr-006-b-0850">Lute</w>
+          <pc xml:id="c2cdr-006-b-0860">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0870">the</w>
+          <w lemma="lute_n" pos="n1" xml:id="c2cdr-006-b-0880">Lute</w>
+          <pc xml:id="c2cdr-006-b-0890">,</pc>
+          <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-006-b-0900">with</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0910">the</w>
+          <w lemma="lute_n" pos="n1" xml:id="c2cdr-006-b-0920">Lute</w>
+          <pc xml:id="c2cdr-006-b-0930">,</pc>
+          <w lemma="with_acp" pos="acp-p" xml:id="c2cdr-006-b-0940">with</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0950">the</w>
+          <w lemma="lute_n" pos="n1" xml:id="c2cdr-006-b-0960">Lute</w>
+          <pc xml:id="c2cdr-006-b-0970">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-006-b-0980">the</w>
+          <w lemma="lute_n" pos="n1" xml:id="c2cdr-006-b-0990">Lute</w>
+          <pc unit="sentence" xml:id="c2cdr-006-b-1000">.</pc>
+        </p>
+      </div>
+      <div n="16" type="song" xml:id="c2cdr-e1840">
+        <pb facs="tcp:23367:7" xml:id="c2cdr-007-a"/>
+        <head xml:id="c2cdr-e1850">
+          <w lemma="Xvi_crd" pos="crd" xml:id="c2cdr-007-a-0010">XVI</w>
+          <pc unit="sentence" xml:id="c2cdr-007-a-0020">.</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0030">The</w>
+          <w lemma="three_crd" pos="ord" xml:id="c2cdr-007-a-0040">third</w>
+          <w lemma="part_n" pos="n1" xml:id="c2cdr-007-a-0050">part</w>
+          <pc unit="sentence" xml:id="c2cdr-007-a-0060">.</pc>
+        </head>
+        <p xml:id="c2cdr-e1860">
+          <gap reason="music" xml:id="c2cdr-e1870"/>
+          <hi xml:id="c2cdr-e1890">
+            <w lemma="verse_n" pos="n1" xml:id="c2cdr-007-a-0070">Verse</w>
+            <pc unit="sentence" xml:id="c2cdr-007-a-0080">.</pc>
+          </hi>
+        </p>
+        <p xml:id="c2cdr-e1900">
+          <w lemma="blow_v" pos="vvb" rendition="#decorinit" xml:id="c2cdr-007-a-0090">BLow</w>
+          <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2cdr-007-a-0100">vp</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0110">the</w>
+          <w lemma="trumpet_n" pos="n1" xml:id="c2cdr-007-a-0120">Trumpet</w>
+          <pc xml:id="c2cdr-007-a-0130">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0140">the</w>
+          <w lemma="trumpet_n" pos="n1" xml:id="c2cdr-007-a-0150">Trumpet</w>
+          <pc xml:id="c2cdr-007-a-0160">,</pc>
+          <w lemma="blow_v" pos="vvb" xml:id="c2cdr-007-a-0170">blow</w>
+          <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2cdr-007-a-0180">vp</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0190">the</w>
+          <w lemma="trum_f-la" pos="fw-la" xml:id="c2cdr-007-a-0200">Trum</w>
+          <pc xml:id="c2cdr-007-a-0210">-</pc>
+          <gap reason="music" xml:id="c2cdr-e1910"/>
+          <w lemma="pet_n" pos="n1" xml:id="c2cdr-007-a-0220">pet</w>
+          <pc xml:id="c2cdr-007-a-0230">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0240">the</w>
+          <w lemma="trumpet_n" pos="n1" xml:id="c2cdr-007-a-0250">Trumpet</w>
+          <pc xml:id="c2cdr-007-a-0260">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-007-a-0270">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0280">the</w>
+          <w lemma="new_j" pos="j" xml:id="c2cdr-007-a-0290">new</w>
+          <w lemma="moon_n" pos="n1" reg="moon" xml:id="c2cdr-007-a-0300">moone</w>
+          <pc xml:id="c2cdr-007-a-0310">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-007-a-0320">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0330">the</w>
+          <w lemma="new_j" pos="j" xml:id="c2cdr-007-a-0340">new</w>
+          <w lemma="moon_n" pos="n1" reg="moon" xml:id="c2cdr-007-a-0350">moone</w>
+          <pc xml:id="c2cdr-007-a-0360">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-007-a-0370">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0380">the</w>
+          <w lemma="new_j" pos="j" xml:id="c2cdr-007-a-0390">new</w>
+          <w lemma="moon_n" pos="n1" reg="moon" xml:id="c2cdr-007-a-0400">moone</w>
+          <pc xml:id="c2cdr-007-a-0410">,</pc>
+          <gap reason="music" xml:id="c2cdr-e1930"/>
+          <w lemma="even_av" pos="av" reg="Even" xml:id="c2cdr-007-a-0420">Euen</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-007-a-0430">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0440">the</w>
+          <w lemma="time_n" pos="n1" xml:id="c2cdr-007-a-0450">time</w>
+          <w lemma="appoint_v" pos="vvn" xml:id="c2cdr-007-a-0460">appointed</w>
+          <pc xml:id="c2cdr-007-a-0470">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0480">the</w>
+          <w lemma="time_n" pos="n1" xml:id="c2cdr-007-a-0490">time</w>
+          <w lemma="appoint_v" pos="vvn" xml:id="c2cdr-007-a-0500">appointed</w>
+          <pc xml:id="c2cdr-007-a-0510">,</pc>
+          <w lemma="even_av" pos="av" reg="even" xml:id="c2cdr-007-a-0520">euen</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-007-a-0530">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0540">the</w>
+          <w lemma="time_n" pos="n1" xml:id="c2cdr-007-a-0550">time</w>
+          <w lemma="appoint_v" pos="vvn" xml:id="c2cdr-007-a-0560">appointed</w>
+          <pc xml:id="c2cdr-007-a-0570">,</pc>
+          <gap reason="music" xml:id="c2cdr-e1950"/>
+          <w lemma="even_j" pos="av_j" reg="even" xml:id="c2cdr-007-a-0580">euen</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2cdr-007-a-0590">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-0600">the</w>
+          <w lemma="time_n" pos="n1" xml:id="c2cdr-007-a-0610">time</w>
+          <w lemma="appoint_v" pos="vvn" xml:id="c2cdr-007-a-0620">appointed</w>
+          <pc xml:id="c2cdr-007-a-0630">,</pc>
+          <w lemma="appoint_v" pos="j_vn" xml:id="c2cdr-007-a-0640">appointed</w>
+          <pc xml:id="c2cdr-007-a-0650">,</pc>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-007-a-0660">For</w>
+          <w lemma="this_d" pos="d" xml:id="c2cdr-007-a-0670">this</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-007-a-0680">was</w>
+          <w lemma="make_v" pos="vvn" xml:id="c2cdr-007-a-0690">made</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-007-a-0700">a</w>
+          <w lemma="statute_n" pos="n1" xml:id="c2cdr-007-a-0710">statute</w>
+          <pc xml:id="c2cdr-007-a-0720">,</pc>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-007-a-0730">for</w>
+          <gap reason="music" xml:id="c2cdr-e1970"/>
+          <w lemma="this_d" pos="d" xml:id="c2cdr-007-a-0740">this</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2cdr-007-a-0750">was</w>
+          <w lemma="make_v" pos="vvn" xml:id="c2cdr-007-a-0760">made</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-007-a-0770">a</w>
+          <w lemma="statute_n" pos="n1" xml:id="c2cdr-007-a-0780">statute</w>
+          <w lemma="for_acp" pos="acp-cs" xml:id="c2cdr-007-a-0790">for</w>
+          <hi xml:id="c2cdr-e1990">
+            <w lemma="be_v" pos="vvz" xml:id="c2cdr-007-a-0800">Is</w>
+            <pc xml:id="c2cdr-007-a-0810">-</pc>
+            <w lemma="rael_n" pos="n1" xml:id="c2cdr-007-a-0820">rael</w>
+            <pc xml:id="c2cdr-007-a-0830">,</pc>
+          </hi>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-007-a-0840">for</w>
+          <hi xml:id="c2cdr-e2000">
+            <w lemma="is-ra-el_j" pos="j" xml:id="c2cdr-007-a-0850">Is-ra-el</w>
+            <pc xml:id="c2cdr-007-a-0860">,</pc>
+          </hi>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-007-a-0870">for</w>
+          <hi xml:id="c2cdr-e2010">
+            <w lemma="is-ra-el_j" pos="j" xml:id="c2cdr-007-a-0880">Is-ra-el</w>
+            <pc xml:id="c2cdr-007-a-0890">,</pc>
+          </hi>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-007-a-0900">for</w>
+          <hi xml:id="c2cdr-e2020">
+            <w lemma="is-ra-el_j" pos="j" xml:id="c2cdr-007-a-0910">Is-ra-el</w>
+            <pc xml:id="c2cdr-007-a-0920">,</pc>
+          </hi>
+          <w lemma="for_acp" pos="acp-cs" xml:id="c2cdr-007-a-0930">for</w>
+          <hi xml:id="c2cdr-e2030">
+            <w lemma="be_v" pos="vvz" xml:id="c2cdr-007-a-0940">Is</w>
+            <pc xml:id="c2cdr-007-a-0950">-</pc>
+          </hi>
+          <gap reason="music" xml:id="c2cdr-e2040"/>
+          <hi xml:id="c2cdr-e2060">
+            <w lemma="ra-el_j" pos="j" xml:id="c2cdr-007-a-0960">ra-el</w>
+            <pc xml:id="c2cdr-007-a-0970">,</pc>
+          </hi>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-007-a-0980">for</w>
+          <hi xml:id="c2cdr-e2070">
+            <w lemma="is-ra-el_j" pos="j" xml:id="c2cdr-007-a-0990">Is-ra-el</w>
+            <pc xml:id="c2cdr-007-a-1000">,</pc>
+          </hi>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2cdr-007-a-1010">for</w>
+          <hi xml:id="c2cdr-e2080">
+            <w lemma="is-ra-el_j" pos="j" xml:id="c2cdr-007-a-1020">Is-ra-el</w>
+            <pc xml:id="c2cdr-007-a-1030">,</pc>
+          </hi>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-007-a-1040">and</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-007-a-1050">a</w>
+          <w lemma="law_n" pos="n1" xml:id="c2cdr-007-a-1060">Law</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1070">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-1080">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-007-a-1090">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1100">of</w>
+          <hi xml:id="c2cdr-e2090">
+            <w lemma="jacob_nn" pos="n1-nn" reg="jacob" xml:id="c2cdr-007-a-1110">Iacob</w>
+            <pc xml:id="c2cdr-007-a-1120">,</pc>
+          </hi>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-007-a-1130">and</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-007-a-1140">a</w>
+          <w lemma="law_n" pos="n1" xml:id="c2cdr-007-a-1150">Law</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1160">of</w>
+          <gap reason="music" xml:id="c2cdr-e2100"/>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-1170">the</w>
+          <w lemma="God_nn" pos="n1-nn" xml:id="c2cdr-007-a-1180">God</w>
+          <pc xml:id="c2cdr-007-a-1190">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1200">of</w>
+          <hi xml:id="c2cdr-e2120">
+            <w lemma="jacob_nn" pos="n1-nn" reg="jacob" xml:id="c2cdr-007-a-1210">Iacob</w>
+            <pc xml:id="c2cdr-007-a-1220">,</pc>
+          </hi>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-007-a-1230">and</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-007-a-1240">a</w>
+          <w lemma="law_n" pos="n1" xml:id="c2cdr-007-a-1250">Law</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1260">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-1270">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-007-a-1280">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1290">of</w>
+          <hi xml:id="c2cdr-e2130">
+            <w lemma="ja_zz" pos="zz" reg="ja" xml:id="c2cdr-007-a-1300">Ia</w>
+            <pc xml:id="c2cdr-007-a-1310">-</pc>
+            <w lemma="cob_n" pos="n1" xml:id="c2cdr-007-a-1320">cob</w>
+            <pc xml:id="c2cdr-007-a-1330">,</pc>
+          </hi>
+          <w lemma="and_cc" pos="cc" xml:id="c2cdr-007-a-1340">and</w>
+          <w lemma="a_d" pos="d" xml:id="c2cdr-007-a-1350">a</w>
+          <w lemma="law_n" pos="n1" xml:id="c2cdr-007-a-1360">law</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1370">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-1380">the</w>
+          <gap reason="music" xml:id="c2cdr-e2140"/>
+          <w lemma="God_nn" pos="n1-nn" xml:id="c2cdr-007-a-1390">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1400">of</w>
+          <hi xml:id="c2cdr-e2160">
+            <w lemma="jacob_nn" pos="n1-nn" reg="jacob" xml:id="c2cdr-007-a-1410">Iacob</w>
+            <pc xml:id="c2cdr-007-a-1420">,</pc>
+          </hi>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-1430">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-007-a-1440">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1450">of</w>
+          <hi xml:id="c2cdr-e2170">
+            <w lemma="jacob_nn" pos="n1-nn" reg="jacob" xml:id="c2cdr-007-a-1460">Iacob</w>
+            <pc xml:id="c2cdr-007-a-1470">,</pc>
+          </hi>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1480">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-1490">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-007-a-1500">God</w>
+          <pc xml:id="c2cdr-007-a-1510">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1520">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-1530">the</w>
+          <w lemma="god_n" pos="n1" xml:id="c2cdr-007-a-1540">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1550">of</w>
+          <hi xml:id="c2cdr-e2180">
+            <w lemma="jacob_nn" pos="n1-nn" reg="jacob" xml:id="c2cdr-007-a-1560">Iacob</w>
+            <pc xml:id="c2cdr-007-a-1570">,</pc>
+          </hi>
+          <w lemma="the_d" pos="d" xml:id="c2cdr-007-a-1580">the</w>
+          <gap reason="music" xml:id="c2cdr-e2190"/>
+          <w lemma="God_nn" pos="n1-nn" xml:id="c2cdr-007-a-1590">God</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2cdr-007-a-1600">of</w>
+          <hi xml:id="c2cdr-e2210">
+            <w lemma="ja_zz" pos="zz" reg="ja" xml:id="c2cdr-007-a-1610">Ia</w>
+            <pc xml:id="c2cdr-007-a-1620">-</pc>
+            <w lemma="cob_n" pos="n1" xml:id="c2cdr-007-a-1630">cob</w>
+            <pc unit="sentence" xml:id="c2cdr-007-a-1640">.</pc>
+          </hi>
+        </p>
+      </div>
+      <trailer xml:id="c2cdr-e2220">
+        <w lemma="finis_f-la" pos="fw-la" xml:id="c2cdr-007-a-1650">FINIS</w>
+        <pc unit="sentence" xml:id="c2cdr-007-a-1660">.</pc>
+      </trailer>
+    </body>
+    <back xml:id="c2cdr-t-b"/>
+  </text>
+</TEI>

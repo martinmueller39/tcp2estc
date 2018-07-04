@@ -1,0 +1,812 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://schemata.earlyprint.org/schemata/tei_earlyprint.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="c6cjz-R210771">
+  <teiHeader xml:id="c6cjz-R210771-header">
+    <fileDesc>
+      <titleStmt>
+        <title>Some teares dropt ore the herse of the incomparable Prince Henry Duke of Gloucester</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>This text is an enriched version of the TCP digital transcription A93534 of text771 in the <ref target="http://estc.bl.uk">English Short Title Catalog</ref> (Thomason 669.f.26[7]). Textual changes  and metadata enrichments aim at making the text more  computationally tractable, easier to read, and suitable for network-based collaborative curation by amateur and professional end users from many walks of life.  The text has been tokenized and linguistically annotated with <ref target="http://morphadorner.northwestern.edu/morphadorner/">MorphAdorner</ref>. The annotation includes standard spellings that support the display of a text in a standardized format that preserves archaic forms ('loveth', 'seekest'). Textual changes aim at restoring the text the author or stationer meant to publish.</edition>
+        <respStmt>
+          <resp>This text has not been fully proofread</resp>
+          <name/>
+        </respStmt>
+      </editionStmt>
+      <extent>Approx. 4 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+      <publicationStmt>
+        <publisher>EarlyPrint Project</publisher>
+        <pubPlace>Evanston,IL, Notre Dame, IN, St. Louis, MO</pubPlace>
+        <date>2017</date>
+        <idno type="DLPS">A93534</idno>
+        <idno type="STC">Wing S4621</idno>
+        <idno type="STC">Thomason 669.f.26[7]</idno>
+        <idno type="EEBO-CITATION">99869528</idno>
+        <idno type="PROQUEST">99869528</idno>
+        <idno type="VID">163889</idno>
+        <availability>
+          <p>
+            This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. This Phase I text is available for reuse, according to the terms of
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 0 1.0 Universal</ref>
+            . The text can be copied, modified, distributed and performed, even for commercial purposes, all without asking permission.
+          </p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Early English books online.</title>
+      </seriesStmt>
+      <notesStmt>
+        <note>(EEBO-TCP ; phase 1, no. A93534)</note>
+        <note>Transcribed from: (Early English Books Online ; image set 163889)</note>
+        <note>Images scanned from microfilm: (Thomason Tracts ; 247:669f26[7])</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Some teares dropt ore the herse of the incomparable Prince Henry Duke of Gloucester</title>
+          </titleStmt>
+          <extent>1 sheet ([1] p.)</extent>
+          <publicationStmt>
+            <publisher>Printed by W. Godbid for Henry Brome at the Gun in Ivy-lane, and Henry Marsh at the Princes-Armes in Chancery-lane neer Fleet-street,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>M.DC.LX. [1660]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>In verse - "Fatal Semptember to the Royal Line,".</note>
+            <note>Annotation on Thomason copy: "Sept. 20".</note>
+            <note>Reproduction of the original in the British Library.</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">eng</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://authorities.loc.gov/">
+          <term>Henry, -- Duke of Gloucester, 1640-1660 -- Poetry -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <xenoData>
+      <ep:epHeader xmlns:ep="http://earlyprint.org/ns/1.0">
+        <ep:tcp>A93534</ep:tcp>
+        <ep:estc>771</ep:estc>
+        <ep:stc> (Thomason 669.f.26[7]). </ep:stc>
+        <ep:corpus>civilwar</ep:corpus>
+        <ep:workpart>no</ep:workpart>
+        <ep:title>Some teares dropt ore the herse of the incomparable Prince Henry Duke of Gloucester.</ep:title>
+        <ep:author>anon.</ep:author>
+        <ep:publicationYear>1660</ep:publicationYear>
+        <ep:creationYear/>
+        <ep:curator>
+          <ep:name/>
+        </ep:curator>
+        <ep:wordCount>528</ep:wordCount>
+        <ep:defectiveTokenCount>0</ep:defectiveTokenCount>
+        <ep:untranscribedForeignCount>0</ep:untranscribedForeignCount>
+        <ep:untranscribedMathCount>0</ep:untranscribedMathCount>
+        <ep:untranscribedMusicCount>0</ep:untranscribedMusicCount>
+        <ep:missingChunkCount>0</ep:missingChunkCount>
+        <ep:missingPagesCount>0</ep:missingPagesCount>
+        <ep:defectRate>0</ep:defectRate>
+        <ep:finalGrade>A</ep:finalGrade>
+        <ep:defectRangePerGrade>This text  has no known defects that were recorded as gap elements at the time of transcription. </ep:defectRangePerGrade>
+      </ep:epHeader>
+    </xenoData>
+    <revisionDesc>
+      <change><date>2007-07</date><label>TCP</label>
+        Assigned for keying and markup
+      </change>
+      <change><date>2007-07</date><label>Apex CoVantage</label>
+        Keyed and coded from ProQuest page images
+      </change>
+      <change><date>2007-09</date><label>Mona Logarbo</label>
+        Sampled and proofread
+      </change>
+      <change><date>2007-09</date><label>Mona Logarbo</label>
+        Text and markup reviewed and edited
+      </change>
+      <change><date>2008-02</date><label>pfs</label>
+        Batch review (QC) and XML conversion
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="c6cjz-R210771-text">
+    <body xml:id="c6cjze-20">
+      <pb facs="tcp:163889:1" rendition="simple:additions" xml:id="c6cjz-001-a"/>
+      <div type="elegy" xml:id="c6cjze-30">
+        <head xml:id="c6cjze-40">
+          <w lemma="some_d" pos="d" xml:id="c6cjz-001-a-0010">SOME</w>
+          <w lemma="tear_n" pos="n2" reg="tears" xml:id="c6cjz-001-a-0020">TEARES</w>
+          <w lemma="drop_v" pos="vvn" reg="dropped" xml:id="c6cjz-001-a-0030">Dropt</w>
+          <w lemma="over_acp" pos="acp-p" reg="o'er" xml:id="c6cjz-001-a-0040">ore</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-0050">the</w>
+          <w lemma="hearse_n" pos="n1" reg="hearse" xml:id="c6cjz-001-a-0060">Herse</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-0070">Of</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-0080">the</w>
+          <w lemma="incomparable_j" pos="j" xml:id="c6cjz-001-a-0090">INCOMPARABLE</w>
+          <w lemma="prince_n" pos="n1" xml:id="c6cjz-001-a-0100">PRINCE</w>
+          <w lemma="HENRY_nn" pos="n1-nn" xml:id="c6cjz-001-a-0110">HENRY</w>
+          <w lemma="duke_n" pos="n1" xml:id="c6cjz-001-a-0120">Duke</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-0130">of</w>
+          <w lemma="gloucester_nn" pos="n1-nn" xml:id="c6cjz-001-a-0140">GLOUCESTER</w>
+          <pc unit="sentence" xml:id="c6cjz-001-a-0150">.</pc>
+        </head>
+        <l xml:id="c6cjze-50">
+          <w lemma="fatal_j" pos="j" xml:id="c6cjz-001-a-0160">FAtal</w>
+          <hi xml:id="c6cjze-60">
+            <w lemma="September_nn" pos="n1-nn" xml:id="c6cjz-001-a-0170">September</w>
+          </hi>
+          <w lemma="to_acp" pos="acp-p" xml:id="c6cjz-001-a-0180">to</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-0190">the</w>
+          <w lemma="royal_j" pos="j" xml:id="c6cjz-001-a-0200">Royal</w>
+          <w lemma="line_n" pos="n1" xml:id="c6cjz-001-a-0210">Line</w>
+          <pc xml:id="c6cjz-001-a-0220">,</pc>
+        </l>
+        <l xml:id="c6cjze-70">
+          <w lemma="have_v" pos="vvz" xml:id="c6cjz-001-a-0230">Has</w>
+          <w lemma="snatch_v" pos="vvn" reg="snatched" xml:id="c6cjz-001-a-0240">snatch'd</w>
+          <w lemma="one_crd" pos="crd" xml:id="c6cjz-001-a-0250">one</w>
+          <w lemma="hero_n" pos="n1" reg="hero" xml:id="c6cjz-001-a-0260">Heröe</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-0270">of</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-0280">our</w>
+          <w lemma="hopeful_j" pos="j" xml:id="c6cjz-001-a-0290">hopeful</w>
+          <hi xml:id="c6cjze-80">
+            <w lemma="trine_zz" pos="zz" xml:id="c6cjz-001-a-0300">Trine</w>
+          </hi>
+        </l>
+        <l xml:id="c6cjze-90">
+          <w lemma="from_acp" pos="acp-p" xml:id="c6cjz-001-a-0310">From</w>
+          <w lemma="earth_n" pos="n1" xml:id="c6cjz-001-a-0320">Earth</w>
+          <pc xml:id="c6cjz-001-a-0330">;</pc>
+          <w lemma="it_pn" pos="pn" xml:id="c6cjz-001-a-0340" join="right">'t</w>
+          <w xml:id="c6cjz-001-a-0340c" lemma="be_v" pos="vvz" join="left">is</w>
+          <w lemma="strange_j" pos="j" xml:id="c6cjz-001-a-0350">strange</w>
+          <w lemma="heaven_n" pos="n1" reg="heaven" xml:id="c6cjz-001-a-0360">Heav'n</w>
+          <w lemma="shall_vm" pos="vmd" xml:id="c6cjz-001-a-0370">should</w>
+          <w lemma="not_x" pos="xx" xml:id="c6cjz-001-a-0380">not</w>
+          <w lemma="praedeclare_v" pos="vvi" xml:id="c6cjz-001-a-0390">praedeclare</w>
+        </l>
+        <l xml:id="c6cjze-100">
+          <w lemma="a_d" pos="d" xml:id="c6cjz-001-a-0400">A</w>
+          <w lemma="loss_n" pos="n1" xml:id="c6cjz-001-a-0410">loss</w>
+          <w lemma="so_av" pos="av" xml:id="c6cjz-001-a-0420">so</w>
+          <w lemma="grievous_j" pos="j" xml:id="c6cjz-001-a-0430">grievous</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c6cjz-001-a-0440">by</w>
+          <w lemma="some_d" pos="d" xml:id="c6cjz-001-a-0450">some</w>
+          <hi xml:id="c6cjze-110">
+            <w lemma="blaze_v" pos="j_vg" xml:id="c6cjz-001-a-0460">Blazing</w>
+            <w lemma="star_n" pos="n1" xml:id="c6cjz-001-a-0470">Star</w>
+            <pc xml:id="c6cjz-001-a-0480">,</pc>
+          </hi>
+        </l>
+        <l xml:id="c6cjze-120">
+          <w lemma="which_crq" pos="crq-r" xml:id="c6cjz-001-a-0490">Which</w>
+          <w lemma="may_vm" pos="vmd" xml:id="c6cjz-001-a-0500">might</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-0510">our</w>
+          <w lemma="sense_n" pos="n2" xml:id="c6cjz-001-a-0520">Senses</w>
+          <w lemma="overjoy_v" pos="vvn" reg="overjoyed" xml:id="c6cjz-001-a-0530">overjoy'd</w>
+          <pc xml:id="c6cjz-001-a-0540">,</pc>
+          <w lemma="alarm_n" pos="n1" reg="alarm" xml:id="c6cjz-001-a-0550">alar'm</w>
+          <pc xml:id="c6cjz-001-a-0560">,</pc>
+        </l>
+        <l xml:id="c6cjze-130">
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-0570">And</w>
+          <w lemma="time_n" pos="n1" xml:id="c6cjz-001-a-0580">time</w>
+          <w lemma="give_v" pos="vvb" xml:id="c6cjz-001-a-0590">give</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c6cjz-001-a-0600">to</w>
+          <w lemma="prepare_v" pos="vvi" xml:id="c6cjz-001-a-0610">prepare</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjz-001-a-0620">for</w>
+          <w lemma="so_av" pos="av" xml:id="c6cjz-001-a-0630">so</w>
+          <w lemma="great_j" pos="j" xml:id="c6cjz-001-a-0640">great</w>
+          <w lemma="harm_n" pos="n1" xml:id="c6cjz-001-a-0650">Harm</w>
+          <pc unit="sentence" xml:id="c6cjz-001-a-0660">.</pc>
+        </l>
+        <l xml:id="c6cjze-140">
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-0670">The</w>
+          <w lemma="springtide_n" pos="n1" reg="springtide" xml:id="c6cjz-001-a-0680">Spring-tide</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-0690">of</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-0700">our</w>
+          <w lemma="joy_n" pos="n1" xml:id="c6cjz-001-a-0710">Joy</w>
+          <w lemma="be_v" pos="vvd" xml:id="c6cjz-001-a-0720">was</w>
+          <w lemma="new_j" pos="av_j" xml:id="c6cjz-001-a-0730">newly</w>
+          <w lemma="flood_n" pos="n1" xml:id="c6cjz-001-a-0740">Flood</w>
+          <pc xml:id="c6cjz-001-a-0750">,</pc>
+        </l>
+        <l xml:id="c6cjze-150">
+          <w lemma="pay_v" pos="vvg" xml:id="c6cjz-001-a-0760">Paying</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-0770">our</w>
+          <w lemma="thankful_j" pos="j" xml:id="c6cjz-001-a-0780">Thankful</w>
+          <w lemma="vow_n" pos="n2" xml:id="c6cjz-001-a-0790">Vows</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjz-001-a-0800">for</w>
+          <w lemma="so_av" pos="av" xml:id="c6cjz-001-a-0810">so</w>
+          <w lemma="much_d" pos="av_d" xml:id="c6cjz-001-a-0820">much</w>
+          <w lemma="good_j" pos="j" xml:id="c6cjz-001-a-0830">good</w>
+        </l>
+        <l xml:id="c6cjze-160">
+          <w lemma="we_pn" pos="pns" xml:id="c6cjz-001-a-0840">We</w>
+          <w lemma="gather_v" pos="vvb" xml:id="c6cjz-001-a-0850">gather</w>
+          <w lemma="now_av" pos="av" xml:id="c6cjz-001-a-0860">now</w>
+          <pc xml:id="c6cjz-001-a-0870">,</pc>
+          <w lemma="under_acp" pos="acp-p" xml:id="c6cjz-001-a-0880">under</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjz-001-a-0890">a</w>
+          <w lemma="gracious_j" pos="j" xml:id="c6cjz-001-a-0900">gracious</w>
+          <w lemma="king_n" pos="n1" xml:id="c6cjz-001-a-0910">KING</w>
+          <pc xml:id="c6cjz-001-a-0920">;</pc>
+        </l>
+        <l xml:id="c6cjze-170">
+          <w lemma="inspire_v" pos="j_vn" xml:id="c6cjz-001-a-0930">Inspired</w>
+          <hi xml:id="c6cjze-180">
+            <w lemma="bard_n" pos="n2" xml:id="c6cjz-001-a-0940">Bards</w>
+          </hi>
+          <w lemma="begin_v" pos="vvd" xml:id="c6cjz-001-a-0950">began</w>
+          <w lemma="strong_j" pos="j" xml:id="c6cjz-001-a-0960">strong</w>
+          <w lemma="lay_n" pos="n2" xml:id="c6cjz-001-a-0970">Lays</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c6cjz-001-a-0980">to</w>
+          <w lemma="sing_v" pos="vvi" xml:id="c6cjz-001-a-0990">Sing</w>
+          <pc xml:id="c6cjz-001-a-1000">,</pc>
+        </l>
+        <l xml:id="c6cjze-190">
+          <w lemma="when_crq" pos="crq-cs" xml:id="c6cjz-001-a-1010">When</w>
+          <pc xml:id="c6cjz-001-a-1020" join="right">(</pc>
+          <w lemma="ôh_uh" pos="uh" xml:id="c6cjz-001-a-1030">ôh</w>
+          <w lemma="sad_j" pos="j" xml:id="c6cjz-001-a-1040">sad</w>
+          <w lemma="fate_n" pos="n1" xml:id="c6cjz-001-a-1050">Fate</w>
+          <pc xml:id="c6cjz-001-a-1060">!</pc>
+          <pc unit="sentence" xml:id="c6cjz-001-a-1070">)</pc>
+          <w lemma="ebb_v" pos="j_vn" reg="Ebbed" xml:id="c6cjz-001-a-1080">Ebb'd</w>
+          <w lemma="be_v" pos="vvb" xml:id="c6cjz-001-a-1090">are</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-1100">our</w>
+          <w lemma="flow_v" pos="vvg" xml:id="c6cjz-001-a-1110">Flowing</w>
+          <w lemma="sea_n" pos="n2" xml:id="c6cjz-001-a-1120">Seas</w>
+          <pc xml:id="c6cjz-001-a-1130">,</pc>
+        </l>
+        <l xml:id="c6cjze-200">
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-1140">And</w>
+          <hi xml:id="c6cjze-210">
+            <w lemma="epic_n" pos="n2" reg="epics" xml:id="c6cjz-001-a-1150">Epiques</w>
+          </hi>
+          <w lemma="change_v" pos="vvn" reg="changed" xml:id="c6cjz-001-a-1160">chang'd</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c6cjz-001-a-1170">to</w>
+          <w lemma="doleful_j" pos="j" xml:id="c6cjz-001-a-1180">Doleful</w>
+          <hi xml:id="c6cjze-220">
+            <w lemma="elegy_n" pos="n2" xml:id="c6cjz-001-a-1190">Elegies</w>
+            <pc unit="sentence" xml:id="c6cjz-001-a-1200">.</pc>
+          </hi>
+        </l>
+        <l xml:id="c6cjze-230">
+          <w lemma="cruel_j" pos="j" xml:id="c6cjz-001-a-1210">Cruel</w>
+          <w lemma="extreme_j" pos="n2_j" xml:id="c6cjz-001-a-1220">Extremes</w>
+          <pc xml:id="c6cjz-001-a-1230">!</pc>
+          <w lemma="thus_av" pos="av" xml:id="c6cjz-001-a-1240">thus</w>
+          <w lemma="rob_v" pos="vvn" reg="robbed" xml:id="c6cjz-001-a-1250">robb'd</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-1260">of</w>
+          <w lemma="joy_n" pos="n2" xml:id="c6cjz-001-a-1270">Joys</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-1280">the</w>
+          <w lemma="chief_j" pos="j" xml:id="c6cjz-001-a-1290">chief</w>
+          <pc xml:id="c6cjz-001-a-1300">,</pc>
+        </l>
+        <l xml:id="c6cjze-240">
+          <w lemma="throw_v" pos="vvn" xml:id="c6cjz-001-a-1310">Thrown</w>
+          <w lemma="down_acp" pos="acp-av" xml:id="c6cjz-001-a-1320">down</w>
+          <w lemma="like_acp" pos="acp-p" xml:id="c6cjz-001-a-1330">like</w>
+          <w lemma="lightning_n" pos="n1" reg="" xml:id="c6cjz-001-a-1340">Light'ning</w>
+          <w lemma="into_acp" pos="acp-p" xml:id="c6cjz-001-a-1350">into</w>
+          <w lemma="sea_n" pos="n2" xml:id="c6cjz-001-a-1360">Seas</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-1370">of</w>
+          <w lemma="grief_n" pos="n1" xml:id="c6cjz-001-a-1380">Grief</w>
+          <pc unit="sentence" xml:id="c6cjz-001-a-1390">.</pc>
+        </l>
+        <l xml:id="c6cjze-250">
+          <w lemma="it_pn" pos="pn" xml:id="c6cjz-001-a-1400" join="right">'T</w>
+          <w xml:id="c6cjz-001-a-1400c" lemma="be_v" pos="vvz" join="left">is</w>
+          <w lemma="past_j" pos="j" xml:id="c6cjz-001-a-1410">past</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-1420">the</w>
+          <w lemma="reach_n" pos="n1" xml:id="c6cjz-001-a-1430">reach</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-1440">of</w>
+          <w lemma="mortal_j" pos="n2_j" xml:id="c6cjz-001-a-1450">Mortals</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c6cjz-001-a-1460">to</w>
+          <w lemma="divine_v" pos="vvi" reg="divine" xml:id="c6cjz-001-a-1470">devine</w>
+          <pc xml:id="c6cjz-001-a-1480">,</pc>
+        </l>
+        <l xml:id="c6cjze-260">
+          <w lemma="why_crq" pos="crq-q" xml:id="c6cjz-001-a-1490">Why</w>
+          <w lemma="heaven_n" pos="n1" reg="heaven" xml:id="c6cjz-001-a-1500">Heav'n</w>
+          <w lemma="so_av" pos="av" xml:id="c6cjz-001-a-1510">so</w>
+          <w lemma="soon_av" pos="av" xml:id="c6cjz-001-a-1520">soon</w>
+          <w lemma="have_v" pos="vvz" xml:id="c6cjz-001-a-1530">has</w>
+          <w lemma="break_v" pos="vvn" xml:id="c6cjz-001-a-1540">broke</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-1550">our</w>
+          <hi xml:id="c6cjze-270">
+            <w lemma="threefold_j" pos="j" xml:id="c6cjz-001-a-1560">Threefold</w>
+            <w lemma="line_n" pos="n1" xml:id="c6cjz-001-a-1570">Line</w>
+            <pc xml:id="c6cjz-001-a-1580">;</pc>
+          </hi>
+        </l>
+        <l xml:id="c6cjze-280">
+          <w lemma="we_pn" pos="pns" xml:id="c6cjz-001-a-1590">We</w>
+          <w lemma="may_vm" pos="vmb" xml:id="c6cjz-001-a-1600">may</w>
+          <w lemma="not_x" pos="xx" xml:id="c6cjz-001-a-1610">not</w>
+          <w lemma="pry_v" pos="vvi" xml:id="c6cjz-001-a-1620">pry</w>
+          <w lemma="without_acp" pos="acp-p" xml:id="c6cjz-001-a-1630">without</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjz-001-a-1640">a</w>
+          <w lemma="black_j" pos="j" xml:id="c6cjz-001-a-1650">black</w>
+          <w lemma="offence_n" pos="n1" xml:id="c6cjz-001-a-1660">offence</w>
+        </l>
+        <l xml:id="c6cjze-290">
+          <w lemma="into_acp" pos="acp-p" xml:id="c6cjz-001-a-1670">Into</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-1680">th'</w>
+          <hi xml:id="c6cjze-300">
+            <w lemma="arcana_nn" pos="n1g-nn" xml:id="c6cjz-001-a-1690">Arcana's</w>
+          </hi>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-1700">of</w>
+          <w lemma="his_pn" pos="po" xml:id="c6cjz-001-a-1710">his</w>
+          <w lemma="providence_n" pos="n1" xml:id="c6cjz-001-a-1720">Providence</w>
+          <pc xml:id="c6cjz-001-a-1730">,</pc>
+        </l>
+        <l xml:id="c6cjze-310">
+          <w lemma="but_acp" pos="acp-cc" xml:id="c6cjz-001-a-1740">But</w>
+          <w lemma="may_vm" pos="vmb" xml:id="c6cjz-001-a-1750">may</w>
+          <w lemma="believe_v" pos="vvi" xml:id="c6cjz-001-a-1760">believe</w>
+          <pc xml:id="c6cjz-001-a-1770">,</pc>
+          <w lemma="since_acp" pos="acp-cs" xml:id="c6cjz-001-a-1780">since</w>
+          <w lemma="with_acp" pos="acp-p" xml:id="c6cjz-001-a-1790">with</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjz-001-a-1800">a</w>
+          <w lemma="bounteous_j" pos="j" xml:id="c6cjz-001-a-1810">Bounteous</w>
+          <w lemma="hand_n" pos="n1" xml:id="c6cjz-001-a-1820">Hand</w>
+        </l>
+        <l xml:id="c6cjze-320">
+          <w lemma="God_nn" pos="n1-nn" xml:id="c6cjz-001-a-1830">God</w>
+          <w lemma="have_v" pos="vvz" xml:id="c6cjz-001-a-1840">has</w>
+          <w lemma="restore_v" pos="vvn" reg="restored" xml:id="c6cjz-001-a-1850">restor'd</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-1860">the</w>
+          <w lemma="blessing_n" pos="n2" xml:id="c6cjz-001-a-1870">Blessings</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-1880">of</w>
+          <w lemma="this_d" pos="d" xml:id="c6cjz-001-a-1890">this</w>
+          <w lemma="land_n" pos="n1" xml:id="c6cjz-001-a-1900">Land</w>
+          <pc xml:id="c6cjz-001-a-1910">,</pc>
+        </l>
+        <l xml:id="c6cjze-330">
+          <w lemma="that_cs" pos="cs" xml:id="c6cjz-001-a-1920">That</w>
+          <w lemma="he_pn" pos="pns" xml:id="c6cjz-001-a-1930">he</w>
+          <w lemma="have_v" pos="vvz" xml:id="c6cjz-001-a-1940">has</w>
+          <w lemma="fling_v" pos="vvn" xml:id="c6cjz-001-a-1950">flung</w>
+          <w lemma="we_pn" pos="pno" xml:id="c6cjz-001-a-1960">us</w>
+          <w lemma="into_acp" pos="acp-p" xml:id="c6cjz-001-a-1970">into</w>
+          <w lemma="grief_n" pos="n2" xml:id="c6cjz-001-a-1980">Griefs</w>
+          <w lemma="extreme_j" pos="j" xml:id="c6cjz-001-a-1990">extreme</w>
+          <pc xml:id="c6cjz-001-a-2000">,</pc>
+        </l>
+        <l xml:id="c6cjze-340">
+          <w lemma="not_x" pos="xx" xml:id="c6cjz-001-a-2010">Not</w>
+          <w lemma="out_av" pos="av" xml:id="c6cjz-001-a-2020">out</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-2030">of</w>
+          <w lemma="wrath_n" pos="n1" xml:id="c6cjz-001-a-2040">Wrath</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c6cjz-001-a-2050">to</w>
+          <w lemma="we_pn" pos="pno" xml:id="c6cjz-001-a-2060">Us</w>
+          <pc xml:id="c6cjz-001-a-2070">,</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c6cjz-001-a-2080">but</w>
+          <w lemma="love_n" pos="n1" xml:id="c6cjz-001-a-2090">Love</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c6cjz-001-a-2100">to</w>
+          <w lemma="he_pn" pos="pno" xml:id="c6cjz-001-a-2110">Him</w>
+          <pc unit="sentence" xml:id="c6cjz-001-a-2120">.</pc>
+        </l>
+        <l xml:id="c6cjze-350">
+          <w lemma="he_pn" pos="pns" xml:id="c6cjz-001-a-2130">He</w>
+          <w lemma="be_v" pos="vvd" xml:id="c6cjz-001-a-2140">was</w>
+          <w lemma="fair_j" pos="j" xml:id="c6cjz-001-a-2150">Fair</w>
+          <w lemma="fruit_n" pos="n1" xml:id="c6cjz-001-a-2160">Fruit</w>
+          <w lemma="spring_v" pos="vvn" xml:id="c6cjz-001-a-2170">sprung</w>
+          <w lemma="from_acp" pos="acp-p" xml:id="c6cjz-001-a-2180">from</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjz-001-a-2190">a</w>
+          <w lemma="royal_j" pos="j" xml:id="c6cjz-001-a-2200">Royal</w>
+          <w lemma="bud_n" pos="n1" xml:id="c6cjz-001-a-2210">Bud</w>
+          <pc xml:id="c6cjz-001-a-2220">,</pc>
+        </l>
+        <l xml:id="c6cjze-360">
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-2230">And</w>
+          <w lemma="grow_v" pos="vvn" xml:id="c6cjz-001-a-2240">grown</w>
+          <w lemma="as_acp" pos="acp-p" xml:id="c6cjz-001-a-2250">as</w>
+          <w lemma="great_j" pos="j" xml:id="c6cjz-001-a-2260">great</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c6cjz-001-a-2270">by</w>
+          <w lemma="fair_j" pos="j" xml:id="c6cjz-001-a-2280">fair</w>
+          <w lemma="renown_n" pos="n1" xml:id="c6cjz-001-a-2290">Renown</w>
+          <w lemma="as_acp" pos="acp-p" xml:id="c6cjz-001-a-2300">as</w>
+          <w lemma="blood_n" pos="n1" xml:id="c6cjz-001-a-2310">Blood</w>
+          <pc xml:id="c6cjz-001-a-2320">;</pc>
+        </l>
+        <l xml:id="c6cjze-370">
+          <w lemma="ripe_j" pos="j" xml:id="c6cjz-001-a-2330">Ripe</w>
+          <w lemma="too_av" pos="av" xml:id="c6cjz-001-a-2340">too</w>
+          <w lemma="too_av" pos="av" xml:id="c6cjz-001-a-2350">too</w>
+          <w lemma="soon_av" pos="av" xml:id="c6cjz-001-a-2360">soon</w>
+          <pc xml:id="c6cjz-001-a-2370">;</pc>
+          <w lemma="for_acp" pos="acp-cs" xml:id="c6cjz-001-a-2380">for</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c6cjz-001-a-2390">in</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjz-001-a-2400">a</w>
+          <w lemma="youth_n" pos="n1" xml:id="c6cjz-001-a-2410">Youth</w>
+          <w lemma="so_av" pos="av" xml:id="c6cjz-001-a-2420">so</w>
+          <w lemma="green_j" pos="j" xml:id="c6cjz-001-a-2430">green</w>
+        </l>
+        <l xml:id="c6cjze-380">
+          <w lemma="a_d" pos="d" xml:id="c6cjz-001-a-2440">An</w>
+          <w lemma="harvest_n" pos="n1" xml:id="c6cjz-001-a-2450">Harvest</w>
+          <w lemma="be_v" pos="vvd" xml:id="c6cjz-001-a-2460">was</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-2470">of</w>
+          <w lemma="gray-haired_j" pos="j" reg="gray-haired" xml:id="c6cjz-001-a-2480">gray-hair'd</w>
+          <w lemma="wisdom_n" pos="n1" reg="wisdom" xml:id="c6cjz-001-a-2490">Wisdome</w>
+          <w lemma="see_v" pos="vvn" xml:id="c6cjz-001-a-2500">seen</w>
+          <pc unit="sentence" xml:id="c6cjz-001-a-2510">.</pc>
+        </l>
+        <l xml:id="c6cjze-390">
+          <hi xml:id="c6cjze-400">
+            <w lemma="Minerva_nn" pos="n1g-nn" xml:id="c6cjz-001-a-2520">Minerva's</w>
+          </hi>
+          <w lemma="darling_n" pos="n1" xml:id="c6cjz-001-a-2530">Darling</w>
+          <pc xml:id="c6cjz-001-a-2540">,</pc>
+          <w lemma="patron_n" pos="n1" xml:id="c6cjz-001-a-2550">Patron</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-2560">of</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-2570">the</w>
+          <w lemma="gown_n" pos="n1" xml:id="c6cjz-001-a-2580">Gown</w>
+          <pc xml:id="c6cjz-001-a-2590">,</pc>
+        </l>
+        <l xml:id="c6cjze-410">
+          <w lemma="lover_n" pos="n1" xml:id="c6cjz-001-a-2600">Lover</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-2610">of</w>
+          <w lemma="learning_n" pos="n1" xml:id="c6cjz-001-a-2620">Learning</w>
+          <pc xml:id="c6cjz-001-a-2630">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-2640">and</w>
+          <hi xml:id="c6cjze-420">
+            <w lemma="Apollo_nn" pos="n1g-nn" xml:id="c6cjz-001-a-2650" rendition="#hi-apo-s">Apollo's</w>
+          </hi>
+          <w lemma="crown_n" pos="n1" xml:id="c6cjz-001-a-2670">Crown</w>
+        </l>
+        <l xml:id="c6cjze-430">
+          <w lemma="he_pn" pos="pns" xml:id="c6cjz-001-a-2680">He</w>
+          <w lemma="be_v" pos="vvd" xml:id="c6cjz-001-a-2690">was</w>
+          <pc xml:id="c6cjz-001-a-2700">;</pc>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-2710">the</w>
+          <w lemma="muse_n" pos="n2" xml:id="c6cjz-001-a-2720">Muses</w>
+          <w lemma="he_pn" pos="pns" xml:id="c6cjz-001-a-2730">he</w>
+          <w lemma="begin_v" pos="vvd" xml:id="c6cjz-001-a-2740">began</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c6cjz-001-a-2750">to</w>
+          <w lemma="nourish_v" pos="vvi" xml:id="c6cjz-001-a-2760">nourish</w>
+          <pc xml:id="c6cjz-001-a-2770">,</pc>
+        </l>
+        <l xml:id="c6cjze-440">
+          <w lemma="learned_j" pos="j" reg="Learned" xml:id="c6cjz-001-a-2780">Learn'd</w>
+          <w lemma="man_n" pos="n2" xml:id="c6cjz-001-a-2790">Men</w>
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-2800">and</w>
+          <w lemma="art_n" pos="n2" xml:id="c6cjz-001-a-2810">Arts</w>
+          <w lemma="under_acp" pos="acp-p" xml:id="c6cjz-001-a-2820">under</w>
+          <w lemma="his_pn" pos="po" xml:id="c6cjz-001-a-2830">his</w>
+          <w lemma="wing_n" pos="n2" xml:id="c6cjz-001-a-2840">wings</w>
+          <w lemma="do_v" pos="vvd" xml:id="c6cjz-001-a-2850">did</w>
+          <w lemma="flourish_v" pos="vvi" xml:id="c6cjz-001-a-2860">flourish</w>
+          <pc xml:id="c6cjz-001-a-2870">;</pc>
+        </l>
+        <l xml:id="c6cjze-450">
+          <w lemma="but_acp" pos="acp-cc" xml:id="c6cjz-001-a-2880">But</w>
+          <w lemma="lest_cs" pos="cs" xml:id="c6cjz-001-a-2890">lest</w>
+          <w lemma="we_pn" pos="pns" xml:id="c6cjz-001-a-2900">we</w>
+          <w lemma="shall_vm" pos="vmd" xml:id="c6cjz-001-a-2910">should</w>
+          <w lemma="commit_v" pos="vvi" xml:id="c6cjz-001-a-2920">commit</w>
+          <w lemma="idolatry_n" pos="n1" xml:id="c6cjz-001-a-2930">Idolatry</w>
+          <pc xml:id="c6cjz-001-a-2940">,</pc>
+        </l>
+        <l xml:id="c6cjze-460">
+          <w lemma="heaven_n" pos="n1" reg="Heaven" xml:id="c6cjz-001-a-2950">Heav'n</w>
+          <w lemma="take_v" pos="vvd" xml:id="c6cjz-001-a-2960">took</w>
+          <w lemma="he_pn" pos="pno" xml:id="c6cjz-001-a-2970">him</w>
+          <w lemma="from_acp" pos="acp-p" xml:id="c6cjz-001-a-2980">from</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-2990">our</w>
+          <w lemma="sight_n" pos="n1" xml:id="c6cjz-001-a-3000">Sight</w>
+          <pc xml:id="c6cjz-001-a-3010">,</pc>
+          <w lemma="not_x" pos="xx" xml:id="c6cjz-001-a-3020">not</w>
+          <w lemma="memory_n" pos="n1" xml:id="c6cjz-001-a-3030">Memory</w>
+          <pc xml:id="c6cjz-001-a-3040">;</pc>
+        </l>
+        <l xml:id="c6cjze-470">
+          <w lemma="for_acp" pos="acp-cs" xml:id="c6cjz-001-a-3050">For</w>
+          <w lemma="though_cs" pos="cs" xml:id="c6cjz-001-a-3060">though</w>
+          <w lemma="he_pn" pos="pns" xml:id="c6cjz-001-a-3070" join="right">he</w>
+          <w xml:id="c6cjz-001-a-3070c" lemma="be_v" pos="vvz" join="left">'s</w>
+          <w lemma="carry_v" pos="vvn" xml:id="c6cjz-001-a-3080">carried</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c6cjz-001-a-3090">to</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-3100">th'</w>
+          <w lemma="immortal_j" pos="j" xml:id="c6cjz-001-a-3110">Immortal</w>
+          <w lemma="sphere_n" pos="n1" xml:id="c6cjz-001-a-3120">Sphere</w>
+          <pc xml:id="c6cjz-001-a-3130">,</pc>
+        </l>
+        <l xml:id="c6cjze-480">
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-3140">Our</w>
+          <w lemma="love_n" pos="n2" xml:id="c6cjz-001-a-3150">Loves</w>
+          <w lemma="will_vm" pos="vmb" xml:id="c6cjz-001-a-3160">will</w>
+          <w lemma="make_v" pos="vvi" xml:id="c6cjz-001-a-3170">make</w>
+          <w lemma="his_pn" pos="po" xml:id="c6cjz-001-a-3180">his</w>
+          <w lemma="fame_n" pos="n1" xml:id="c6cjz-001-a-3190">Fame</w>
+          <w lemma="immortal_j" pos="j" xml:id="c6cjz-001-a-3200">Immortal</w>
+          <w lemma="here_av" pos="av" xml:id="c6cjz-001-a-3210">here</w>
+          <pc unit="sentence" xml:id="c6cjz-001-a-3220">.</pc>
+        </l>
+        <l xml:id="c6cjze-490">
+          <w lemma="it_pn" pos="pn" xml:id="c6cjz-001-a-3230" join="right">'T</w>
+          <w xml:id="c6cjz-001-a-3230c" lemma="be_v" pos="vvz" join="left">is</w>
+          <w lemma="autumn_n" pos="n1" xml:id="c6cjz-001-a-3240">Autumn</w>
+          <w lemma="now_av" pos="av" xml:id="c6cjz-001-a-3250">now</w>
+          <pc xml:id="c6cjz-001-a-3260">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-3270">and</w>
+          <hi xml:id="c6cjze-500">
+            <w lemma="Ceres_nn" pos="n1-nn" xml:id="c6cjz-001-a-3280">Ceres</w>
+          </hi>
+          <w lemma="to_acp" pos="acp-p" xml:id="c6cjz-001-a-3290">to</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-3300">our</w>
+          <w lemma="hand_n" pos="n2" xml:id="c6cjz-001-a-3310">hands</w>
+        </l>
+        <l xml:id="c6cjze-510">
+          <w lemma="have_v" pos="vvz" xml:id="c6cjz-001-a-3320">Has</w>
+          <w lemma="pour_v" pos="vvn" reg="poured" xml:id="c6cjz-001-a-3330">pour'd</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-3340">the</w>
+          <w lemma="annual_j" pos="j" xml:id="c6cjz-001-a-3350">Annual</w>
+          <w lemma="blessing_n" pos="n2" xml:id="c6cjz-001-a-3360">Blessings</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-3370">of</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-3380">our</w>
+          <w lemma="land_n" pos="n2" xml:id="c6cjz-001-a-3390">Lands</w>
+          <pc xml:id="c6cjz-001-a-3400">;</pc>
+        </l>
+        <l xml:id="c6cjze-520">
+          <w lemma="we_pn" pos="pns" xml:id="c6cjz-001-a-3410" join="right">we</w>
+          <w xml:id="c6cjz-001-a-3410c" lemma="have_v" pos="vvb" reg="'ve" join="left">'ave</w>
+          <w lemma="rob_v" pos="vvn" reg="robbed" xml:id="c6cjz-001-a-3420">robb'd</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-3430">the</w>
+          <w lemma="teem_v" pos="j_vg" xml:id="c6cjz-001-a-3440">teeming</w>
+          <w lemma="tree_n" pos="n2" xml:id="c6cjz-001-a-3450">Trees</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-3460">of</w>
+          <w lemma="all_d" pos="d" xml:id="c6cjz-001-a-3470">all</w>
+          <w lemma="their_pn" pos="po" xml:id="c6cjz-001-a-3480">their</w>
+          <w lemma="fruit_n" pos="n1" xml:id="c6cjz-001-a-3490">fruit</w>
+          <pc xml:id="c6cjz-001-a-3500">,</pc>
+        </l>
+        <l xml:id="c6cjze-530">
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-3510">And</w>
+          <w lemma="leave_v" pos="vvd" xml:id="c6cjz-001-a-3520">left</w>
+          <w lemma="they_pn" pos="pno" xml:id="c6cjz-001-a-3530">them</w>
+          <w lemma="naked_j" pos="j" xml:id="c6cjz-001-a-3540">naked</w>
+          <w lemma="till_acp" pos="acp-cs" xml:id="c6cjz-001-a-3550">till</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-3560">the</w>
+          <w lemma="spring_n" pos="n1" xml:id="c6cjz-001-a-3570">Spring</w>
+          <w lemma="recruit_v" pos="vvi" xml:id="c6cjz-001-a-3580">recruit</w>
+        </l>
+        <l xml:id="c6cjze-540">
+          <w lemma="their_pn" pos="po" xml:id="c6cjz-001-a-3590">Their</w>
+          <w lemma="store_n" pos="n1" xml:id="c6cjz-001-a-3600">store</w>
+          <w lemma="again_av" pos="av" xml:id="c6cjz-001-a-3610">again</w>
+          <pc xml:id="c6cjz-001-a-3620">;</pc>
+          <w lemma="till_acp" pos="acp-cs" xml:id="c6cjz-001-a-3630">till</w>
+          <w lemma="than_cs" pos="cs" reg="than" xml:id="c6cjz-001-a-3640">then</w>
+          <w lemma="they_pn" pos="pns" xml:id="c6cjz-001-a-3650">they</w>
+          <w lemma="hang_v" pos="vvb" xml:id="c6cjz-001-a-3660">hang</w>
+          <w lemma="their_pn" pos="po" xml:id="c6cjz-001-a-3670">their</w>
+          <w lemma="head_n" pos="n1" xml:id="c6cjz-001-a-3680">head</w>
+          <pc xml:id="c6cjz-001-a-3690">,</pc>
+        </l>
+        <l xml:id="c6cjze-550">
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-3700">And</w>
+          <w lemma="stand_v" pos="vvi" xml:id="c6cjz-001-a-3710">stand</w>
+          <w lemma="like_acp" pos="acp-p" xml:id="c6cjz-001-a-3720">like</w>
+          <hi xml:id="c6cjze-560">
+            <w lemma="mourner_n" pos="n2" xml:id="c6cjz-001-a-3730">Mourners</w>
+            <pc xml:id="c6cjz-001-a-3740">,</pc>
+            <w lemma="leaf_n" pos="n2" xml:id="c6cjz-001-a-3750">leaves</w>
+          </hi>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjz-001-a-3760">for</w>
+          <hi xml:id="c6cjze-570">
+            <w lemma="tear_n" pos="n2" xml:id="c6cjz-001-a-3770">tears</w>
+          </hi>
+          <w lemma="they_pn" pos="pns" xml:id="c6cjz-001-a-3780">they</w>
+          <w lemma="shed_v" pos="vvd" xml:id="c6cjz-001-a-3790">shed</w>
+          <pc xml:id="c6cjz-001-a-3800">;</pc>
+        </l>
+        <l xml:id="c6cjze-580">
+          <w lemma="so_av" pos="av" xml:id="c6cjz-001-a-3810">So</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-3820">the</w>
+          <w lemma="high_j" pos="j" xml:id="c6cjz-001-a-3830">high</w>
+          <w lemma="power_n" pos="n2" xml:id="c6cjz-001-a-3840">powers</w>
+          <w lemma="crop_v" pos="vvn" reg="cropped" xml:id="c6cjz-001-a-3850">Cropt</w>
+          <w lemma="from_acp" pos="acp-p" xml:id="c6cjz-001-a-3860">from</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-3870">the</w>
+          <w lemma="royal_j" pos="j" xml:id="c6cjz-001-a-3880">Royal</w>
+          <w lemma="stem_n" pos="n1" xml:id="c6cjz-001-a-3890">Stem</w>
+          <pc xml:id="c6cjz-001-a-3900">,</pc>
+        </l>
+        <l xml:id="c6cjze-590">
+          <w lemma="what_crq" pos="crq-r" xml:id="c6cjz-001-a-3910">What</w>
+          <w lemma="be_v" pos="vvd" xml:id="c6cjz-001-a-3920">was</w>
+          <w lemma="too_av" pos="av" xml:id="c6cjz-001-a-3930">too</w>
+          <w lemma="good_j" pos="j" xml:id="c6cjz-001-a-3940">good</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjz-001-a-3950">for</w>
+          <w lemma="we_pn" pos="pno" xml:id="c6cjz-001-a-3960">us</w>
+          <pc xml:id="c6cjz-001-a-3970">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-3980">and</w>
+          <w lemma="fit_j" pos="j" xml:id="c6cjz-001-a-3990">fit</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjz-001-a-4000">for</w>
+          <w lemma="they_pn" pos="pno" xml:id="c6cjz-001-a-4010">them</w>
+          <pc xml:id="c6cjz-001-a-4020">,</pc>
+        </l>
+        <l xml:id="c6cjze-600">
+          <w lemma="while_cs" pos="cs" reg="Whilst" xml:id="c6cjz-001-a-4030">Whilest</w>
+          <w lemma="we_pn" pos="pns" xml:id="c6cjz-001-a-4040">we</w>
+          <w lemma="lament_v" pos="vvb" xml:id="c6cjz-001-a-4050">lament</w>
+          <pc xml:id="c6cjz-001-a-4060">,</pc>
+          <w lemma="till_acp" pos="acp-cs" xml:id="c6cjz-001-a-4070">till</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjz-001-a-4080">a</w>
+          <w lemma="new_j" pos="j" xml:id="c6cjz-001-a-4090">new</w>
+          <w lemma="spring_n" pos="n1" xml:id="c6cjz-001-a-4100">Spring</w>
+          <w lemma="arise_v" pos="vvi" xml:id="c6cjz-001-a-4110">arise</w>
+          <pc xml:id="c6cjz-001-a-4120">,</pc>
+        </l>
+        <l xml:id="c6cjze-610">
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-4130">And</w>
+          <w lemma="CHARLES_nn" pos="n1-nn" reg="Charles" xml:id="c6cjz-001-a-4140">CHARLS</w>
+          <w lemma="his_pn" pos="po" xml:id="c6cjz-001-a-4150">his</w>
+          <hi xml:id="c6cjze-620">
+            <w lemma="first-born_j" pos="j" xml:id="c6cjz-001-a-4160">First-born</w>
+          </hi>
+          <w lemma="clear_j" pos="j" xml:id="c6cjz-001-a-4170">clear</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-4180">our</w>
+          <w lemma="weep_v" pos="j_vg" xml:id="c6cjz-001-a-4190">weeping</w>
+          <w lemma="eye_n" pos="n2" xml:id="c6cjz-001-a-4200">eyes</w>
+          <pc unit="sentence" xml:id="c6cjz-001-a-4210">.</pc>
+        </l>
+        <l xml:id="c6cjze-630">
+          <w lemma="a_d" pos="d" xml:id="c6cjz-001-a-4220">A</w>
+          <w lemma="general_j" pos="j" xml:id="c6cjz-001-a-4230">general</w>
+          <w lemma="sadness_n" pos="n1" xml:id="c6cjz-001-a-4240">Sadness</w>
+          <w lemma="lock_v" pos="vvz" xml:id="c6cjz-001-a-4250">locks</w>
+          <w lemma="up_acp" pos="acp-av" xml:id="c6cjz-001-a-4260">up</w>
+          <w lemma="every_d" pos="d" xml:id="c6cjz-001-a-4270">every</w>
+          <w lemma="tongue_n" pos="n1" xml:id="c6cjz-001-a-4280">Tongue</w>
+          <pc xml:id="c6cjz-001-a-4290">,</pc>
+        </l>
+        <l xml:id="c6cjze-640">
+          <w lemma="amazedness_n" pos="n1" xml:id="c6cjz-001-a-4300">Amazedness</w>
+          <w lemma="have_v" pos="vvz" xml:id="c6cjz-001-a-4310">has</w>
+          <w lemma="strike_v" pos="vvn" xml:id="c6cjz-001-a-4320">struck</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-4330">the</w>
+          <hi xml:id="c6cjze-650">
+            <w lemma="laureate_j" pos="n2_j" reg="laureates" xml:id="c6cjz-001-a-4340">Laureats</w>
+          </hi>
+          <w lemma="dumb_j" pos="j" xml:id="c6cjz-001-a-4350">dumb</w>
+          <pc xml:id="c6cjz-001-a-4360">:</pc>
+        </l>
+        <l xml:id="c6cjze-660">
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-4370">And</w>
+          <w lemma="who_crq" pos="crq-r" xml:id="c6cjz-001-a-4380">who</w>
+          <w lemma="will_vm" pos="vmd" xml:id="c6cjz-001-a-4390">would</w>
+          <w lemma="weep_v" pos="vvi" xml:id="c6cjz-001-a-4400">weep</w>
+          <pc xml:id="c6cjz-001-a-4410">,</pc>
+          <w lemma="through_acp" pos="acp-p" xml:id="c6cjz-001-a-4420">through</w>
+          <w lemma="too_av" pos="av" xml:id="c6cjz-001-a-4430">too</w>
+          <w lemma="much_d" pos="d" xml:id="c6cjz-001-a-4440">much</w>
+          <w lemma="grief_n" pos="n1" xml:id="c6cjz-001-a-4450">Grief</w>
+          <w lemma="forbear_v" pos="vvz" xml:id="c6cjz-001-a-4460">forbears</w>
+          <pc xml:id="c6cjz-001-a-4470">,</pc>
+        </l>
+        <l xml:id="c6cjze-670">
+          <w lemma="excess_n" pos="n1" xml:id="c6cjz-001-a-4480">Excess</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjz-001-a-4490">of</w>
+          <w lemma="grief_n" pos="n1" xml:id="c6cjz-001-a-4500">Grief</w>
+          <w lemma="give_v" pos="vvz" xml:id="c6cjz-001-a-4510">gives</w>
+          <w lemma="yet_av" pos="av" xml:id="c6cjz-001-a-4520">yet</w>
+          <w lemma="no_d" pos="d-x" xml:id="c6cjz-001-a-4530">no</w>
+          <w lemma="vent_n" pos="n1" xml:id="c6cjz-001-a-4540">vent</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjz-001-a-4550">for</w>
+          <w lemma="tear_n" pos="n2" xml:id="c6cjz-001-a-4560">Tears</w>
+          <pc xml:id="c6cjz-001-a-4570">,</pc>
+        </l>
+        <l xml:id="c6cjze-680">
+          <w lemma="but_acp" pos="acp-cc" xml:id="c6cjz-001-a-4580">But</w>
+          <w lemma="when_crq" pos="crq-cs" xml:id="c6cjz-001-a-4590">when</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-4600">the</w>
+          <w lemma="come_v" pos="j_vg" xml:id="c6cjz-001-a-4610">Coming</w>
+          <w lemma="spring_n" pos="n2" xml:id="c6cjz-001-a-4620">Springs</w>
+          <w lemma="begin_v" pos="vvb" xml:id="c6cjz-001-a-4630">begin</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c6cjz-001-a-4640">to</w>
+          <w lemma="rise_v" pos="vvi" xml:id="c6cjz-001-a-4650">rise</w>
+          <pc xml:id="c6cjz-001-a-4660">,</pc>
+        </l>
+        <l xml:id="c6cjze-690">
+          <w lemma="grief_zz" pos="zz" xml:id="c6cjz-001-a-4670">Grief</w>
+          <w lemma="then_av" pos="av" xml:id="c6cjz-001-a-4680">then</w>
+          <w lemma="will_vm" pos="vmb" xml:id="c6cjz-001-a-4690">will</w>
+          <w lemma="draw_v" pos="vvi" xml:id="c6cjz-001-a-4700">draw</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjz-001-a-4710">a</w>
+          <w lemma="deluge_n" pos="n1" xml:id="c6cjz-001-a-4720">deluge</w>
+          <w lemma="from_acp" pos="acp-p" xml:id="c6cjz-001-a-4730">from</w>
+          <w lemma="our_pn" pos="po" xml:id="c6cjz-001-a-4740">our</w>
+          <w lemma="eye_n" pos="n2" xml:id="c6cjz-001-a-4750">Eyes</w>
+          <pc xml:id="c6cjz-001-a-4760">;</pc>
+        </l>
+        <l xml:id="c6cjze-700">
+          <w lemma="till_acp" pos="acp-cs" xml:id="c6cjz-001-a-4770">Till</w>
+          <w lemma="then_av" pos="av" xml:id="c6cjz-001-a-4780">then</w>
+          <w lemma="these_d" pos="d" xml:id="c6cjz-001-a-4790">these</w>
+          <w lemma="loyal_j" pos="j" xml:id="c6cjz-001-a-4800">Loyal</w>
+          <w lemma="drop_v" pos="vvz" xml:id="c6cjz-001-a-4810">Drops</w>
+          <w lemma="fall_v" pos="vvn" reg="fallen" xml:id="c6cjz-001-a-4820">fall'n</w>
+          <w lemma="into_acp" pos="acp-p" xml:id="c6cjz-001-a-4830">into</w>
+          <w lemma="verse_n" pos="n1" xml:id="c6cjz-001-a-4840">Verse</w>
+          <pc xml:id="c6cjz-001-a-4850">,</pc>
+        </l>
+        <l xml:id="c6cjze-710">
+          <w lemma="shall_vm" pos="vmb" xml:id="c6cjz-001-a-4860">Shall</w>
+          <w lemma="wash_v" pos="vvi" xml:id="c6cjz-001-a-4870">wash</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-4880">the</w>
+          <w lemma="cypress_n" pos="n1" xml:id="c6cjz-001-a-4890">Cypress</w>
+          <w lemma="on_acp" pos="acp-p" xml:id="c6cjz-001-a-4900">on</w>
+          <w lemma="his_pn" pos="po" xml:id="c6cjz-001-a-4910">his</w>
+          <w lemma="royal_j" pos="j" xml:id="c6cjz-001-a-4920">Royal</w>
+          <w lemma="hearse_n" pos="n1" reg="hearse" xml:id="c6cjz-001-a-4930">Herse</w>
+          <pc unit="sentence" xml:id="c6cjz-001-a-4940">.</pc>
+        </l>
+      </div>
+    </body>
+    <back xml:id="c6cjze-720">
+      <div type="colophon" xml:id="c6cjze-730">
+        <p xml:id="c6cjze-740">
+          <hi xml:id="c6cjze-750">
+            <w lemma="london_nn" pos="n1-nn" xml:id="c6cjz-001-a-4950">London</w>
+            <pc xml:id="c6cjz-001-a-4960">,</pc>
+          </hi>
+          <w lemma="print_v" pos="vvn" xml:id="c6cjz-001-a-4970">Printed</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c6cjz-001-a-4980">by</w>
+          <hi xml:id="c6cjze-760">
+            <w lemma="w._ab" pos="n-ab" xml:id="c6cjz-001-a-4990">W.</w>
+            <w lemma="Godbid_nn" pos="n1-nn" xml:id="c6cjz-001-a-5000">Godbid</w>
+          </hi>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjz-001-a-5010">for</w>
+          <hi xml:id="c6cjze-770">
+            <w lemma="Henry_nn" pos="n1-nn" xml:id="c6cjz-001-a-5020">Henry</w>
+            <w lemma="Brome_nn" pos="n1-nn" xml:id="c6cjz-001-a-5030">Brome</w>
+          </hi>
+          <w lemma="at_acp" pos="acp-p" xml:id="c6cjz-001-a-5040">at</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-5050">the</w>
+          <hi xml:id="c6cjze-780">
+            <w lemma="gun_n" pos="n1" xml:id="c6cjz-001-a-5060">Gun</w>
+          </hi>
+          <w lemma="in_acp" pos="acp-p" xml:id="c6cjz-001-a-5070">in</w>
+          <hi xml:id="c6cjze-790">
+            <w lemma="Ivy-lane_nn" pos="n1-nn" xml:id="c6cjz-001-a-5080">Ivy-lane</w>
+            <pc xml:id="c6cjz-001-a-5090">,</pc>
+          </hi>
+          <w lemma="and_cc" pos="cc" xml:id="c6cjz-001-a-5100">and</w>
+          <hi xml:id="c6cjze-800">
+            <w lemma="Henry_nn" pos="n1-nn" xml:id="c6cjz-001-a-5110">Henry</w>
+            <w lemma="marsh_nn" pos="n1-nn" xml:id="c6cjz-001-a-5120">Marsh</w>
+          </hi>
+          <w lemma="at_acp" pos="acp-p" xml:id="c6cjz-001-a-5130">at</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjz-001-a-5140">the</w>
+          <hi xml:id="c6cjze-810">
+            <w lemma="princes-arm_n" pos="n2" xml:id="c6cjz-001-a-5150">Princes-Arms</w>
+          </hi>
+          <w lemma="in_acp" pos="acp-p" xml:id="c6cjz-001-a-5160">in</w>
+          <hi xml:id="c6cjze-820">
+            <w lemma="Chancery-lane_nn" pos="n1-nn" xml:id="c6cjz-001-a-5170">Chancery-lane</w>
+          </hi>
+          <w lemma="near_acp" pos="acp-p" reg="near" xml:id="c6cjz-001-a-5180">neer</w>
+          <hi xml:id="c6cjze-830">
+            <w lemma="Fleetstreet_nn" pos="n1-nn" reg="Fleetstreet" xml:id="c6cjz-001-a-5190">Fleet-street</w>
+            <pc xml:id="c6cjz-001-a-5200">.</pc>
+            <w lemma="m._ab" pos="n-ab" xml:id="c6cjz-001-a-5210">M.</w>
+            <w lemma="dc_crd" pos="crd" xml:id="c6cjz-001-a-5220">DC</w>
+            <pc unit="sentence" xml:id="c6cjz-001-a-5230">.</pc>
+            <w lemma="lx_crd" pos="crd" xml:id="c6cjz-001-a-5240">LX</w>
+            <pc unit="sentence" xml:id="c6cjz-001-a-5250">.</pc>
+          </hi>
+        </p>
+      </div>
+    </back>
+  </text>
+</TEI>

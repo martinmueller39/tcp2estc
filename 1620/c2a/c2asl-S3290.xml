@@ -1,0 +1,854 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://schemata.earlyprint.org/schemata/tei_earlyprint.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="c2asl-S3290">
+  <teiHeader xml:id="c2asl-S3290-header">
+    <fileDesc>
+      <titleStmt>
+        <title>The Particular grieuances of those His Maiesties subiects throughout England and Wales, which lye vnder the oppression of George Woods patent for the sole printing vpon linnen cloth</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>This text is an enriched version of the TCP digital transcription A15679 of text S3290 in the <ref target="http;//estc.bl.uk">English Short Title Catalog</ref> (STC 25951.5). Textual changes  and metadata enrichments aim at making the                             text more  computationally tractable, easier to read, and suitable for network-based collaborative                              curation by amateur and professional end users from many walks of life.  The text has been tokenized and linguistically annotated with <ref target="http://morphadorner.northwestern.edu/morphadorner/">MorphAdorner</ref>. The annotation includes standard spellings that support the display of a text in                             a standardized format that preserves archaic forms ('loveth', 'seekest').                              Textual changes aim at restoring the text the author or stationer meant to publish.</edition><respStmt><resp>This text has not been fully proofread</resp><name/></respStmt></editionStmt>
+      <extent>Approx. 4 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+      <publicationStmt>
+        <publisher>EarlyPrint Project</publisher>
+        <pubPlace>Evanston,IL, Notre Dame, IN, St. Louis, MO</pubPlace>
+        <date>2018</date>
+        <idno type="DLPS">A15679</idno>
+        <idno type="STC">STC 25951.5</idno>
+        <idno type="STC">ESTC S3290</idno>
+        <idno type="EEBO-CITATION">33143273</idno>
+        <idno type="OCLC">ocm 33143273</idno>
+        <idno type="VID">28349</idno>
+        <availability>
+          <p>
+            This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. This Phase I text is available for reuse, according to the terms of
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 0 1.0 Universal</ref>
+            . The text can be copied, modified, distributed and performed, even for commercial purposes, all without asking permission.
+          </p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Early English books online.</title>
+      </seriesStmt>
+      <notesStmt>
+        <note>(EEBO-TCP ; phase 1, no. A15679)</note>
+        <note>Transcribed from: (Early English Books Online ; image set 28349)</note>
+        <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1885:51)</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>The Particular grieuances of those His Maiesties subiects throughout England and Wales, which lye vnder the oppression of George Woods patent for the sole printing vpon linnen cloth</title>
+          </titleStmt>
+          <extent>1 sheet ([1] p.).</extent>
+          <publicationStmt>
+            <publisher>W. Stansby,</publisher>
+            <pubPlace>[London :</pubPlace>
+            <date>1621]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>Imprint information supplied from STC (2nd ed.).</note>
+            <note>Petition to Parliament from those disadvantaged by the patent.</note>
+            <note>Reproduction of original in: Society of Antiquaries.</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">eng</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://authorities.loc.gov/">
+          <term>Linen industry -- England -- Early works to 1800.</term>
+          <term>Textile crafts -- England -- Early works to 1800.</term>
+          <term>Broadsides -- London (England) -- 17th century.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <xenoData><ns0:epHeader xmlns:ns0="http://earlyprint.org/ns/1.0"><ns0:corpus>eebo</ns0:corpus><ns0:title>The Particular grieuances of those His Maiesties subiects throughout England and Wales, which lye vnder the oppression of George Woods patent for the</ns0:title><ns0:author>[no entry]</ns0:author><ns0:publicationYear>1621</ns0:publicationYear><ns0:creationYear/><ns0:curator><ns0:name/></ns0:curator><ns0:pageCount>1</ns0:pageCount><ns0:wordCount>713</ns0:wordCount><ns0:defectiveTokenCount>5</ns0:defectiveTokenCount><ns0:untranscribedForeignCount>0</ns0:untranscribedForeignCount><ns0:untranscribedMathCount>0</ns0:untranscribedMathCount><ns0:untranscribedMusicCount>0</ns0:untranscribedMusicCount><ns0:missingChunkCount>0</ns0:missingChunkCount><ns0:missingPagesCount>1</ns0:missingPagesCount><ns0:defectRate>70.13</ns0:defectRate><ns0:finalGrade>D</ns0:finalGrade><ns0:defectRangePerGrade> The  rate of 70.13 defects per 10,000 words puts this text in the D category of texts with between 35 and 100 defects per 10,000 words.</ns0:defectRangePerGrade></ns0:epHeader></xenoData><revisionDesc>
+      <change><date>2007-08</date><label>TCP</label>
+        Assigned for keying and markup
+      </change>
+      <change><date>2007-08</date><label>Apex CoVantage</label>
+        Keyed and coded from ProQuest page images
+      </change>
+      <change><date>2007-09</date><label>Elspeth Healey</label>
+        Sampled and proofread
+      </change>
+      <change><date>2007-09</date><label>Elspeth Healey</label>
+        Text and markup reviewed and edited
+      </change>
+      <change><date>2008-02</date><label>pfs</label>
+        Batch review (QC) and XML conversion
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="c2asl-S3290-text">
+    <body xml:id="c2asl-e0">
+      <div type="list_of_grievances" xml:id="c2asl-e10">
+        <pb facs="tcp:28349:1" rendition="simple:additions" xml:id="c2asl-001-a"/>
+        <head xml:id="c2asl-e20">
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-0010">The</w>
+          <w lemma="particular_j" pos="j" xml:id="c2asl-001-a-0020">particular</w>
+          <w lemma="grievance_n" pos="n2" reg="grievances" xml:id="c2asl-001-a-0030">grieuances</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-0040">of</w>
+          <w lemma="those_d" pos="d" xml:id="c2asl-001-a-0050">those</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-0060">his</w>
+          <w lemma="majesty_n" pos="n1g" reg="Majesty's" xml:id="c2asl-001-a-0070">Maiesties</w>
+          <w lemma="subject_n" pos="n2" reg="subjects" xml:id="c2asl-001-a-0080">subiects</w>
+          <w lemma="throughout_acp" pos="acp-p" xml:id="c2asl-001-a-0090">throughout</w>
+          <w lemma="England_nn" pos="n1-nn" xml:id="c2asl-001-a-0100">England</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-0110">and</w>
+          <w lemma="Wales_nn" pos="n1-nn" xml:id="c2asl-001-a-0120">Wales</w>
+          <pc xml:id="c2asl-001-a-0130">,</pc>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2asl-001-a-0140">which</w>
+          <w lemma="lie_v" pos="vvb" reg="lie" xml:id="c2asl-001-a-0150">lye</w>
+          <w lemma="under_acp" pos="acp-p" reg="under" xml:id="c2asl-001-a-0160">vnder</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-0170">the</w>
+          <w lemma="oppression_n" pos="n1" xml:id="c2asl-001-a-0180">oppression</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-0190">of</w>
+          <hi xml:id="c2asl-e30">
+            <w lemma="George_nn" pos="n1-nn" xml:id="c2asl-001-a-0200">George</w>
+            <w lemma="wood_n" pos="n2" xml:id="c2asl-001-a-0210">Woods</w>
+            <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-0220">Patent</w>
+            <w lemma="for_acp" pos="acp-p" xml:id="c2asl-001-a-0230">for</w>
+            <w lemma="the_d" pos="d" xml:id="c2asl-001-a-0240">the</w>
+            <w lemma="sole_j" pos="j" xml:id="c2asl-001-a-0250">sole</w>
+            <w lemma="print_v" pos="n1_vg" xml:id="c2asl-001-a-0260">printing</w>
+            <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2asl-001-a-0270">vpon</w>
+            <w lemma="linen_n" pos="n1" reg="Linen" xml:id="c2asl-001-a-0280">Linnen</w>
+            <w lemma="cloth_n" pos="n1" xml:id="c2asl-001-a-0290">cloth</w>
+            <pc unit="sentence" xml:id="c2asl-001-a-0300">.</pc>
+          </hi>
+        </head>
+        <p xml:id="c2asl-e40">
+          <w lemma="first_crd" pos="ord" xml:id="c2asl-001-a-0310">FIrst</w>
+          <pc xml:id="c2asl-001-a-0320">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2asl-001-a-0330">in</w>
+          <w lemma="that_d" pos="d" xml:id="c2asl-001-a-0340">that</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-0350">the</w>
+          <w lemma="same_d" pos="d" xml:id="c2asl-001-a-0360">same</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2asl-001-a-0370">was</w>
+          <w lemma="obtain_v" pos="vvn" xml:id="c2asl-001-a-0380">obtained</w>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2asl-001-a-0390">vpon</w>
+          <w lemma="a_d" pos="d" xml:id="c2asl-001-a-0400">a</w>
+          <w lemma="false_j" pos="j" xml:id="c2asl-001-a-0410">false</w>
+          <w lemma="pretence_n" pos="n1" xml:id="c2asl-001-a-0420">pretence</w>
+          <pc xml:id="c2asl-001-a-0430">,</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2asl-001-a-0440">that</w>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-0450">he</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-0460">the</w>
+          <w lemma="say_v" pos="j_vn" xml:id="c2asl-001-a-0470">said</w>
+          <hi xml:id="c2asl-e50">
+            <w lemma="wood_n" pos="n1" xml:id="c2asl-001-a-0480">Wood</w>
+          </hi>
+          <w lemma="or_cc" pos="cc" xml:id="c2asl-001-a-0490">or</w>
+          <w lemma="one_crd" pos="crd" xml:id="c2asl-001-a-0500">one</w>
+          <hi xml:id="c2asl-e60">
+            <w lemma="jenkinson_nn" pos="n1-nn" reg="jenkinson" xml:id="c2asl-001-a-0510">Ienkinson</w>
+          </hi>
+          <pc xml:id="c2asl-001-a-0520" join="right">(</pc>
+          <w lemma="who_crq" pos="crq-rg" xml:id="c2asl-001-a-0530">whose</w>
+          <w lemma="invendon_n" pos="n1" reg="invendon" xml:id="c2asl-001-a-0540">inuendon</w>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-0550">he</w>
+          <w lemma="say_v" pos="vvz" xml:id="c2asl-001-a-0560">saith</w>
+          <pc xml:id="c2asl-001-a-0570">,</pc>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-0580">he</w>
+          <w lemma="have_v" pos="vvz" xml:id="c2asl-001-a-0590">hath</w>
+          <w lemma="buy_v" pos="vvn" xml:id="c2asl-001-a-0600">bought</w>
+          <pc xml:id="c2asl-001-a-0610">)</pc>
+          <w lemma="be_v" pos="vvd" xml:id="c2asl-001-a-0620">was</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-0630">the</w>
+          <w lemma="first_crd" pos="ord" xml:id="c2asl-001-a-0640">first</w>
+          <w lemma="inventor_n" pos="n1" reg="inventor" xml:id="c2asl-001-a-0650">inuenter</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-0660">of</w>
+          <w lemma="this_d" pos="d" xml:id="c2asl-001-a-0670">this</w>
+          <w lemma="art_n" pos="n1" xml:id="c2asl-001-a-0680">Art</w>
+          <pc xml:id="c2asl-001-a-0690">;</pc>
+          <ref xml:id="c2asl-e70-a" corresp="nasl-e70-b" target="nasl-e70-b"/>
+          <w lemma="whereas_cs" pos="cs" xml:id="c2asl-001-a-0790">whereas</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2asl-001-a-0800">in</w>
+          <w lemma="truth_n" pos="n1" xml:id="c2asl-001-a-0810">truth</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-0820">the</w>
+          <w lemma="say_v" pos="j_vn" xml:id="c2asl-001-a-0830">said</w>
+          <hi xml:id="c2asl-e80">
+            <w lemma="wood_n" pos="n1" xml:id="c2asl-001-a-0840">Wood</w>
+          </hi>
+          <w lemma="be_v" pos="vvz" xml:id="c2asl-001-a-0850">is</w>
+          <w lemma="but_acp" pos="acp-av" xml:id="c2asl-001-a-0860">but</w>
+          <w lemma="new_j" pos="av_j" xml:id="c2asl-001-a-0870">newly</w>
+          <w lemma="attain_v" pos="vvn" xml:id="c2asl-001-a-0880">attained</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-0890">to</w>
+          <w lemma="any_d" pos="d" xml:id="c2asl-001-a-0900">any</w>
+          <w lemma="knowledge_n" pos="n1" xml:id="c2asl-001-a-0910">knowledge</w>
+          <w lemma="therein_av" pos="av" xml:id="c2asl-001-a-0920">therein</w>
+          <pc xml:id="c2asl-001-a-0930">;</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-0940">and</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2asl-001-a-0950">for</w>
+          <hi xml:id="c2asl-e90">
+            <w lemma="jenkinson_nn" pos="n1-nn" reg="jenkinson" xml:id="c2asl-001-a-0960">Ienkinson</w>
+            <pc xml:id="c2asl-001-a-0970">,</pc>
+          </hi>
+          <w lemma="if_cs" pos="cs" xml:id="c2asl-001-a-0980">if</w>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-0990">he</w>
+          <w lemma="have_v" pos="vvd" xml:id="c2asl-001-a-1000">had</w>
+          <w lemma="any_d" pos="d" xml:id="c2asl-001-a-1010">any</w>
+          <w lemma="manner_n" pos="n1" reg="manner" xml:id="c2asl-001-a-1020">maner</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-1030">of</w>
+          <w lemma="invention_n" pos="n1" reg="invention" xml:id="c2asl-001-a-1040">inuention</w>
+          <w lemma="therein_av" pos="av" xml:id="c2asl-001-a-1050">therein</w>
+          <w lemma="at_acp" pos="acp-p" xml:id="c2asl-001-a-1060">at</w>
+          <w lemma="all●_n" pos="n1" xml:id="c2asl-001-a-1070" type="mc" cert="0.23">all[a]</w>
+          <pc xml:id="c2asl-001-a-1080">,</pc>
+          <w lemma="it_pn" pos="pn" xml:id="c2asl-001-a-1090">it</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2asl-001-a-1100">was</w>
+          <w lemma="some_d" pos="d" xml:id="c2asl-001-a-1110">some</w>
+          <w lemma="very_j" pos="j" xml:id="c2asl-001-a-1120">very</w>
+          <w lemma="small_j" pos="j" xml:id="c2asl-001-a-1130">small</w>
+          <w lemma="thing_n" pos="n1" xml:id="c2asl-001-a-1140">thing</w>
+          <w lemma="about_acp" pos="acp-p" xml:id="c2asl-001-a-1150">about</w>
+          <w lemma="thirty_crd" pos="crd" reg="thirty" xml:id="c2asl-001-a-1160">thirtie</w>
+          <w lemma="year_n" pos="n2" reg="years" xml:id="c2asl-001-a-1170">yeares</w>
+          <w lemma="ago_av" pos="av" xml:id="c2asl-001-a-1180">ago</w>
+          <pc xml:id="c2asl-001-a-1190">,</pc>
+          <w lemma="now_av" pos="av" xml:id="c2asl-001-a-1200">now</w>
+          <w lemma="out_av" pos="av" xml:id="c2asl-001-a-1210">out</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-1220">of</w>
+          <w lemma="use_n" pos="n1" reg="use" xml:id="c2asl-001-a-1230">vse</w>
+          <pc xml:id="c2asl-001-a-1240">,</pc>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2asl-001-a-1250">which</w>
+          <w lemma="invention_n" pos="n1" reg="invention" xml:id="c2asl-001-a-1260">inuention</w>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-1270">he</w>
+          <w lemma="have_v" pos="vvz" xml:id="c2asl-001-a-1280">hath</w>
+          <w lemma="also_av" pos="av" xml:id="c2asl-001-a-1290">also</w>
+          <w lemma="sell_v" pos="vvn" xml:id="c2asl-001-a-1300">sold</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-1310">to</w>
+          <w lemma="a_d" pos="d" xml:id="c2asl-001-a-1320">a</w>
+          <w lemma="great_j" pos="j" xml:id="c2asl-001-a-1330">great</w>
+          <w lemma="number_n" pos="n1" xml:id="c2asl-001-a-1340">number</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-1350">of</w>
+          <w lemma="person_n" pos="n2" xml:id="c2asl-001-a-1360">persons</w>
+          <pc xml:id="c2asl-001-a-1370">,</pc>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2asl-001-a-1380">for</w>
+          <w lemma="2_crd" pos="crd" xml:id="c2asl-001-a-1390">2</w>
+          <w lemma="s._ab" pos="n-ab" xml:id="c2asl-001-a-1400">s.</w>
+          <w lemma="3_crd" pos="crd" xml:id="c2asl-001-a-1410">3</w>
+          <w lemma="s._ab" pos="n-ab" xml:id="c2asl-001-a-1420">s.</w>
+          <w lemma="5_crd" pos="crd" xml:id="c2asl-001-a-1430">5</w>
+          <w lemma="s._ab" pos="n-ab" xml:id="c2asl-001-a-1440">s.</w>
+          <w lemma="〈◊〉_zz" pos="zz" xml:id="c2asl-001-a-1450">〈◊〉</w>
+          <w lemma="s._ab" pos="n-ab" xml:id="c2asl-001-a-1460">s.</w>
+          <w lemma="20_crd" pos="crd" xml:id="c2asl-001-a-1470">20</w>
+          <w lemma="s._ab" pos="n-ab" xml:id="c2asl-001-a-1480">s.</w>
+          <w lemma="40_crd" pos="crd" xml:id="c2asl-001-a-1490">40</w>
+          <w lemma="s._ab" pos="n-ab" xml:id="c2asl-001-a-1500">s.</w>
+          <w lemma="or_cc" pos="cc" xml:id="c2asl-001-a-1510">or</w>
+          <w lemma="any_d" pos="d" xml:id="c2asl-001-a-1520">any</w>
+          <w lemma="money_n" pos="n1" reg="money" xml:id="c2asl-001-a-1530">mony</w>
+          <w lemma="that_cs" pos="cs" xml:id="c2asl-001-a-1540">that</w>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-1550">he</w>
+          <w lemma="can_vm" pos="vmd" xml:id="c2asl-001-a-1560">could</w>
+          <w lemma="get_v" pos="vvi" xml:id="c2asl-001-a-1570">get</w>
+          <pc xml:id="c2asl-001-a-1580">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-1590">and</w>
+          <w lemma="they_pn" pos="pns" xml:id="c2asl-001-a-1600">they</w>
+          <w lemma="sell_v" pos="vvn" xml:id="c2asl-001-a-1610">sold</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2asl-001-a-1620">it</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-1630">to</w>
+          <w lemma="other_d" pos="pi2_d" xml:id="c2asl-001-a-1640">others</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-1650">.</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-1660">And</w>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-1670">he</w>
+          <w lemma="have_v" pos="vvg" reg="having" xml:id="c2asl-001-a-1680">hauing</w>
+          <w lemma="make_v" pos="vvn" xml:id="c2asl-001-a-1690">made</w>
+          <w lemma="●is_f-la" pos="fw-la" xml:id="c2asl-001-a-1700" type="mc" cert="0.98">[h]is</w>
+          <w lemma="benefit_n" pos="n1" xml:id="c2asl-001-a-1710">benefit</w>
+          <w lemma="thereof_av" pos="av" xml:id="c2asl-001-a-1720">thereof</w>
+          <w lemma="so_av" pos="av" xml:id="c2asl-001-a-1730">so</w>
+          <w lemma="many_d" pos="d" xml:id="c2asl-001-a-1740">many</w>
+          <w lemma="year_n" pos="n2" reg="years" xml:id="c2asl-001-a-1750">yeares</w>
+          <pc xml:id="c2asl-001-a-1760">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-1770">and</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2asl-001-a-1780">in</w>
+          <w lemma="such_d" pos="d" xml:id="c2asl-001-a-1790">such</w>
+          <w lemma="kind_n" pos="n1" xml:id="c2asl-001-a-1800">kind</w>
+          <pc xml:id="c2asl-001-a-1810">,</pc>
+          <w lemma="it_pn" pos="pn" xml:id="c2asl-001-a-1820">it</w>
+          <w lemma="can_vm" pos="vmb-x" xml:id="c2asl-001-a-1830">cannot</w>
+          <w lemma="now_av" pos="av" xml:id="c2asl-001-a-1840">now</w>
+          <w lemma="be_v" pos="vvi" xml:id="c2asl-001-a-1850">be</w>
+          <w lemma="take_v" pos="vvn" xml:id="c2asl-001-a-1860">taken</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2asl-001-a-1870">for</w>
+          <w lemma="a_d" pos="d" xml:id="c2asl-001-a-1880">a</w>
+          <w lemma="new_j" pos="j" xml:id="c2asl-001-a-1890">new</w>
+          <w lemma="invention_n" pos="n1" reg="invention" xml:id="c2asl-001-a-1900">inuention</w>
+          <pc xml:id="c2asl-001-a-1910">,</pc>
+          <w lemma="see_v" pos="vvg" xml:id="c2asl-001-a-1920">seeing</w>
+          <w lemma="not_x" pos="xx" xml:id="c2asl-001-a-1930">not</w>
+          <w lemma="only_j" pos="av_j" reg="only" xml:id="c2asl-001-a-1940">onely</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-1950">the</w>
+          <w lemma="art_n" pos="n1" xml:id="c2asl-001-a-1960">Art</w>
+          <w lemma="itself_pn" pos="px" reg="itself" xml:id="c2asl-001-a-1970">it selfe</w>
+          <pc xml:id="c2asl-001-a-1990">,</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2asl-001-a-2000">but</w>
+          <w lemma="also_av" pos="av" xml:id="c2asl-001-a-2010">also</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-2020">the</w>
+          <w lemma="apprentice_n" pos="n2" xml:id="c2asl-001-a-2030">apprentices</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-2040">and</w>
+          <w lemma="people_n" pos="n1" xml:id="c2asl-001-a-2050">people</w>
+          <w lemma="that_cs" pos="cs" xml:id="c2asl-001-a-2060">that</w>
+          <w lemma="have_v" pos="vvb" reg="have" xml:id="c2asl-001-a-2070">haue</w>
+          <w lemma="be_v" pos="vvn" reg="been" xml:id="c2asl-001-a-2080">bene</w>
+          <w lemma="train_v" pos="vvn" xml:id="c2asl-001-a-2090">trained</w>
+          <w lemma="up_acp" pos="acp-av" reg="up" xml:id="c2asl-001-a-2100">vp</w>
+          <w lemma="therein_av" pos="av" xml:id="c2asl-001-a-2110">therein</w>
+          <pc xml:id="c2asl-001-a-2120">▪</pc>
+          <w lemma="be_v" pos="vvb" xml:id="c2asl-001-a-2130">are</w>
+          <w lemma="exceed_v" pos="av_vg" xml:id="c2asl-001-a-2140">exceedingly</w>
+          <w lemma="increase_v" pos="vvn" xml:id="c2asl-001-a-2150">increased</w>
+          <pc xml:id="c2asl-001-a-2160">,</pc>
+          <w lemma="so_av" pos="av" xml:id="c2asl-001-a-2170">so</w>
+          <w lemma="that_cs" pos="cs" xml:id="c2asl-001-a-2180">that</w>
+          <w lemma="a_d" pos="d" xml:id="c2asl-001-a-2190">a</w>
+          <w lemma="great_j" pos="j" xml:id="c2asl-001-a-2200">great</w>
+          <w lemma="multitude_n" pos="n1" xml:id="c2asl-001-a-2210">multitude</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-2220">of</w>
+          <w lemma="family_n" pos="n2" xml:id="c2asl-001-a-2230">families</w>
+          <w lemma="both_d" pos="av_d" xml:id="c2asl-001-a-2240">both</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2asl-001-a-2250">in</w>
+          <w lemma="this_d" pos="d" xml:id="c2asl-001-a-2260">this</w>
+          <w lemma="Cit_nn" pos="n1-nn" xml:id="c2asl-001-a-2270">Cit</w>
+          <w lemma="ie_f-fr" pos="fw-fr" xml:id="c2asl-001-a-2280">ie</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-2290">and</w>
+          <w lemma="throughout_acp" pos="acp-av" xml:id="c2asl-001-a-2300">throughout</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-2310">the</w>
+          <w lemma="kingdom_n" pos="n1" reg="kingdom" xml:id="c2asl-001-a-2320">kingdome</w>
+          <pc xml:id="c2asl-001-a-2330">,</pc>
+          <w lemma="will_vm" pos="vmd" xml:id="c2asl-001-a-2340">would</w>
+          <w lemma="be_v" pos="vvi" xml:id="c2asl-001-a-2350">be</w>
+          <w lemma="impoverish_v" pos="vvn" reg="impoverished" xml:id="c2asl-001-a-2360">impouerished</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2asl-001-a-2370">by</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-2380">the</w>
+          <w lemma="continuance_n" pos="n1" xml:id="c2asl-001-a-2390">continuance</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-2400">of</w>
+          <w lemma="this_d" pos="d" xml:id="c2asl-001-a-2410">this</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-2420">Patent</w>
+          <pc xml:id="c2asl-001-a-2430">,</pc>
+          <w lemma="if_cs" pos="cs" xml:id="c2asl-001-a-2440">if</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2asl-001-a-2450">it</w>
+          <w lemma="shall_vm" pos="vmd" xml:id="c2asl-001-a-2460">should</w>
+          <w lemma="hold_v" pos="vvi" xml:id="c2asl-001-a-2470">hold</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-2480">.</pc>
+        </p>
+        <p n="2" xml:id="c2asl-e100">
+          <w lemma="2._crd" pos="crd" xml:id="c2asl-001-a-2490">2.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-2500"/>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2asl-001-a-2510">For</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-2520">the</w>
+          <w lemma="validity_n" pos="n1" reg="validity" xml:id="c2asl-001-a-2530">validitie</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-2540">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-2550">the</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-2560">Patent</w>
+          <pc xml:id="c2asl-001-a-2570">,</pc>
+          <w lemma="it_pn" pos="pn" xml:id="c2asl-001-a-2580">it</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2asl-001-a-2590">was</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2asl-001-a-2600">in</w>
+          <w lemma="way_n" pos="n1" xml:id="c2asl-001-a-2610">way</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-2620">of</w>
+          <w lemma="trial_n" pos="n1" reg="trial" xml:id="c2asl-001-a-2630">triall</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2asl-001-a-2640">by</w>
+          <w lemma="suit_n" pos="n1" reg="suit" xml:id="c2asl-001-a-2650">suite</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-2660">of</w>
+          <w lemma="some_d" pos="d" xml:id="c2asl-001-a-2670">some</w>
+          <w lemma="freeman_n" pos="n2" xml:id="c2asl-001-a-2680">Freemen</w>
+          <pc xml:id="c2asl-001-a-2690">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2asl-001-a-2700">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-2710">the</w>
+          <w lemma="exchequer_n" pos="n1" xml:id="c2asl-001-a-2720">Exchequer</w>
+          <pc xml:id="c2asl-001-a-2730">;</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2asl-001-a-2740">but</w>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2asl-001-a-2750">vpon</w>
+          <w lemma="a_d" pos="d" xml:id="c2asl-001-a-2760">a</w>
+          <w lemma="reference_n" pos="n1" xml:id="c2asl-001-a-2770">Reference</w>
+          <w lemma="obtain_v" pos="vvn" xml:id="c2asl-001-a-2780">obtained</w>
+          <w lemma="from_acp" pos="acp-p" xml:id="c2asl-001-a-2790">from</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-2800">his</w>
+          <w lemma="majesty_n" pos="n1" reg="Majesty" xml:id="c2asl-001-a-2810">Maiestie</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-2820">to</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-2830">the</w>
+          <w lemma="lord_n" pos="n1" xml:id="c2asl-001-a-2840">Lord</w>
+          <w lemma="chancellor_nn" pos="n1-nn" xml:id="c2asl-001-a-2850">Chancellor</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-2860">and</w>
+          <w lemma="now_av" pos="av" xml:id="c2asl-001-a-2870">now</w>
+          <w lemma="lord_n" pos="n1" xml:id="c2asl-001-a-2880">Lord</w>
+          <w lemma="treasurer_n" pos="n1" xml:id="c2asl-001-a-2890">Treasurer</w>
+          <pc xml:id="c2asl-001-a-2900">,</pc>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2asl-001-a-2910">vpon</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-2920">the</w>
+          <w lemma="false_j" pos="j" xml:id="c2asl-001-a-2930">false</w>
+          <w lemma="pretence_n" pos="n1" xml:id="c2asl-001-a-2940">pretence</w>
+          <w lemma="aforesaid_j" pos="j" xml:id="c2asl-001-a-2950">aforesaid</w>
+          <pc xml:id="c2asl-001-a-2960">,</pc>
+          <w lemma="they_pn" pos="pns" xml:id="c2asl-001-a-2970">they</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2asl-001-a-2980">were</w>
+          <w lemma="stop_v" pos="vvn" xml:id="c2asl-001-a-2990">stopped</w>
+          <pc xml:id="c2asl-001-a-3000">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-3010">and</w>
+          <w lemma="not_x" pos="xx" xml:id="c2asl-001-a-3020">not</w>
+          <w lemma="suffer_v" pos="vvn" xml:id="c2asl-001-a-3030">suffered</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2asl-001-a-3040">to</w>
+          <w lemma="proceed_v" pos="vvi" xml:id="c2asl-001-a-3050">proceed</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-3060">to</w>
+          <w lemma="trial_n" pos="n1" reg="trial" xml:id="c2asl-001-a-3070">triall</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-3080">.</pc>
+        </p>
+        <p n="3" xml:id="c2asl-e110">
+          <w lemma="3._crd" pos="crd" xml:id="c2asl-001-a-3090">3.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-3100"/>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-3110">The</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-3120">Patent</w>
+          <w lemma="be_v" pos="vvz" xml:id="c2asl-001-a-3130">is</w>
+          <w lemma="so_av" pos="av" xml:id="c2asl-001-a-3140">so</w>
+          <w lemma="general_j" pos="j" reg="general" xml:id="c2asl-001-a-3150">generall</w>
+          <pc xml:id="c2asl-001-a-3160">,</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2asl-001-a-3170">that</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2asl-001-a-3180">it</w>
+          <w lemma="extend_v" pos="vvz" xml:id="c2asl-001-a-3190">extends</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2asl-001-a-3200">in</w>
+          <w lemma="prejudice_n" pos="n1" reg="prejudice" xml:id="c2asl-001-a-3210">preiudice</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-3220">to</w>
+          <w lemma="all_d" pos="d" xml:id="c2asl-001-a-3230">all</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-3240">his</w>
+          <w lemma="majesty_n" pos="n1g" reg="Majesty's" xml:id="c2asl-001-a-3250">Maiesties</w>
+          <w lemma="subject_n" pos="n2" reg="subjects" xml:id="c2asl-001-a-3260">subiects</w>
+          <pc xml:id="c2asl-001-a-3270">:</pc>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2asl-001-a-3280">for</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-3290">the</w>
+          <w lemma="good_j" pos="n2_j" xml:id="c2asl-001-a-3300">goods</w>
+          <w lemma="therein_av" pos="av" xml:id="c2asl-001-a-3310">therein</w>
+          <w lemma="prohibit_v" pos="vvn" xml:id="c2asl-001-a-3320">prohibited</w>
+          <pc xml:id="c2asl-001-a-3330">,</pc>
+          <w lemma="though_cs" pos="cs" xml:id="c2asl-001-a-3340">though</w>
+          <w lemma="they_pn" pos="pns" xml:id="c2asl-001-a-3350">they</w>
+          <w lemma="be_v" pos="vvb" xml:id="c2asl-001-a-3360">be</w>
+          <w lemma="buy_v" pos="vvn" xml:id="c2asl-001-a-3370">bought</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-3380">and</w>
+          <w lemma="sell_v" pos="vvn" xml:id="c2asl-001-a-3390">sold</w>
+          <pc xml:id="c2asl-001-a-3400">,</pc>
+          <w lemma="pay_v" pos="vvn" xml:id="c2asl-001-a-3410">paid</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2asl-001-a-3420">for</w>
+          <pc xml:id="c2asl-001-a-3430">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-3440">and</w>
+          <w lemma="pass_v" pos="vvn" xml:id="c2asl-001-a-3450">passed</w>
+          <w lemma="from_acp" pos="acp-p" xml:id="c2asl-001-a-3460">from</w>
+          <w lemma="hand_n" pos="n1" xml:id="c2asl-001-a-3470">hand</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-3480">to</w>
+          <w lemma="hand_n" pos="n1" xml:id="c2asl-001-a-3490">hand</w>
+          <pc xml:id="c2asl-001-a-3500">,</pc>
+          <w lemma="yet_av" pos="av" xml:id="c2asl-001-a-3510">yet</w>
+          <w lemma="they_pn" pos="pns" xml:id="c2asl-001-a-3520">they</w>
+          <w lemma="be_v" pos="vvb" xml:id="c2asl-001-a-3530">are</w>
+          <w lemma="forfeit_v" pos="vvn" xml:id="c2asl-001-a-3540">forfeited</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2asl-001-a-3550">in</w>
+          <w lemma="who_crq" pos="crq-rg" xml:id="c2asl-001-a-3560">whose</w>
+          <w lemma="hand_n" pos="n2" xml:id="c2asl-001-a-3570">hands</w>
+          <w lemma="soever_av" pos="av" reg="soever" xml:id="c2asl-001-a-3580">soeuer</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-3590">.</pc>
+        </p>
+        <p n="4" xml:id="c2asl-e120">
+          <w lemma="4._crd" pos="crd" xml:id="c2asl-001-a-3600">4.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-3610"/>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-3620">The</w>
+          <w lemma="Patentee_nn" pos="n1-nn" xml:id="c2asl-001-a-3630">Patentee</w>
+          <w lemma="may_vm" pos="vmb" xml:id="c2asl-001-a-3640">may</w>
+          <w lemma="enter_v" pos="vvi" xml:id="c2asl-001-a-3650">enter</w>
+          <w lemma="into_acp" pos="acp-p" xml:id="c2asl-001-a-3660">into</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-3670">the</w>
+          <w lemma="house_n" pos="n2" xml:id="c2asl-001-a-3680">houses</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-3690">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-3700">the</w>
+          <w lemma="king_n" pos="n1g" reg="King's" xml:id="c2asl-001-a-3710">Kings</w>
+          <w lemma="subject_n" pos="n2" reg="subjects" xml:id="c2asl-001-a-3720">subiects</w>
+          <pc xml:id="c2asl-001-a-3730">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-3740">and</w>
+          <w lemma="seize_v" pos="vvi" xml:id="c2asl-001-a-3750">seize</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-3760">and</w>
+          <w lemma="carry_v" pos="vvi" reg="carry" xml:id="c2asl-001-a-3770">cary</w>
+          <w lemma="away_av" pos="av" xml:id="c2asl-001-a-3780">away</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-3790">and</w>
+          <w lemma="dispose_v" pos="vvi" xml:id="c2asl-001-a-3800">dispose</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-3810">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-3820">the</w>
+          <w lemma="good_j" pos="n2_j" xml:id="c2asl-001-a-3830">goods</w>
+          <w lemma="prohibit_v" pos="vvn" xml:id="c2asl-001-a-3840">prohibited</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-3850">.</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-3860">And</w>
+          <w lemma="do_v" pos="vvd" xml:id="c2asl-001-a-3870">did</w>
+          <w lemma="execute_v" pos="vvi" xml:id="c2asl-001-a-3880">execute</w>
+          <w lemma="this_d" pos="d" xml:id="c2asl-001-a-3890">this</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-3900">his</w>
+          <w lemma="power_n" pos="n1" xml:id="c2asl-001-a-3910">power</w>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2asl-001-a-3920">vpon</w>
+          <w lemma="some_d" pos="d" xml:id="c2asl-001-a-3930">some</w>
+          <w lemma="before_acp" pos="acp-p" xml:id="c2asl-001-a-3940">before</w>
+          <w lemma="this_d" pos="d" xml:id="c2asl-001-a-3950">this</w>
+          <w lemma="parliament_n" pos="n1" xml:id="c2asl-001-a-3960">Parliament</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-3970">.</pc>
+        </p>
+        <p n="5" xml:id="c2asl-e130">
+          <w lemma="5._crd" pos="crd" xml:id="c2asl-001-a-3980">5.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-3990"/>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-4000">He</w>
+          <w lemma="have_v" pos="vvz" xml:id="c2asl-001-a-4010">hath</w>
+          <w lemma="imprison_v" pos="vvn" xml:id="c2asl-001-a-4020">imprisoned</w>
+          <w lemma="othersome_j" pos="j" xml:id="c2asl-001-a-4030">othersome</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2asl-001-a-4040">by</w>
+          <w lemma="colour_n" pos="n1" xml:id="c2asl-001-a-4050">colour</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-4060">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-4070">the</w>
+          <w lemma="say_v" pos="j_vn" xml:id="c2asl-001-a-4080">said</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-4090">Patent</w>
+          <pc xml:id="c2asl-001-a-4100">,</pc>
+          <w lemma="since_acp" pos="acp-cs" xml:id="c2asl-001-a-4110">since</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-4120">the</w>
+          <w lemma="parliament_n" pos="n1" xml:id="c2asl-001-a-4130">Parliament</w>
+          <w lemma="begin_v" pos="vvd" xml:id="c2asl-001-a-4140">began</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-4150">.</pc>
+        </p>
+        <p n="6" xml:id="c2asl-e140">
+          <w lemma="6._crd" pos="crd" xml:id="c2asl-001-a-4160">6.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-4170"/>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-4180">He</w>
+          <w lemma="pretend_v" pos="vvd" xml:id="c2asl-001-a-4190">pretended</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-4200">to</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-4210">the</w>
+          <w lemma="drawer_n" pos="n2" xml:id="c2asl-001-a-4220">Drawers</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-4230">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-4240">the</w>
+          <w lemma="city_n" pos="n1" reg="City" xml:id="c2asl-001-a-4250">Citie</w>
+          <pc xml:id="c2asl-001-a-4260">,</pc>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2asl-001-a-4270">for</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-4280">his</w>
+          <w lemma="more_d" pos="av-c_d" xml:id="c2asl-001-a-4290">more</w>
+          <w lemma="easy_j" pos="j" reg="easy" xml:id="c2asl-001-a-4300">easie</w>
+          <w lemma="obtain_v" pos="n1_vg" xml:id="c2asl-001-a-4310">obtaining</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-4320">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-4330">the</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-4340">Patent</w>
+          <pc xml:id="c2asl-001-a-4350">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-4360">and</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2asl-001-a-4370">to</w>
+          <w lemma="gain_v" pos="vvi" reg="gain" xml:id="c2asl-001-a-4380">gaine</w>
+          <w lemma="their_pn" pos="po" xml:id="c2asl-001-a-4390">their</w>
+          <w lemma="assistance_n" pos="n1" xml:id="c2asl-001-a-4400">assistance</w>
+          <w lemma="therein_av" pos="av" xml:id="c2asl-001-a-4410">therein</w>
+          <pc xml:id="c2asl-001-a-4420">,</pc>
+          <w lemma="great_j" pos="j" xml:id="c2asl-001-a-4430">great</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-4440">and</w>
+          <w lemma="good_j" pos="j" xml:id="c2asl-001-a-4450">good</w>
+          <w lemma="benefit_n" pos="n1" xml:id="c2asl-001-a-4460">benefit</w>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2asl-001-a-4470">vnto</w>
+          <w lemma="they_pn" pos="pno" xml:id="c2asl-001-a-4480">them</w>
+          <pc xml:id="c2asl-001-a-4490">,</pc>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2asl-001-a-4500">which</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-4510">Patent</w>
+          <w lemma="do_v" pos="vvz" xml:id="c2asl-001-a-4520">doth</w>
+          <w lemma="now_av" pos="av" xml:id="c2asl-001-a-4530">now</w>
+          <w lemma="utter_j" pos="av_j" reg="utterly" xml:id="c2asl-001-a-4540">vtterly</w>
+          <w lemma="beggar_v" pos="vvi" reg="beggar" xml:id="c2asl-001-a-4550">begger</w>
+          <w lemma="they_pn" pos="pno" xml:id="c2asl-001-a-4560">them</w>
+          <pc xml:id="c2asl-001-a-4570">:</pc>
+          <w lemma="for_acp" pos="acp-cs" xml:id="c2asl-001-a-4580">for</w>
+          <w lemma="he_pn" pos="pns" reg="he" xml:id="c2asl-001-a-4590">hee</w>
+          <w lemma="give_v" pos="vvz" reg="gives" xml:id="c2asl-001-a-4600">giues</w>
+          <w lemma="but_acp" pos="acp-av" xml:id="c2asl-001-a-4610">but</w>
+          <w lemma="a_d" pos="d" xml:id="c2asl-001-a-4620">a</w>
+          <w lemma="matter_n" pos="n1" xml:id="c2asl-001-a-4630">matter</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-4640">of</w>
+          <w lemma="7_crd" pos="crd" xml:id="c2asl-001-a-4650">7</w>
+          <w lemma="s._ab" pos="n-ab" xml:id="c2asl-001-a-4660">s.</w>
+          <w lemma="4_crd" pos="crd" xml:id="c2asl-001-a-4670">4</w>
+          <w lemma="d._ab" pos="n-ab" xml:id="c2asl-001-a-4680">d.</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2asl-001-a-4690">for</w>
+          <w lemma="that_d" pos="d" xml:id="c2asl-001-a-4700">that</w>
+          <w lemma="work_n" pos="n1" reg="work" xml:id="c2asl-001-a-4710">worke</w>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2asl-001-a-4720">which</w>
+          <w lemma="he_pn" pos="pns" reg="he" xml:id="c2asl-001-a-4730">hee</w>
+          <w lemma="himself_pn" pos="px" reg="himself" xml:id="c2asl-001-a-4740">himselfe</w>
+          <w lemma="take_v" pos="vvz" xml:id="c2asl-001-a-4750">takes</w>
+          <w lemma="24_crd" pos="crd" xml:id="c2asl-001-a-4760">24</w>
+          <w lemma="s._ab" pos="n-ab" xml:id="c2asl-001-a-4770">s.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-4780"/>
+        </p>
+        <p n="7" xml:id="c2asl-e150">
+          <w lemma="7._crd" pos="crd" xml:id="c2asl-001-a-4790">7.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-4800"/>
+          <w lemma="he_pn" pos="pns" reg="He" xml:id="c2asl-001-a-4810">Hee</w>
+          <w lemma="have_v" pos="vvz" xml:id="c2asl-001-a-4820">hath</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2asl-001-a-4830">by</w>
+          <w lemma="colour_n" pos="n1" xml:id="c2asl-001-a-4840">colour</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-4850">of</w>
+          <w lemma="this_d" pos="d" xml:id="c2asl-001-a-4860">this</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-4870">Patent</w>
+          <pc xml:id="c2asl-001-a-4880">,</pc>
+          <w lemma="enter_v" pos="vvn" reg="entered" xml:id="c2asl-001-a-4890">entred</w>
+          <w lemma="into_acp" pos="acp-p" xml:id="c2asl-001-a-4900">into</w>
+          <w lemma="some_d" pos="d" xml:id="c2asl-001-a-4910">some</w>
+          <w lemma="house_n" pos="n2" xml:id="c2asl-001-a-4920">houses</w>
+          <pc xml:id="c2asl-001-a-4930">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-4940">and</w>
+          <w lemma="take_v" pos="vvn" xml:id="c2asl-001-a-4950">taken</w>
+          <w lemma="away_av" pos="av" xml:id="c2asl-001-a-4960">away</w>
+          <w lemma="good_j" pos="n2_j" xml:id="c2asl-001-a-4970">goods</w>
+          <w lemma="not_x" pos="xx" xml:id="c2asl-001-a-4980">not</w>
+          <w lemma="contain_v" pos="vvn" xml:id="c2asl-001-a-4990">contained</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2asl-001-a-5000">in</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-5010">the</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-5020">Patent</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-5030">.</pc>
+        </p>
+        <p n="8" xml:id="c2asl-e160">
+          <w lemma="8._crd" pos="crd" xml:id="c2asl-001-a-5040">8.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-5050"/>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-5060">He</w>
+          <w lemma="have_v" pos="vvz" xml:id="c2asl-001-a-5070">hath</w>
+          <w lemma="raise_v" pos="vvn" xml:id="c2asl-001-a-5080">raised</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-5090">the</w>
+          <w lemma="price_n" pos="n2" xml:id="c2asl-001-a-5100">prices</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-5110">of</w>
+          <w lemma="work_n" pos="n2" reg="works" xml:id="c2asl-001-a-5120">workes</w>
+          <w lemma="from_acp" pos="acp-p" xml:id="c2asl-001-a-5130">from</w>
+          <w lemma="16_crd" pos="crd" xml:id="c2asl-001-a-5140">16</w>
+          <w lemma="s._ab" pos="n-ab" xml:id="c2asl-001-a-5150">s.</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-5160">to</w>
+          <w lemma="24_crd" pos="crd" xml:id="c2asl-001-a-5170">24</w>
+          <w lemma="s._ab" pos="n-ab" xml:id="c2asl-001-a-5180">s.</w>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-5190">and</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2asl-001-a-5200">by</w>
+          <w lemma="colour_n" pos="n1" xml:id="c2asl-001-a-5210">colour</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-5220">of</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-5230">the</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-5240">Patent</w>
+          <w lemma="may_vm" pos="vmb" xml:id="c2asl-001-a-5250">may</w>
+          <w lemma="still_av" pos="av" xml:id="c2asl-001-a-5260">still</w>
+          <w lemma="raise_v" pos="vvi" xml:id="c2asl-001-a-5270">raise</w>
+          <w lemma="at_acp" pos="acp-p" xml:id="c2asl-001-a-5280">at</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-5290">his</w>
+          <w lemma="pleasure_n" pos="n1" xml:id="c2asl-001-a-5300">pleasure</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-5310">.</pc>
+        </p>
+        <p n="9" xml:id="c2asl-e170">
+          <w lemma="9_crd" pos="crd" reg="9" xml:id="c2asl-001-a-5320">9.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-5330"/>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-5340">He</w>
+          <w lemma="have_v" pos="vvz" xml:id="c2asl-001-a-5350">hath</w>
+          <w lemma="give_v" pos="vvn" reg="given" xml:id="c2asl-001-a-5360">giuen</w>
+          <w lemma="out_av" pos="av" xml:id="c2asl-001-a-5370">out</w>
+          <w lemma="speech_n" pos="n2" xml:id="c2asl-001-a-5380">speeches</w>
+          <pc xml:id="c2asl-001-a-5390">,</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2asl-001-a-5400">that</w>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-5410">he</w>
+          <w lemma="must_vm" pos="vmb" xml:id="c2asl-001-a-5420">must</w>
+          <w lemma="raise_v" pos="vvi" xml:id="c2asl-001-a-5430">raise</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-5440">the</w>
+          <w lemma="prize_n" pos="n2" reg="prizes" xml:id="c2asl-001-a-5450">prises</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-5460">of</w>
+          <w lemma="work_n" pos="n1" reg="work" xml:id="c2asl-001-a-5470">worke</w>
+          <pc xml:id="c2asl-001-a-5480">:</pc>
+          <w lemma="for_acp" pos="acp-cs" xml:id="c2asl-001-a-5490">for</w>
+          <w lemma="that_cs" pos="cs" xml:id="c2asl-001-a-5500">that</w>
+          <w lemma="he_pn" pos="pns" reg="he" xml:id="c2asl-001-a-5510">hee</w>
+          <w lemma="do_v" pos="vvz" xml:id="c2asl-001-a-5520">doth</w>
+          <w lemma="not_x" pos="xx" xml:id="c2asl-001-a-5530">not</w>
+          <w lemma="only_j" pos="av_j" reg="only" xml:id="c2asl-001-a-5540">onely</w>
+          <w lemma="pay_v" pos="vvi" xml:id="c2asl-001-a-5550">pay</w>
+          <w lemma="10._crd" pos="crd" xml:id="c2asl-001-a-5560">10.</w>
+          <w lemma="lib._ab" pos="n-ab" xml:id="c2asl-001-a-5570">lib.</w>
+          <w lemma="a_d" pos="d" xml:id="c2asl-001-a-5580">a</w>
+          <w lemma="year_n" pos="n1" reg="year" xml:id="c2asl-001-a-5590">yeare</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-5600">to</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-5610">the</w>
+          <w lemma="king_n" pos="n1" xml:id="c2asl-001-a-5620">King</w>
+          <pc xml:id="c2asl-001-a-5630">,</pc>
+          <w lemma="reserve_v" pos="vvn" reg="reserved" xml:id="c2asl-001-a-5640">reserued</w>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2asl-001-a-5650">vpon</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-5660">the</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-5670">Patent</w>
+          <pc xml:id="c2asl-001-a-5680">,</pc>
+          <w lemma="but_acp" pos="acp-cc" xml:id="c2asl-001-a-5690">but</w>
+          <w lemma="also_av" pos="av" xml:id="c2asl-001-a-5700">also</w>
+          <w lemma="200._crd" pos="crd" xml:id="c2asl-001-a-5710">200.</w>
+          <w lemma="lib._ab" pos="n-ab" xml:id="c2asl-001-a-5720">lib.</w>
+          <w lemma="a_d" pos="d" xml:id="c2asl-001-a-5730">a</w>
+          <w lemma="year_n" pos="n1" reg="year" xml:id="c2asl-001-a-5740">yeare</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-5750">to</w>
+          <w lemma="some_d" pos="d" xml:id="c2asl-001-a-5760">some</w>
+          <w lemma="other_pn" pos="pi_d" xml:id="c2asl-001-a-5770">other</w>
+          <w lemma="or_cc" pos="cc" xml:id="c2asl-001-a-5780">or</w>
+          <w lemma="other_d" pos="pi2_d" xml:id="c2asl-001-a-5790">others</w>
+          <w lemma="that_cs" pos="cs" xml:id="c2asl-001-a-5800">that</w>
+          <w lemma="procure_v" pos="vvd" xml:id="c2asl-001-a-5810">procured</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-5820">the</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-5830">Patent</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-5840">.</pc>
+        </p>
+        <p n="10" xml:id="c2asl-e180">
+          <w lemma="10._crd" pos="crd" xml:id="c2asl-001-a-5850">10.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-5860"/>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-5870">The</w>
+          <w lemma="Patentee_nn" pos="n1-nn" xml:id="c2asl-001-a-5880">Patentee</w>
+          <w lemma="make_v" pos="vvz" xml:id="c2asl-001-a-5890">makes</w>
+          <w lemma="himself_pn" pos="px" reg="himself" xml:id="c2asl-001-a-5900">himselfe</w>
+          <w lemma="hereupon_av" pos="av" xml:id="c2asl-001-a-5910">hereupon</w>
+          <w lemma="so_av" pos="av" xml:id="c2asl-001-a-5920">so</w>
+          <w lemma="strong_j" pos="j" xml:id="c2asl-001-a-5930">strong</w>
+          <pc xml:id="c2asl-001-a-5940">,</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c2asl-001-a-5950">that</w>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-5960">he</w>
+          <w lemma="have_v" pos="vvz" xml:id="c2asl-001-a-5970">hath</w>
+          <w lemma="affirm_v" pos="vvn" xml:id="c2asl-001-a-5980">affirmed</w>
+          <w lemma="he_pn" pos="pns" reg="he" xml:id="c2asl-001-a-5990">hee</w>
+          <w lemma="will_vm" pos="vmb" xml:id="c2asl-001-a-6000">will</w>
+          <w lemma="not_x" pos="xx" xml:id="c2asl-001-a-6010">not</w>
+          <w lemma="give_v" pos="vvi" reg="give" xml:id="c2asl-001-a-6020">giue</w>
+          <w lemma="three_crd" pos="crd" xml:id="c2asl-001-a-6030">three</w>
+          <w lemma="penny_n" pos="n2" xml:id="c2asl-001-a-6040">pence</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2asl-001-a-6050">to</w>
+          <w lemma="have_v" pos="vvi" reg="have" xml:id="c2asl-001-a-6060">haue</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-6070">the</w>
+          <w lemma="parliament_n" pos="n1" xml:id="c2asl-001-a-6080">Parliament</w>
+          <w lemma="maintain_v" pos="vvi" reg="maintain" xml:id="c2asl-001-a-6090">maintaine</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-6100">his</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-6110">Patent</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-6120">.</pc>
+        </p>
+        <p n="11" xml:id="c2asl-e190">
+          <w lemma="11._crd" pos="crd" xml:id="c2asl-001-a-6130">11.</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-6140"/>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-6150">He</w>
+          <w lemma="have_v" pos="vvd" xml:id="c2asl-001-a-6160">had</w>
+          <w lemma="former_j" pos="av_j" xml:id="c2asl-001-a-6170">formerly</w>
+          <w lemma="a_d" pos="d" xml:id="c2asl-001-a-6180">a</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-6190">Patent</w>
+          <pc xml:id="c2asl-001-a-6200">,</pc>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2asl-001-a-6210">vpon</w>
+          <w lemma="pretence_n" pos="n1" xml:id="c2asl-001-a-6220">pretence</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-6230">the</w>
+          <w lemma="invention_n" pos="n1" reg="invention" xml:id="c2asl-001-a-6240">inuention</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2asl-001-a-6250">was</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-6260">his</w>
+          <w lemma="own_d" pos="d" reg="own" xml:id="c2asl-001-a-6270">owne</w>
+          <pc xml:id="c2asl-001-a-6280">,</pc>
+          <w lemma="whereupon_crq" pos="crq-cs" xml:id="c2asl-001-a-6290">whereupon</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2asl-001-a-6300">was</w>
+          <w lemma="reserve_v" pos="vvn" reg="reserved" xml:id="c2asl-001-a-6310">reserued</w>
+          <w lemma="40_crd" pos="crd" xml:id="c2asl-001-a-6320">40</w>
+          <w lemma="lib._ab" pos="n-ab" xml:id="c2asl-001-a-6330">lib.</w>
+          <hi xml:id="c2asl-e200">
+            <w lemma="per_f-la" pos="fw-la" xml:id="c2asl-001-a-6340">per</w>
+            <w lemma="annum_f-la" pos="fw-la" xml:id="c2asl-001-a-6350">annum</w>
+          </hi>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-6360">to</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-6370">his</w>
+          <w lemma="majesty_n" pos="n1" reg="Majesty" xml:id="c2asl-001-a-6380">Maiestie</w>
+          <pc xml:id="c2asl-001-a-6390">:</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-6400">and</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c2asl-001-a-6410">by</w>
+          <w lemma="that_d" pos="d" xml:id="c2asl-001-a-6420">that</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-6430">Patent</w>
+          <w lemma="none_pn" pos="pi-x" xml:id="c2asl-001-a-6440">none</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2asl-001-a-6450">were</w>
+          <w lemma="prohibit_v" pos="vvn" xml:id="c2asl-001-a-6460">prohibited</w>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c2asl-001-a-6470">to</w>
+          <w lemma="use_v" pos="vvi" reg="use" xml:id="c2asl-001-a-6480">vse</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-6490">the</w>
+          <w lemma="Art_n" pos="n1" xml:id="c2asl-001-a-6500">Art</w>
+          <pc xml:id="c2asl-001-a-6501" unit="sentence">.</pc>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2asl-001-a-6510">Which</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-6520">Patent</w>
+          <w lemma="not_x" pos="xx" xml:id="c2asl-001-a-6530">not</w>
+          <w lemma="serve_v" pos="vvg" reg="serving" xml:id="c2asl-001-a-6540">seruing</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-6550">to</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-6560">his</w>
+          <w lemma="purpose_n" pos="n1" xml:id="c2asl-001-a-6570">purpose</w>
+          <pc xml:id="c2asl-001-a-6580">,</pc>
+          <w lemma="he_pn" pos="pns" xml:id="c2asl-001-a-6590">he</w>
+          <w lemma="then_av" pos="av" xml:id="c2asl-001-a-6600">then</w>
+          <w lemma="find_v" pos="vvd" xml:id="c2asl-001-a-6610">found</w>
+          <w lemma="out_av" pos="av" xml:id="c2asl-001-a-6620">out</w>
+          <w lemma="this_d" pos="d" xml:id="c2asl-001-a-6630">this</w>
+          <w lemma="new_j" pos="j" xml:id="c2asl-001-a-6640">new</w>
+          <w lemma="pretence_n" pos="n1" xml:id="c2asl-001-a-6650">pretence</w>
+          <pc xml:id="c2asl-001-a-6660" join="right">(</pc>
+          <w lemma="though_cs" pos="cs" xml:id="c2asl-001-a-6670">though</w>
+          <w lemma="false_j" pos="j" xml:id="c2asl-001-a-6680">false</w>
+          <pc xml:id="c2asl-001-a-6690">)</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-6700">and</w>
+          <w lemma="obtain_v" pos="vvd" xml:id="c2asl-001-a-6710">obtained</w>
+          <w lemma="this_d" pos="d" xml:id="c2asl-001-a-6720">this</w>
+          <w lemma="patent_n" pos="n1" xml:id="c2asl-001-a-6730">Patent</w>
+          <pc xml:id="c2asl-001-a-6740">,</pc>
+          <w lemma="which_crq" pos="crq-r" xml:id="c2asl-001-a-6750">which</w>
+          <w lemma="be_v" pos="vvz" xml:id="c2asl-001-a-6760">is</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c2asl-001-a-6770">in</w>
+          <w lemma="benefit_n" pos="n1" xml:id="c2asl-001-a-6780">benefit</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c2asl-001-a-6790">to</w>
+          <w lemma="he_pn" pos="pno" xml:id="c2asl-001-a-6800">him</w>
+          <w lemma="if_cs" pos="cs" xml:id="c2asl-001-a-6810">if</w>
+          <w lemma="it_pn" pos="pn" xml:id="c2asl-001-a-6820">it</w>
+          <w lemma="shall_vm" pos="vmd" xml:id="c2asl-001-a-6830">should</w>
+          <w lemma="hold_v" pos="vvi" xml:id="c2asl-001-a-6840">hold</w>
+          <pc xml:id="c2asl-001-a-6850">,</pc>
+          <w lemma="above_acp" pos="acp-p" reg="above" xml:id="c2asl-001-a-6860">aboue</w>
+          <w lemma="a_d" pos="d" xml:id="c2asl-001-a-6870">a</w>
+          <w lemma="hund●●d_crd" pos="crd" xml:id="c2asl-001-a-6880" type="mc" cert="1">hund[re]d</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c2asl-001-a-6890">for</w>
+          <w lemma="one_crd" pos="crd" xml:id="c2asl-001-a-6900">one</w>
+          <w lemma="beyond_acp" pos="acp-p" xml:id="c2asl-001-a-6910">beyond</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-6920">the</w>
+          <w lemma="other_pn" pos="pi_d" xml:id="c2asl-001-a-6930">other</w>
+          <pc xml:id="c2asl-001-a-6940">:</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c2asl-001-a-6950">and</w>
+          <w lemma="yet_av" pos="av" xml:id="c2asl-001-a-6960">yet</w>
+          <w lemma="there_av" pos="av" xml:id="c2asl-001-a-6970">there</w>
+          <w lemma="be_v" pos="vvz" xml:id="c2asl-001-a-6980">is</w>
+          <w lemma="no_d" pos="d-x" xml:id="c2asl-001-a-6990">no</w>
+          <w lemma="more_d" pos="av-c_d" xml:id="c2asl-001-a-7000">more</w>
+          <w lemma="reserve_v" pos="vvn" reg="reserved" xml:id="c2asl-001-a-7010">reserued</w>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2asl-001-a-7020">vpon</w>
+          <w lemma="this_d" pos="d" xml:id="c2asl-001-a-7030">this</w>
+          <w lemma="unto_acp" pos="acp-p" reg="unto" xml:id="c2asl-001-a-7040">vnto</w>
+          <w lemma="his_pn" pos="po" xml:id="c2asl-001-a-7050">his</w>
+          <w lemma="●a●est_n" pos="n1" xml:id="c2asl-001-a-7060" type="mc" cert="0.21">[b]a[s]est</w>
+          <pc xml:id="c2asl-001-a-7070">▪</pc>
+          <w lemma="then_av" pos="av" xml:id="c2asl-001-a-7080">then</w>
+          <w lemma="be_v" pos="vvd" xml:id="c2asl-001-a-7090">was</w>
+          <w lemma="upon_acp" pos="acp-p" reg="upon" xml:id="c2asl-001-a-7100">vpon</w>
+          <w lemma="the_d" pos="d" xml:id="c2asl-001-a-7110">the</w>
+          <w lemma="other_pn" pos="pi_d" xml:id="c2asl-001-a-7120">other</w>
+          <pc unit="sentence" xml:id="c2asl-001-a-7130">.</pc>
+        </p>
+      </div>
+    </body>
+    <back xml:id="c2asl-t-b">
+      <div type="supplied_by_editor">
+        <head>Notes, typically marginal, from the original text</head>
+        <div xml:id="c2asl-e10-n" corresp="A15679-e10">
+          <head>Notes for div A15679-e10</head>
+          <note place="margin" xml:id="c2asl-e70-b" corresp="nasl-e70-a">
+            <w lemma="wood_n" pos="n1" xml:id="c2asl-001-a-0700">Wood</w>
+            <w lemma="be_v" pos="vvz" xml:id="c2asl-001-a-0710">is</w>
+            <w lemma="by_acp" pos="acp-p" xml:id="c2asl-001-a-0720">by</w>
+            <w lemma="trade_n" pos="n1" xml:id="c2asl-001-a-0730">trade</w>
+            <w lemma="a_d" pos="d" xml:id="c2asl-001-a-0740">a</w>
+            <w lemma="printer_n" pos="n1" xml:id="c2asl-001-a-0750">Printer</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c2asl-001-a-0760">of</w>
+            <w lemma="book_n" pos="n2" reg="books" xml:id="c2asl-001-a-0770">bookes</w>
+            <pc unit="sentence" xml:id="c2asl-001-a-0780">.</pc>
+          </note>
+        </div>
+      </div>
+    </back>
+  </text>
+</TEI>

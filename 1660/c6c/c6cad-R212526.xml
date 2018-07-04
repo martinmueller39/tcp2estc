@@ -1,0 +1,980 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://schemata.earlyprint.org/schemata/tei_earlyprint.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="c6cad-R212526">
+  <teiHeader xml:id="c6cad-R212526-header">
+    <fileDesc>
+      <titleStmt>
+        <title>A list of knights made since His Majestie came to London, May 29. 1660</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>This text is an enriched version of the TCP digital transcription A88321 of text R212526 in the <ref target="http://estc.bl.uk">English Short Title Catalog</ref> (Thomason 669.f.25[66]). Textual changes  and metadata enrichments aim at making the text more  computationally tractable, easier to read, and suitable for network-based collaborative curation by amateur and professional end users from many walks of life.  The text has been tokenized and linguistically annotated with <ref target="http://morphadorner.northwestern.edu/morphadorner/">MorphAdorner</ref>. The annotation includes standard spellings that support the display of a text in a standardized format that preserves archaic forms ('loveth', 'seekest'). Textual changes aim at restoring the text the author or stationer meant to publish.</edition>
+        <respStmt>
+          <resp>This text has not been fully proofread</resp>
+          <name/>
+        </respStmt>
+      </editionStmt>
+      <extent>Approx. 5 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+      <publicationStmt>
+        <publisher>EarlyPrint Project</publisher>
+        <pubPlace>Evanston,IL, Notre Dame, IN, St. Louis, MO</pubPlace>
+        <date>2017</date>
+        <idno type="DLPS">A88321</idno>
+        <idno type="STC">Wing L2400</idno>
+        <idno type="STC">Thomason 669.f.25[66]</idno>
+        <idno type="STC">ESTC R212526</idno>
+        <idno type="EEBO-CITATION">99871136</idno>
+        <idno type="PROQUEST">99871136</idno>
+        <idno type="VID">163871</idno>
+        <availability>
+          <p>
+            This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. This Phase I text is available for reuse, according to the terms of
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 0 1.0 Universal</ref>
+            . The text can be copied, modified, distributed and performed, even for commercial purposes, all without asking permission.
+          </p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Early English books online.</title>
+      </seriesStmt>
+      <notesStmt>
+        <note>(EEBO-TCP ; phase 1, no. A88321)</note>
+        <note>Transcribed from: (Early English Books Online ; image set 163871)</note>
+        <note>Images scanned from microfilm: (Thomason Tracts ; 247:669f25[66])</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>A list of knights made since His Majestie came to London, May 29. 1660</title>
+          </titleStmt>
+          <extent>1 sheet ([1] p.)</extent>
+          <publicationStmt>
+            <publisher>Printed by S. Griffin,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1660.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>Annotation on Thomason copy: "August. 1 [illegible]".</note>
+            <note>Reproduction of the original in the British Library.</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">eng</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://authorities.loc.gov/">
+          <term>Knights and knighthood -- England -- Registers -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <xenoData>
+      <ep:epHeader xmlns:ep="http://earlyprint.org/ns/1.0">
+        <ep:tcp>A88321</ep:tcp>
+        <ep:estc> R212526</ep:estc>
+        <ep:stc> (Thomason 669.f.25[66]). </ep:stc>
+        <ep:corpus>civilwar</ep:corpus>
+        <ep:workpart>no</ep:workpart>
+        <ep:title>A list of knights made since His Majestie came to London, May 29. 1660.</ep:title>
+        <ep:author>anon.</ep:author>
+        <ep:publicationYear>1660</ep:publicationYear>
+        <ep:creationYear/>
+        <ep:curator>
+          <ep:name/>
+        </ep:curator>
+        <ep:wordCount>428</ep:wordCount>
+        <ep:defectiveTokenCount>0</ep:defectiveTokenCount>
+        <ep:untranscribedForeignCount>0</ep:untranscribedForeignCount>
+        <ep:untranscribedMathCount>0</ep:untranscribedMathCount>
+        <ep:untranscribedMusicCount>0</ep:untranscribedMusicCount>
+        <ep:missingChunkCount>0</ep:missingChunkCount>
+        <ep:missingPagesCount>0</ep:missingPagesCount>
+        <ep:defectRate>0</ep:defectRate>
+        <ep:finalGrade>A</ep:finalGrade>
+        <ep:defectRangePerGrade>This text  has no known defects that were recorded as gap elements at the time of transcription. </ep:defectRangePerGrade>
+      </ep:epHeader>
+    </xenoData>
+    <revisionDesc>
+      <change><date>2007-07</date><label>TCP</label>
+        Assigned for keying and markup
+      </change>
+      <change><date>2007-08</date><label>Apex CoVantage</label>
+        Keyed and coded from ProQuest page images
+      </change>
+      <change><date>2007-09</date><label>Pip Willcox</label>
+        Sampled and proofread
+      </change>
+      <change><date>2007-09</date><label>Pip Willcox</label>
+        Text and markup reviewed and edited
+      </change>
+      <change><date>2008-02</date><label>pfs</label>
+        Batch review (QC) and XML conversion
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="c6cad-R212526-text">
+    <body xml:id="c6cade-20">
+      <pb facs="tcp:163871:1" xml:id="c6cad-001-a"/>
+      <pb facs="tcp:163871:1" rendition="simple:additions" xml:id="c6cad-001-b"/>
+      <div type="list_of_knights" xml:id="c6cade-30">
+        <head xml:id="c6cade-40">
+          <w lemma="a_sy" pos="sy" xml:id="c6cad-001-b-0010">A</w>
+          <w lemma="LIST_n" pos="n1" xml:id="c6cad-001-b-0020">LIST</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cad-001-b-0030">OF</w>
+          <w lemma="knight_n" pos="n2" xml:id="c6cad-001-b-0040">KNIGHTS</w>
+          <w lemma="make_v" pos="vvn" xml:id="c6cad-001-b-0050">Made</w>
+          <w lemma="since_acp" pos="acp-p" xml:id="c6cad-001-b-0060">since</w>
+          <w lemma="his_pn" pos="po" xml:id="c6cad-001-b-0070">His</w>
+          <w lemma="majesty_n" pos="n1" reg="majesty" xml:id="c6cad-001-b-0080">MAJESTIE</w>
+          <w lemma="come_v" pos="vvd" xml:id="c6cad-001-b-0090">came</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c6cad-001-b-0100">to</w>
+          <hi xml:id="c6cade-50">
+            <w lemma="LONDON_nn" pos="n1-nn" xml:id="c6cad-001-b-0110">LONDON</w>
+            <pc xml:id="c6cad-001-b-0120">,</pc>
+            <w lemma="may_vm" pos="vmb" xml:id="c6cad-001-b-0130">MAY</w>
+          </hi>
+          <w lemma="29._crd" pos="crd" xml:id="c6cad-001-b-0140">29.</w>
+          <w lemma="1660._crd" pos="crd" xml:id="c6cad-001-b-0150">1660.</w>
+          <pc unit="sentence" xml:id="c6cad-001-b-0160"/>
+        </head>
+        <list xml:id="c6cade-60">
+          <item xml:id="c6cade-70">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0170">SIR</w>
+            <hi xml:id="c6cade-80">
+              <w lemma="Charles_nn" pos="n1-nn" xml:id="c6cad-001-b-0180">Charles</w>
+              <w lemma="Berkley_nn" pos="n1-nn" xml:id="c6cad-001-b-0190">Berkley</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0200">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-90">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0210">Sir</w>
+            <hi xml:id="c6cade-100">
+              <w lemma="Townley_nn" pos="n1-nn" xml:id="c6cad-001-b-0220">Townley</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0230">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-110">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0240">Sir</w>
+            <hi xml:id="c6cade-120">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-0250">John</w>
+              <w lemma="warr_n" pos="n1" reg="war" xml:id="c6cad-001-b-0260">Warr</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0270">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-130">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0280">Sir</w>
+            <hi xml:id="c6cade-140">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-0290">William</w>
+              <w lemma="windham_f-la" pos="fw-la" xml:id="c6cad-001-b-0300">windham</w>
+            </hi>
+            <w lemma="the_d" pos="d" xml:id="c6cad-001-b-0310">the</w>
+            <w lemma="ba_ab" pos="n-ab" xml:id="c6cad-001-b-0320">Ba</w>
+            <pc xml:id="c6cad-001-b-0330">:</pc>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cad-001-b-0340">of</w>
+            <hi xml:id="c6cade-150">
+              <w lemma="Oxford_nn" pos="n1-nn" xml:id="c6cad-001-b-0350">Oxford</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0360">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-160">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0370">Sir</w>
+            <hi xml:id="c6cade-170">
+              <w lemma="Ascough_nn" pos="n1-nn" xml:id="c6cad-001-b-0380">Ascough</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0390">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-180">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0400">Sir</w>
+            <hi xml:id="c6cade-190">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-0410">John</w>
+              <w lemma="Dawney_nn" pos="n1-nn" xml:id="c6cad-001-b-0420">Dawney</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0430">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-200">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0440">Sir</w>
+            <hi xml:id="c6cade-210">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-0450">William</w>
+              <w lemma="Wiseman_nn" pos="n1-nn" xml:id="c6cad-001-b-0460">Wiseman</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0470">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-220">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0480">Sir</w>
+            <hi xml:id="c6cade-230">
+              <w lemma="Philip_nn" pos="n1-nn" xml:id="c6cad-001-b-0490">Philip</w>
+              <w lemma="Harcourt_nn" pos="n1-nn" xml:id="c6cad-001-b-0500">Harcourt</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0510">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-240">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0520">Sir</w>
+            <hi xml:id="c6cade-250">
+              <w lemma="Roger_nn" pos="n1-nn" xml:id="c6cad-001-b-0530">Roger</w>
+              <w lemma="Mostyn_nn" pos="n1-nn" xml:id="c6cad-001-b-0540">Mostyn</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0550">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-260">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0560">Sir</w>
+            <hi xml:id="c6cade-270">
+              <w lemma="king_n" pos="n1" xml:id="c6cad-001-b-0570">King</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0580">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-280">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0590">Sir</w>
+            <hi xml:id="c6cade-290">
+              <w lemma="Drake_nn" pos="n1-nn" xml:id="c6cad-001-b-0600">Drake</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0610">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-300">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0620">Sir</w>
+            <hi xml:id="c6cade-310">
+              <w lemma="Ralph_nn" pos="n1-nn" xml:id="c6cad-001-b-0630">Ralph</w>
+              <w lemma="Banks_nn" pos="n1-nn" xml:id="c6cad-001-b-0640">Banks</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0650">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-320">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0660">Sir</w>
+            <hi xml:id="c6cade-330">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-0670">John</w>
+              <w lemma="Maynard_nn" pos="n1-nn" xml:id="c6cad-001-b-0680">Maynard</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0690">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-340">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0700">Sir</w>
+            <hi xml:id="c6cade-350">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-0710">John</w>
+              <w lemma="Oliver_nn" pos="n1-nn" xml:id="c6cad-001-b-0720">Oliver</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0730">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-360">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0740">Sir</w>
+            <hi xml:id="c6cade-370">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-0750">John</w>
+              <w lemma="Carter_nn" pos="n1-nn" xml:id="c6cad-001-b-0760">Carter</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0770">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-380">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0780">Sir</w>
+            <hi xml:id="c6cade-390">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-0790">William</w>
+              <w lemma="Wray_nn" pos="n1-nn" xml:id="c6cad-001-b-0800">Wray</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0810">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-400">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0820">Sir</w>
+            <hi xml:id="c6cade-410">
+              <w lemma="Heneage_nn" pos="n1-nn" xml:id="c6cad-001-b-0830">Heneage</w>
+              <w lemma="Finch_nn" pos="n1-nn" xml:id="c6cad-001-b-0840">Finch</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0850">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-420">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0860">Sir</w>
+            <hi xml:id="c6cade-430">
+              <w lemma="Cleobury_nn" pos="n1-nn" xml:id="c6cad-001-b-0870">Cleobury</w>
+            </hi>
+            <w lemma="col_f-fr" pos="fw-fr" xml:id="c6cad-001-b-0880">Col</w>
+          </item>
+          <item xml:id="c6cade-440">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0890">Sir</w>
+            <hi xml:id="c6cade-450">
+              <w lemma="Stiddolph_nn" pos="n1-nn" xml:id="c6cad-001-b-0900">Stiddolph</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0910">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-460">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0920">Sir</w>
+            <hi xml:id="c6cade-470">
+              <w lemma="Francis_nn" pos="n1-nn" xml:id="c6cad-001-b-0930">Francis</w>
+              <w lemma="Gerard_nn" pos="n1-nn" xml:id="c6cad-001-b-0940">Gerard</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0950">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-480">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-0960">Sir</w>
+            <hi xml:id="c6cade-490">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-0970">William</w>
+              <w lemma="Salkeld_nn" pos="n1-nn" xml:id="c6cad-001-b-0980">Salkeld</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-0990">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-500">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1000">Sir</w>
+            <hi xml:id="c6cade-510">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-1010">William</w>
+              <w lemma="Dalton_nn" pos="n1-nn" xml:id="c6cad-001-b-1020">Dalton</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1030">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-520">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1040">Sir</w>
+            <hi xml:id="c6cade-530">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cad-001-b-1050">Thomas</w>
+              <w lemma="Hebeltwait_nn" pos="n1-nn" xml:id="c6cad-001-b-1060">Hebeltwait</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1070">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-540">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1080">Sir</w>
+            <hi xml:id="c6cade-550">
+              <w lemma="Robert_nn" pos="n1-nn" xml:id="c6cad-001-b-1090">Robert</w>
+              <w lemma="parkhurst_nn" pos="n1-nn" xml:id="c6cad-001-b-1100">Parkhurst</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1110">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-560">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1120">Sir</w>
+            <hi xml:id="c6cade-570">
+              <w lemma="Bernard_nn" pos="n1-nn" xml:id="c6cad-001-b-1130">Bernard</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1140">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-580">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1150">Sir</w>
+            <hi xml:id="c6cade-590">
+              <w lemma="Henry_nn" pos="n1-nn" xml:id="c6cad-001-b-1160">Henry</w>
+              <w lemma="Oxendine_nn" pos="n1-nn" xml:id="c6cad-001-b-1170">Oxendine</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1180">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-600">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1190">Sir</w>
+            <hi xml:id="c6cade-610">
+              <w lemma="Henry_nn" pos="n1-nn" xml:id="c6cad-001-b-1200">Henry</w>
+              <w lemma="Conningsby_nn" pos="n1-nn" xml:id="c6cad-001-b-1210">Conningsby</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1220">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-620">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1230">Sir</w>
+            <hi xml:id="c6cade-630">
+              <w lemma="and._ab" pos="n-ab" xml:id="c6cad-001-b-1240">And.</w>
+              <w lemma="king_n" pos="n1" xml:id="c6cad-001-b-1250">King</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1260">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-640">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1270">Sir</w>
+            <hi xml:id="c6cade-650">
+              <w lemma="Ralph_nn" pos="n1-nn" xml:id="c6cad-001-b-1280">Ralph</w>
+              <w lemma="knight_n" pos="n1" xml:id="c6cad-001-b-1290">Knight</w>
+            </hi>
+            <w lemma="col._ab" pos="n-ab" xml:id="c6cad-001-b-1300">Col.</w>
+            <pc unit="sentence" xml:id="c6cad-001-b-1310"/>
+          </item>
+          <item xml:id="c6cade-660">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1320">Sir</w>
+            <hi xml:id="c6cade-670">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-1330">John</w>
+              <w lemma="prettyman_nn" pos="n1-nn" xml:id="c6cad-001-b-1340">Prettyman</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1350">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-680">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1360">Sir</w>
+            <hi xml:id="c6cade-690">
+              <w lemma="Emanuel_nn" pos="n1-nn" xml:id="c6cad-001-b-1370">Emanuel</w>
+              <w lemma="Sorell_nn" pos="n1-nn" xml:id="c6cad-001-b-1380">Sorell</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1390">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-700">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1400">Sir</w>
+            <hi xml:id="c6cade-710">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cad-001-b-1410">Thomas</w>
+              <w lemma="Meers_nn" pos="n1-nn" xml:id="c6cad-001-b-1420">Meers</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1430">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-720">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1440">Sir</w>
+            <hi xml:id="c6cade-730">
+              <w lemma="Brian_nn" pos="n1-nn" xml:id="c6cad-001-b-1450">Brian</w>
+              <w lemma="Broughton_nn" pos="n1-nn" xml:id="c6cad-001-b-1460">Broughton</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1470">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-740">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1480">Sir</w>
+            <hi xml:id="c6cade-750">
+              <w lemma="Edward_nn" pos="n1-nn" xml:id="c6cad-001-b-1490">Edward</w>
+              <w lemma="Sutton_nn" pos="n1-nn" xml:id="c6cad-001-b-1500">Sutton</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1510">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-760">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1520">Sir</w>
+            <hi xml:id="c6cade-770">
+              <w lemma="Richard_nn" pos="n1-nn" xml:id="c6cad-001-b-1530">Richard</w>
+              <w lemma="Franklin_nn" pos="n1-nn" reg="Franklin" xml:id="c6cad-001-b-1540">Francklin</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1550">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-780">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1560">Sir</w>
+            <hi xml:id="c6cade-790">
+              <w lemma="Walter_nn" pos="n1-nn" xml:id="c6cad-001-b-1570">Walter</w>
+              <w lemma="Raleigh_nn" pos="n1-nn" reg="Raleigh" xml:id="c6cad-001-b-1580">Rawley</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1590">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-800">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1600">Sir</w>
+            <hi xml:id="c6cade-810">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cad-001-b-1610">Thomas</w>
+              <w lemma="tippin_nn" pos="n1-nn" xml:id="c6cad-001-b-1620">Tippin</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1630">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-820">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1640">Sir</w>
+            <hi xml:id="c6cade-830">
+              <w lemma="mawrice_nn" pos="n1-nn" xml:id="c6cad-001-b-1650">Mawrice</w>
+              <w lemma="Berkley_nn" pos="n1-nn" xml:id="c6cad-001-b-1660">Berkley</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1670">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-840">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1680">Sir</w>
+            <hi xml:id="c6cade-850">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-1690">William</w>
+              <w lemma="Russel_nn" pos="n1-nn" xml:id="c6cad-001-b-1700">Russel</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1710">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-860">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1720">Sir</w>
+            <hi xml:id="c6cade-870">
+              <w lemma="William_nn" pos="n1-nn" reg="William" xml:id="c6cad-001-b-1730">VVilliam</w>
+              <w lemma="leech_nn" pos="n1-nn" xml:id="c6cad-001-b-1740">Leech</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1750">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-880">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1760">Sir</w>
+            <hi xml:id="c6cade-890">
+              <w lemma="Gilbert_nn" pos="n1-nn" xml:id="c6cad-001-b-1770">Gilbert</w>
+              <w lemma="Ireland_nn" pos="n1-nn" xml:id="c6cad-001-b-1780">Ireland</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1790">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-900">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1800">Sir</w>
+            <hi xml:id="c6cade-910">
+              <w lemma="Edward_nn" pos="n1-nn" xml:id="c6cad-001-b-1810">Edward</w>
+              <w lemma="Rice_nn" pos="n1-nn" xml:id="c6cad-001-b-1820">Rice</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1830">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-920">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1840">Sir</w>
+            <hi xml:id="c6cade-930">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-1850">John</w>
+              <w lemma="Cutler_nn" pos="n1-nn" xml:id="c6cad-001-b-1860">Cutler</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1870">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-940">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1880">Sir</w>
+            <hi xml:id="c6cade-950">
+              <w lemma="Hugh_nn" pos="n1-nn" xml:id="c6cad-001-b-1890">Hugh</w>
+              <w lemma="Bethel_nn" pos="n1-nn" xml:id="c6cad-001-b-1900">Bethel</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1910">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-960">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1920">Sir</w>
+            <hi xml:id="c6cade-970">
+              <w lemma="Richard_nn" pos="n1-nn" xml:id="c6cad-001-b-1930">Richard</w>
+              <w lemma="steyner_n" pos="n1" xml:id="c6cad-001-b-1940">Steyner</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1950">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-980">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-1960">Sir</w>
+            <hi xml:id="c6cade-990">
+              <w lemma="William_nn" pos="n1-nn" reg="William" xml:id="c6cad-001-b-1970">VVilliam</w>
+              <w lemma="Bowyer_nn" pos="n1-nn" xml:id="c6cad-001-b-1980">Bowyer</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-1990">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1000">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2000">Sir</w>
+            <hi xml:id="c6cade-1010">
+              <w lemma="christoph_nn" pos="n1-nn" xml:id="c6cad-001-b-2010">Christoph</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2020">.</pc>
+              <w lemma="Clapham_nn" pos="n1-nn" xml:id="c6cad-001-b-2030">Clapham</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2040">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1020">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2050">Sir</w>
+            <hi xml:id="c6cade-1030">
+              <w lemma="Clement_nn" pos="n1-nn" xml:id="c6cad-001-b-2060">Clement</w>
+              <w lemma="Armiger_nn" pos="n1-nn" xml:id="c6cad-001-b-2070">Armiger</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2080">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1040">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2090">Sir</w>
+            <hi xml:id="c6cade-1050">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cad-001-b-2100">Thomas</w>
+              <w lemma="smith_nn" pos="n1-nn" xml:id="c6cad-001-b-2110">Smith</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2120">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1060">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2130">Sir</w>
+            <hi xml:id="c6cade-1070">
+              <w lemma="Roger_nn" pos="n1-nn" xml:id="c6cad-001-b-2140">Roger</w>
+              <w lemma="Bradshaw_nn" pos="n1-nn" xml:id="c6cad-001-b-2150">Bradshaw</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2160">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1080">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2170">Sir</w>
+            <hi xml:id="c6cade-1090">
+              <w lemma="Ralph_nn" pos="n1-nn" xml:id="c6cad-001-b-2180">Ralph</w>
+              <w lemma="delaval_nn" pos="n1-nn" xml:id="c6cad-001-b-2190">Delaval</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2200">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1100">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2210">Sir</w>
+            <hi xml:id="c6cade-1110">
+              <w lemma="Richard_nn" pos="n1-nn" xml:id="c6cad-001-b-2220">Richard</w>
+              <w lemma="Atkins_nn" pos="n1-nn" xml:id="c6cad-001-b-2230">Atkins</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2240">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1120">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2250">Sir</w>
+            <hi xml:id="c6cade-1130">
+              <w lemma="Robert_nn" pos="n1-nn" xml:id="c6cad-001-b-2260">Robert</w>
+              <w lemma="Paston_nn" pos="n1-nn" xml:id="c6cad-001-b-2270">Paston</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2280">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1140">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2290">Sir</w>
+            <hi xml:id="c6cade-1150">
+              <w lemma="John_nn" pos="n1-nn" reg="John" xml:id="c6cad-001-b-2300">Iohn</w>
+              <w lemma="Lewis_nn" pos="n1-nn" xml:id="c6cad-001-b-2310">Lewis</w>
+            </hi>
+            <w lemma="knight_v" pos="vvn" xml:id="c6cad-001-b-2320">Knighted</w>
+            <w lemma="beyond_acp" pos="acp-p" xml:id="c6cad-001-b-2330">beyond</w>
+            <w lemma="sea_n" pos="n1" xml:id="c6cad-001-b-2340">Sea</w>
+            <pc unit="sentence" xml:id="c6cad-001-b-2350">.</pc>
+          </item>
+          <item xml:id="c6cade-1160">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2360">Sir</w>
+            <hi xml:id="c6cade-1170">
+              <w lemma="John_nn" pos="n1-nn" reg="John" xml:id="c6cad-001-b-2370">Iohn</w>
+              <w lemma="York_nn" pos="n1-nn" xml:id="c6cad-001-b-2380">York</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2390">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1180">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2400">Sir</w>
+            <hi xml:id="c6cade-1190">
+              <w lemma="Henry_nn" pos="n1-nn" xml:id="c6cad-001-b-2410">Henry</w>
+              <w lemma="beddingfield_nn" pos="n1-nn" xml:id="c6cad-001-b-2420">Beddingfield</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2430">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1200">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2440">Sir</w>
+            <hi xml:id="c6cade-1210">
+              <w lemma="John_nn" pos="n1-nn" reg="John" xml:id="c6cad-001-b-2450">Iohn</w>
+              <w lemma="covet_v" pos="vvb" xml:id="c6cad-001-b-2460">Covet</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2470">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1220">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2480">Sir</w>
+            <hi xml:id="c6cade-1230">
+              <w lemma="Charles_nn" pos="n1-nn" xml:id="c6cad-001-b-2490">Charles</w>
+              <w lemma="Coot_nn" pos="n1-nn" xml:id="c6cad-001-b-2500">Coot</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2510">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1240">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2520">Sir</w>
+            <hi xml:id="c6cade-1250">
+              <w lemma="George_nn" pos="n1-nn" xml:id="c6cad-001-b-2530">George</w>
+              <w lemma="Brown_nn" pos="n1-nn" xml:id="c6cad-001-b-2540">Brown</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2550">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1260">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2560">Sir</w>
+            <hi xml:id="c6cade-1270">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-2570">William</w>
+              <w lemma="Hartop_nn" pos="n1-nn" xml:id="c6cad-001-b-2580">Hartop</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2590">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1280">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2600">Sir</w>
+            <hi xml:id="c6cade-1290">
+              <w lemma="Edward_nn" pos="n1-nn" xml:id="c6cad-001-b-2610">Edward</w>
+              <w lemma="Oateley_nn" pos="n1-nn" xml:id="c6cad-001-b-2620">Oateley</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2630">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1300">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2640">Sir</w>
+            <hi xml:id="c6cade-1310">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-2650">William</w>
+              <w lemma="Egerton_nn" pos="n1-nn" xml:id="c6cad-001-b-2660">Egerton</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2670">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1320">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2680">Sir</w>
+            <hi xml:id="c6cade-1330">
+              <w lemma="Robert_nn" pos="n1-nn" xml:id="c6cad-001-b-2690">Robert</w>
+              <w lemma="Cotton_nn" pos="n1-nn" xml:id="c6cad-001-b-2700">Cotton</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2710">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1340">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2720">Sir</w>
+            <hi xml:id="c6cade-1350">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-2730">William</w>
+              <w lemma="Poultney_nn" pos="n1-nn" xml:id="c6cad-001-b-2740">Poultney</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2750">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1360">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2760">sir</w>
+            <hi xml:id="c6cade-1370">
+              <w lemma="Capel_nn" pos="n1-nn" xml:id="c6cad-001-b-2770">Capel</w>
+              <w lemma="lukin_nn" pos="n1-nn" xml:id="c6cad-001-b-2780">Lukin</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2790">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1380">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2800">Sir</w>
+            <hi xml:id="c6cade-1390">
+              <w lemma="Edmond_nn" pos="n1-nn" xml:id="c6cad-001-b-2810">Edmond</w>
+              <w lemma="Wiseman_nn" pos="n1-nn" xml:id="c6cad-001-b-2820">Wiseman</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2830">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1400">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2840">Sir</w>
+            <hi xml:id="c6cade-1410">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-2850">John</w>
+              <w lemma="Godseal_nn" pos="n1-nn" xml:id="c6cad-001-b-2860">Godseal</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2870">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1420">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2880">Sir</w>
+            <hi xml:id="c6cade-1430">
+              <w lemma="George_nn" pos="n1-nn" xml:id="c6cad-001-b-2890">George</w>
+              <w lemma="Horner_nn" pos="n1-nn" xml:id="c6cad-001-b-2900">Horner</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2910">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1440">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2920">Sir</w>
+            <hi xml:id="c6cade-1450">
+              <w lemma="miles_f-la" pos="fw-la" xml:id="c6cad-001-b-2930">Miles</w>
+              <w lemma="Stapleton_nn" pos="n1-nn" xml:id="c6cad-001-b-2940">Stapleton</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-2950">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1460">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-2960">Sir</w>
+            <hi xml:id="c6cade-1470">
+              <w lemma="Frederick_nn" pos="n1-nn" xml:id="c6cad-001-b-2970">Frederick</w>
+            </hi>
+            <pc xml:id="c6cad-001-b-2980" join="right">(</pc>
+            <w lemma="Alderm._ab" pos="n-ab" xml:id="c6cad-001-b-2990">Alderm.</w>
+          </item>
+          <item xml:id="c6cade-1480">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3010">Sir</w>
+            <hi xml:id="c6cade-1490">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-3020">William</w>
+              <w lemma="love_n" pos="n1" xml:id="c6cad-001-b-3030">Love</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3040">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1500">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3050">Sir</w>
+            <hi xml:id="c6cade-1510">
+              <w lemma="Edward_nn" pos="n1-nn" xml:id="c6cad-001-b-3060">Edward</w>
+              <w lemma="harley_nn" pos="n1-nn" xml:id="c6cad-001-b-3070">Harley</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3080">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1520">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3090">Sir</w>
+            <hi xml:id="c6cade-1530">
+              <w lemma="Rowland_nn" pos="n1-nn" xml:id="c6cad-001-b-3100">Rowland</w>
+              <w lemma="Litton_nn" pos="n1-nn" xml:id="c6cad-001-b-3110">Litton</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3120">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1540">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3130">Sir</w>
+            <hi xml:id="c6cade-1550">
+              <w lemma="Henry_nn" pos="n1-nn" xml:id="c6cad-001-b-3140">Henry</w>
+              <w lemma="Wright_nn" pos="n1-nn" xml:id="c6cad-001-b-3150">Wright</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3160">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1560">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3170">Sir</w>
+            <hi xml:id="c6cade-1570">
+              <w lemma="underhill_nn" pos="n1-nn" reg="underhill" xml:id="c6cad-001-b-3180">Vnderhill</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3190">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1580">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3200">Sir</w>
+            <hi xml:id="c6cade-1590">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cad-001-b-3210">Thomas</w>
+              <w lemma="Beaumont_nn" pos="n1-nn" xml:id="c6cad-001-b-3220">Beaumont</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3230">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1600">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3240">Sir</w>
+            <hi xml:id="c6cade-1610">
+              <w lemma="Edmund_nn" pos="n1-nn" xml:id="c6cad-001-b-3250">Edmund</w>
+              <w lemma="Fortescue_nn" pos="n1-nn" xml:id="c6cad-001-b-3260">Fortescue</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3270">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1620">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3280">Sir</w>
+            <hi xml:id="c6cade-1630">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cad-001-b-3290">Thomas</w>
+              <w lemma="Overbury_nn" pos="n1-nn" xml:id="c6cad-001-b-3300">Overbury</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3310">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1640">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3320">Sir</w>
+            <hi xml:id="c6cade-1650">
+              <w lemma="Jacob_nn" pos="n1-nn" xml:id="c6cad-001-b-3330">Jacob</w>
+              <w lemma="Ashley_nn" pos="n1-nn" xml:id="c6cad-001-b-3340">Ashley</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3350">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1660">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3360">Sir</w>
+            <hi xml:id="c6cade-1670">
+              <w lemma="nich._ab" pos="n-ab" xml:id="c6cad-001-b-3370">Nich.</w>
+              <w lemma="stroud_nn" pos="n1-nn" xml:id="c6cad-001-b-3380">Stroud</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3390">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1680">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3400">Sir</w>
+            <hi xml:id="c6cade-1690">
+              <w lemma="Francis_nn" pos="n1-nn" xml:id="c6cad-001-b-3410">Francis</w>
+              <w lemma="hollis_nn" pos="n1-nn" xml:id="c6cad-001-b-3420">Hollis</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3430">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1700">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3440">Sir</w>
+            <hi xml:id="c6cade-1710">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-3450">John</w>
+              <w lemma="young_nn" pos="n1-nn" xml:id="c6cad-001-b-3460">Young</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3470">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1720">
+            <table xml:id="c6cade-1730">
+              <row xml:id="c6cade-1740">
+                <cell xml:id="c6cade-1750">
+                  <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3480">Sir</w>
+                  <hi xml:id="c6cade-1760">
+                    <w lemma="Edward_nn" pos="n1-nn" xml:id="c6cad-001-b-3490">Edward</w>
+                    <w lemma="Atkins_nn" pos="n1-nn" xml:id="c6cad-001-b-3500">Atkins</w>
+                    <pc unit="sentence" xml:id="c6cad-001-b-3510">.</pc>
+                  </hi>
+                </cell>
+                <cell rows="2" xml:id="c6cade-1770">
+                  <w lemma="judge_n" pos="n2" xml:id="c6cad-001-b-3520">Judges</w>
+                  <pc unit="sentence" xml:id="c6cad-001-b-3530">.</pc>
+                </cell>
+              </row>
+              <row xml:id="c6cade-1780">
+                <cell xml:id="c6cade-1790">
+                  <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3540">Sir</w>
+                  <hi xml:id="c6cade-1800">
+                    <w lemma="Twisden_nn" pos="n1-nn" xml:id="c6cad-001-b-3550">Twisden</w>
+                  </hi>
+                </cell>
+              </row>
+            </table>
+          </item>
+          <item xml:id="c6cade-1810">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3560">Sir</w>
+            <hi xml:id="c6cade-1820">
+              <w lemma="Henry_nn" pos="n1-nn" xml:id="c6cad-001-b-3570">Henry</w>
+              <w lemma="Winchcomb_nn" pos="n1-nn" xml:id="c6cad-001-b-3580">Winchcomb</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3590">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1830">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3600">Sir</w>
+            <hi xml:id="c6cade-1840">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-3610">William</w>
+              <w lemma="Armorer_nn" pos="n1-nn" xml:id="c6cad-001-b-3620">Armorer</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3630">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1850">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3640">Sir</w>
+            <hi xml:id="c6cade-1860">
+              <w lemma="Abram_nn" pos="n1-nn" xml:id="c6cad-001-b-3650">Abram</w>
+              <w lemma="Reynoldson_nn" pos="n1-nn" xml:id="c6cad-001-b-3660">Reynoldson</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3670">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1870">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3680">Sir</w>
+            <hi xml:id="c6cade-1880">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cad-001-b-3690">Thomas</w>
+              <w lemma="player_nn" pos="n1-nn" xml:id="c6cad-001-b-3700">Player</w>
+            </hi>
+            <w lemma="junior_j" pos="j" xml:id="c6cad-001-b-3710">Junior</w>
+            <pc unit="sentence" xml:id="c6cad-001-b-3720">.</pc>
+          </item>
+          <item xml:id="c6cade-1890">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3730">Sir</w>
+            <hi xml:id="c6cade-1900">
+              <w lemma="Jasper_nn" pos="n1-nn" xml:id="c6cad-001-b-3740">Jasper</w>
+              <w lemma="Clayton_nn" pos="n1-nn" xml:id="c6cad-001-b-3750">Clayton</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3760">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1910">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3770">Sir</w>
+            <hi xml:id="c6cade-1920">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-3780">John</w>
+              <w lemma="adler_nn" pos="n1-nn" xml:id="c6cad-001-b-3790">Adler</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3800">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1930">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3810">Sir</w>
+            <hi xml:id="c6cade-1940">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-3820">John</w>
+              <w lemma="Massone_nn" pos="n1-nn" xml:id="c6cad-001-b-3830">Massone</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3840">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1950">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3850">Sir</w>
+            <hi xml:id="c6cade-1960">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cad-001-b-3860">Thomas</w>
+              <w lemma="nutt_nn" pos="n1-nn" xml:id="c6cad-001-b-3870">Nutt</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3880">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1970">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3890">Sir</w>
+            <hi xml:id="c6cade-1980">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-3900">John</w>
+              <w lemma="Clark_nn" pos="n1-nn" xml:id="c6cad-001-b-3910">Clark</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3920">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-1990">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3930">Sir</w>
+            <hi xml:id="c6cade-2000">
+              <w lemma="William_nn" pos="n1-nn" xml:id="c6cad-001-b-3940">William</w>
+              <w lemma="Basset_nn" pos="n1-nn" xml:id="c6cad-001-b-3950">Basset</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-3960">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-2010">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-3970">Sir</w>
+            <hi xml:id="c6cade-2020">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-3980">John</w>
+              <w lemma="Fitz-james_nn" pos="n1-nn" xml:id="c6cad-001-b-3990">Fitz-james</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-4000">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-2030">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-4010">Sir</w>
+            <hi xml:id="c6cade-2040">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-4020">John</w>
+              <w lemma="Booth_nn" pos="n1-nn" xml:id="c6cad-001-b-4030">Booth</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-4040">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-2050">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-4050">Sir</w>
+            <hi xml:id="c6cade-2060">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cad-001-b-4060">Thomas</w>
+              <w lemma="Wentworth_nn" pos="n1-nn" reg="Wentworth" xml:id="c6cad-001-b-4070">VVentworth</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-4080">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-2070">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-4090">Sir</w>
+            <hi xml:id="c6cade-2080">
+              <w lemma="John_nn" pos="n1-nn" xml:id="c6cad-001-b-4100">John</w>
+              <w lemma="Hales_nn" pos="n1-nn" xml:id="c6cad-001-b-4110">Hales</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-4120">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-2090">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-4130">Sir</w>
+            <hi xml:id="c6cade-2100">
+              <w lemma="Philip_nn" pos="n1-nn" xml:id="c6cad-001-b-4140">Philip</w>
+              <w lemma="Warwick_nn" pos="n1-nn" reg="Warwick" xml:id="c6cad-001-b-4150">VVarwicke</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-4160">.</pc>
+            </hi>
+          </item>
+          <item xml:id="c6cade-2110">
+            <w lemma="sir_n" pos="n1" xml:id="c6cad-001-b-4170">Sir</w>
+            <hi xml:id="c6cade-2120">
+              <w lemma="Edward_nn" pos="n1-nn" xml:id="c6cad-001-b-4180">Edward</w>
+              <w lemma="Turner_nn" pos="n1-nn" xml:id="c6cad-001-b-4190">Turner</w>
+              <pc unit="sentence" xml:id="c6cad-001-b-4200">.</pc>
+            </hi>
+          </item>
+        </list>
+      </div>
+    </body>
+    <back xml:id="c6cade-2130">
+      <div type="colophon" xml:id="c6cade-2140">
+        <p xml:id="c6cade-2150">
+          <hi xml:id="c6cade-2160">
+            <w lemma="LONDON_nn" pos="n1-nn" xml:id="c6cad-001-b-4210">LONDON</w>
+            <pc xml:id="c6cad-001-b-4220">,</pc>
+          </hi>
+          <w lemma="print_v" pos="vvn" xml:id="c6cad-001-b-4230">Printed</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c6cad-001-b-4240">by</w>
+          <hi xml:id="c6cade-2170">
+            <w lemma="s._ab" pos="n-ab" xml:id="c6cad-001-b-4250">S.</w>
+            <w lemma="Griffin_nn" pos="n1-nn" xml:id="c6cad-001-b-4260">Griffin</w>
+            <pc xml:id="c6cad-001-b-4270">,</pc>
+          </hi>
+          <w lemma="1660._crd" pos="crd" xml:id="c6cad-001-b-4280">1660.</w>
+          <pc unit="sentence" xml:id="c6cad-001-b-4290"/>
+        </p>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,818 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://schemata.earlyprint.org/schemata/tei_earlyprint.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="c6cjq-R211789">
+  <teiHeader xml:id="c6cjq-R211789-header">
+    <fileDesc>
+      <titleStmt>
+        <title>Sir Tho. Soame vindicated by a vote of Parliament of March 12, 1659, for the discharging of two former votes of June 1, 1649 with a recital of the said votes so discharged : for the information of the people concerning the pretended crimes occasioning the same.</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>This text is an enriched version of the TCP digital transcription A93294 of text R211789 in the <ref target="http://estc.bl.uk">English Short Title Catalog</ref> (Wing S3890). Textual changes  and metadata enrichments aim at making the text more  computationally tractable, easier to read, and suitable for network-based collaborative curation by amateur and professional end users from many walks of life.  The text has been tokenized and linguistically annotated with <ref target="http://morphadorner.northwestern.edu/morphadorner/">MorphAdorner</ref>. The annotation includes standard spellings that support the display of a text in a standardized format that preserves archaic forms ('loveth', 'seekest'). Textual changes aim at restoring the text the author or stationer meant to publish.</edition>
+        <respStmt>
+          <resp>This text has not been fully proofread</resp>
+          <name/>
+        </respStmt>
+      </editionStmt>
+      <extent>Approx. 4 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+      <publicationStmt>
+        <publisher>EarlyPrint Project</publisher>
+        <pubPlace>Evanston,IL, Notre Dame, IN, St. Louis, MO</pubPlace>
+        <date>2017</date>
+        <idno type="DLPS">A93294</idno>
+        <idno type="STC">Wing S3890</idno>
+        <idno type="STC">ESTC R211789</idno>
+        <idno type="EEBO-CITATION">36282362</idno>
+        <idno type="OCLC">ocm 36282362</idno>
+        <idno type="VID">150293</idno>
+        <availability>
+          <p>
+            This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. This Phase I text is available for reuse, according to the terms of
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 0 1.0 Universal</ref>
+            . The text can be copied, modified, distributed and performed, even for commercial purposes, all without asking permission.
+          </p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Early English books online.</title>
+      </seriesStmt>
+      <notesStmt>
+        <note>(EEBO-TCP ; phase 1, no. A93294)</note>
+        <note>Transcribed from: (Early English Books Online ; image set 150293)</note>
+        <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2240:9)</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Sir Tho. Soame vindicated by a vote of Parliament of March 12, 1659, for the discharging of two former votes of June 1, 1649 with a recital of the said votes so discharged : for the information of the people concerning the pretended crimes occasioning the same.</title>
+          </titleStmt>
+          <extent>1 sheet ([1] p.).</extent>
+          <publicationStmt>
+            <publisher>By James Cottrel,</publisher>
+            <pubPlace>Printed at London :</pubPlace>
+            <date>1660.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>Reproduction of original in the Huntington Library.</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">eng</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://authorities.loc.gov/">
+          <term>Soame, Thomas, -- Sir.</term>
+          <term>Great Britain -- History -- Commonwealth and Protectorate, 1649-1660.</term>
+          <term>Great Britain -- Politics and government -- 1649-1660.</term>
+          <term>Broadsides -- London (England) -- 17th century.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <xenoData>
+      <ep:epHeader xmlns:ep="http://earlyprint.org/ns/1.0">
+        <ep:tcp>A93294</ep:tcp>
+        <ep:estc> R211789</ep:estc>
+        <ep:stc> (Wing S3890). </ep:stc>
+        <ep:corpus>civilwar</ep:corpus>
+        <ep:workpart>no</ep:workpart>
+        <ep:title>Sir Tho. Soame vindicated by a vote of the late Parliament, of March 12. 1659. for the discharging of two former votes of June 1. 1649. With</ep:title>
+        <ep:author>[no entry]</ep:author>
+        <ep:publicationYear>1660</ep:publicationYear>
+        <ep:creationYear/>
+        <ep:curator>
+          <ep:name/>
+        </ep:curator>
+        <ep:wordCount>592</ep:wordCount>
+        <ep:defectiveTokenCount>0</ep:defectiveTokenCount>
+        <ep:untranscribedForeignCount>0</ep:untranscribedForeignCount>
+        <ep:untranscribedMathCount>0</ep:untranscribedMathCount>
+        <ep:untranscribedMusicCount>0</ep:untranscribedMusicCount>
+        <ep:missingChunkCount>0</ep:missingChunkCount>
+        <ep:missingPagesCount>0</ep:missingPagesCount>
+        <ep:defectRate>0</ep:defectRate>
+        <ep:finalGrade>A</ep:finalGrade>
+        <ep:defectRangePerGrade>This text  has no known defects that were recorded as gap elements at the time of transcription. </ep:defectRangePerGrade>
+      </ep:epHeader>
+    </xenoData>
+    <revisionDesc>
+      <change><date>2007-07</date><label>TCP</label>
+        Assigned for keying and markup
+      </change>
+      <change><date>2007-07</date><label>Aptara</label>
+        Keyed and coded from ProQuest page images
+      </change>
+      <change><date>2007-09</date><label>Mona Logarbo</label>
+        Sampled and proofread
+      </change>
+      <change><date>2007-09</date><label>Mona Logarbo</label>
+        Text and markup reviewed and edited
+      </change>
+      <change><date>2008-02</date><label>pfs</label>
+        Batch review (QC) and XML conversion
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="c6cjq-R211789-text">
+    <body xml:id="c6cjqe-20">
+      <pb facs="tcp:150293:1" xml:id="c6cjq-001-a"/>
+      <div type="text" xml:id="c6cjqe-30">
+        <head xml:id="c6cjqe-40">
+          <w lemma="sir_n" pos="n1" xml:id="c6cjq-001-a-0010">Sir</w>
+          <w lemma="tho._ab" pos="n-ab" xml:id="c6cjq-001-a-0020">Tho.</w>
+          <w lemma="Soame_nn" pos="n1-nn" xml:id="c6cjq-001-a-0030">Soame</w>
+          <w lemma="vindicate_v" pos="vvn" xml:id="c6cjq-001-a-0040">vindicated</w>
+          <w lemma="by_acp" pos="acp-p" xml:id="c6cjq-001-a-0050">By</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjq-001-a-0060">a</w>
+          <w lemma="vote_n" pos="n1" xml:id="c6cjq-001-a-0070">Vote</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-0080">of</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-0090">the</w>
+          <w lemma="late_j" pos="j" xml:id="c6cjq-001-a-0100">late</w>
+          <w lemma="parliament_n" pos="n1" xml:id="c6cjq-001-a-0110">Parliament</w>
+          <pc xml:id="c6cjq-001-a-0120">,</pc>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-0130">of</w>
+          <date xml:id="c6cjqe-50">
+            <hi xml:id="c6cjqe-60">
+              <w lemma="march_nn" pos="n1-nn" xml:id="c6cjq-001-a-0140">March</w>
+            </hi>
+            <w lemma="12._crd" pos="crd" xml:id="c6cjq-001-a-0150">12.</w>
+            <w lemma="1659._crd" pos="crd" xml:id="c6cjq-001-a-0160">1659.</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-0170"/>
+          </date>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjq-001-a-0180">for</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-0190">the</w>
+          <w lemma="discharge_v" pos="n1_vg" xml:id="c6cjq-001-a-0200">discharging</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-0210">of</w>
+          <w lemma="two_crd" pos="crd" xml:id="c6cjq-001-a-0220">two</w>
+          <w lemma="former_j" pos="j" xml:id="c6cjq-001-a-0230">former</w>
+          <w lemma="vote_n" pos="n2" xml:id="c6cjq-001-a-0240">Votes</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-0250">of</w>
+          <date xml:id="c6cjqe-70">
+            <hi xml:id="c6cjqe-80">
+              <w lemma="June_nn" pos="n1-nn" xml:id="c6cjq-001-a-0260">June</w>
+            </hi>
+            <w lemma="1._crd" pos="crd" xml:id="c6cjq-001-a-0270">1.</w>
+            <w lemma="1649._crd" pos="crd" xml:id="c6cjq-001-a-0280">1649.</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-0290"/>
+          </date>
+          <w lemma="with_acp" pos="acp-p" xml:id="c6cjq-001-a-0300">With</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjq-001-a-0310">a</w>
+          <w lemma="recital_n" pos="n1" xml:id="c6cjq-001-a-0320">recital</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-0330">of</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-0340">the</w>
+          <w lemma="say_v" pos="j_vn" xml:id="c6cjq-001-a-0350">said</w>
+          <w lemma="vote_n" pos="n2" xml:id="c6cjq-001-a-0360">Votes</w>
+          <w lemma="so_av" pos="av" xml:id="c6cjq-001-a-0370">so</w>
+          <w lemma="discharge_v" pos="vvn" xml:id="c6cjq-001-a-0380">discharged</w>
+          <pc unit="sentence" xml:id="c6cjq-001-a-0390">.</pc>
+        </head>
+        <head type="sub" xml:id="c6cjqe-90">
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjq-001-a-0400">For</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-0410">the</w>
+          <w lemma="information_n" pos="n1" xml:id="c6cjq-001-a-0420">information</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-0430">of</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-0440">the</w>
+          <w lemma="people_n" pos="n1" xml:id="c6cjq-001-a-0450">people</w>
+          <w lemma="concerning_acp" pos="acp-p" xml:id="c6cjq-001-a-0460">concerning</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-0470">the</w>
+          <w lemma="pretend_v" pos="j_vn" xml:id="c6cjq-001-a-0480">pretended</w>
+          <w lemma="crime_n" pos="n2" xml:id="c6cjq-001-a-0490">Crimes</w>
+          <w lemma="occasion_v" pos="vvg" xml:id="c6cjq-001-a-0500">occasioning</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-0510">the</w>
+          <w lemma="same_d" pos="d" xml:id="c6cjq-001-a-0520">same</w>
+          <pc unit="sentence" xml:id="c6cjq-001-a-0530">.</pc>
+        </head>
+        <p xml:id="c6cjqe-100">
+          <w lemma="whereas_cs" pos="cs" xml:id="c6cjq-001-a-0540">WHereas</w>
+          <w lemma="there_av" pos="av" xml:id="c6cjq-001-a-0550">there</w>
+          <w lemma="be_v" pos="vvd" xml:id="c6cjq-001-a-0560">was</w>
+          <w lemma="publish_v" pos="vvn" xml:id="c6cjq-001-a-0570">published</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c6cjq-001-a-0580">in</w>
+          <w lemma="print_n" pos="n1" xml:id="c6cjq-001-a-0590">print</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-0600">the</w>
+          <w lemma="12_crd" pos="crd" xml:id="c6cjq-001-a-0610">12</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-0620">of</w>
+          <hi xml:id="c6cjqe-110">
+            <w lemma="march_nn" pos="n1-nn" xml:id="c6cjq-001-a-0630">March</w>
+          </hi>
+          <w lemma="1659._crd" pos="crd" xml:id="c6cjq-001-a-0640">1659.</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjq-001-a-0650">a</w>
+          <w lemma="vote_n" pos="n1" xml:id="c6cjq-001-a-0660">Vote</w>
+          <w lemma="concerning_acp" pos="acp-p" xml:id="c6cjq-001-a-0670">concerning</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-0680">the</w>
+          <w lemma="discharge_v" pos="vvg" xml:id="c6cjq-001-a-0690">discharging</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjq-001-a-0700">a</w>
+          <w lemma="vote_n" pos="n1" xml:id="c6cjq-001-a-0710">Vote</w>
+          <w lemma="against_acp" pos="acp-p" xml:id="c6cjq-001-a-0720">against</w>
+          <w lemma="sir_n" pos="n1" xml:id="c6cjq-001-a-0730">Sir</w>
+          <hi xml:id="c6cjqe-120">
+            <w lemma="tho._ab" pos="n-ab" xml:id="c6cjq-001-a-0740">Tho.</w>
+            <w lemma="soame_nn" pos="n1-nn" xml:id="c6cjq-001-a-0760">Soame</w>
+          </hi>
+          <w lemma="knight_n" pos="n1" xml:id="c6cjq-001-a-0770">Knight</w>
+          <pc xml:id="c6cjq-001-a-0780">,</pc>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-0790">the</w>
+          <w lemma="substance_n" pos="n1" xml:id="c6cjq-001-a-0800">substance</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-0810">of</w>
+          <w lemma="which_crq" pos="crq-r" xml:id="c6cjq-001-a-0820">which</w>
+          <w lemma="vote_n" pos="n1" xml:id="c6cjq-001-a-0830">Vote</w>
+          <w lemma="be_v" pos="vvg" xml:id="c6cjq-001-a-0840">being</w>
+          <w lemma="unknown_j" pos="j" xml:id="c6cjq-001-a-0850">unknown</w>
+          <w lemma="to_acp" pos="acp-p" xml:id="c6cjq-001-a-0860">to</w>
+          <w lemma="most_d" pos="d-s" xml:id="c6cjq-001-a-0870">most</w>
+          <pc xml:id="c6cjq-001-a-0880">;</pc>
+          <w lemma="wherefore_crq" pos="crq-cs" xml:id="c6cjq-001-a-0890">wherefore</w>
+          <w lemma="nothing_pn" pos="pi-x" xml:id="c6cjq-001-a-0900">nothing</w>
+          <w lemma="being_n" pos="n1" xml:id="c6cjq-001-a-0910">being</w>
+          <w lemma="express_v" pos="vvn" xml:id="c6cjq-001-a-0920">expressed</w>
+          <w lemma="therein_av" pos="av" xml:id="c6cjq-001-a-0930">therein</w>
+          <pc xml:id="c6cjq-001-a-0940">,</pc>
+          <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-0950">and</w>
+          <w lemma="be_v" pos="vvg" xml:id="c6cjq-001-a-0960">being</w>
+          <w lemma="general_j" pos="av_j" xml:id="c6cjq-001-a-0970">generally</w>
+          <w lemma="conceive_v" pos="vvn" xml:id="c6cjq-001-a-0980">conceived</w>
+          <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-0990">that</w>
+          <w lemma="some_d" pos="d" xml:id="c6cjq-001-a-1000">some</w>
+          <w lemma="great_j" pos="j" xml:id="c6cjq-001-a-1010">great</w>
+          <w lemma="crime_n" pos="n1" xml:id="c6cjq-001-a-1020">Crime</w>
+          <w lemma="be_v" pos="vvz" xml:id="c6cjq-001-a-1030">is</w>
+          <w lemma="contain_v" pos="vvn" xml:id="c6cjq-001-a-1040">contained</w>
+          <w lemma="therein_av" pos="av" xml:id="c6cjq-001-a-1050">therein</w>
+          <pc xml:id="c6cjq-001-a-1060">,</pc>
+          <w lemma="which_crq" pos="crq-r" xml:id="c6cjq-001-a-1070">which</w>
+          <w lemma="occasion_v" pos="vvn" xml:id="c6cjq-001-a-1080">occasioned</w>
+          <w lemma="those_d" pos="d" xml:id="c6cjq-001-a-1090">those</w>
+          <w lemma="vote_n" pos="n2" xml:id="c6cjq-001-a-1100">Votes</w>
+          <pc xml:id="c6cjq-001-a-1110">,</pc>
+          <w lemma="in_acp" pos="acp-p" xml:id="c6cjq-001-a-1120">in</w>
+          <w lemma="regard_n" pos="n1" xml:id="c6cjq-001-a-1130">regard</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-1140">the</w>
+          <w lemma="punishment_n" pos="n1" xml:id="c6cjq-001-a-1150">punishment</w>
+          <w lemma="thereby_av" pos="av" xml:id="c6cjq-001-a-1160">thereby</w>
+          <w lemma="inflict_v" pos="vvn" xml:id="c6cjq-001-a-1170">inflicted</w>
+          <w lemma="be_v" pos="vvd" xml:id="c6cjq-001-a-1180">was</w>
+          <w lemma="so_av" pos="av" xml:id="c6cjq-001-a-1190">so</w>
+          <w lemma="great_j" pos="j" xml:id="c6cjq-001-a-1200">great</w>
+          <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-1210">and</w>
+          <w lemma="heavy_j" pos="j" xml:id="c6cjq-001-a-1220">heavy</w>
+          <pc xml:id="c6cjq-001-a-1230">;</pc>
+          <w lemma="therefore_av" pos="av" xml:id="c6cjq-001-a-1240">therefore</w>
+          <w lemma="it_pn" pos="pn" xml:id="c6cjq-001-a-1250">it</w>
+          <w lemma="be_v" pos="vvz" xml:id="c6cjq-001-a-1260">is</w>
+          <w lemma="think_v" pos="vvn" xml:id="c6cjq-001-a-1270">thought</w>
+          <w lemma="very_av" pos="av" xml:id="c6cjq-001-a-1280">very</w>
+          <w lemma="necessary_j" pos="j" xml:id="c6cjq-001-a-1290">necessary</w>
+          <pc xml:id="c6cjq-001-a-1300">,</pc>
+          <w lemma="as_acp" pos="acp-cs" xml:id="c6cjq-001-a-1310">as</w>
+          <w lemma="well_av" pos="av" xml:id="c6cjq-001-a-1320">well</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjq-001-a-1330">for</w>
+          <w lemma="information_n" pos="n1" xml:id="c6cjq-001-a-1340">information</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-1350">of</w>
+          <w lemma="other_d" pos="pi2_d" xml:id="c6cjq-001-a-1360">others</w>
+          <pc xml:id="c6cjq-001-a-1370">,</pc>
+          <w lemma="as_acp" pos="acp-cs" xml:id="c6cjq-001-a-1380">as</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjq-001-a-1390">for</w>
+          <w lemma="sir_n" pos="n1" xml:id="c6cjq-001-a-1400">Sir</w>
+          <hi xml:id="c6cjqe-130">
+            <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cjq-001-a-1410">Thomas</w>
+          </hi>
+          <w lemma="his_pn" pos="po" xml:id="c6cjq-001-a-1420">his</w>
+          <w lemma="just_j" pos="j" xml:id="c6cjq-001-a-1430">just</w>
+          <w lemma="vindication_n" pos="n1" xml:id="c6cjq-001-a-1440">vindication</w>
+          <pc xml:id="c6cjq-001-a-1450">,</pc>
+          <w lemma="to_acp" pos="acp-cs" xml:id="c6cjq-001-a-1460">to</w>
+          <w lemma="make_v" pos="vvi" xml:id="c6cjq-001-a-1470">make</w>
+          <w lemma="a_d" pos="d" xml:id="c6cjq-001-a-1480">a</w>
+          <w lemma="true_j" pos="j" xml:id="c6cjq-001-a-1490">true</w>
+          <w lemma="relation_n" pos="n1" xml:id="c6cjq-001-a-1500">relation</w>
+          <w lemma="thereof_av" pos="av" xml:id="c6cjq-001-a-1510">thereof</w>
+          <pc xml:id="c6cjq-001-a-1520">,</pc>
+          <w lemma="by_acp" pos="acp-p" xml:id="c6cjq-001-a-1530">by</w>
+          <w lemma="publish_v" pos="vvg" xml:id="c6cjq-001-a-1540">publishing</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-1550">the</w>
+          <w lemma="three_crd" pos="crd" xml:id="c6cjq-001-a-1560">three</w>
+          <w lemma="vote_n" pos="n2" xml:id="c6cjq-001-a-1570">Votes</w>
+          <w lemma="together_av" pos="av" xml:id="c6cjq-001-a-1580">together</w>
+          <pc xml:id="c6cjq-001-a-1590">,</pc>
+          <w lemma="as_acp" pos="acp-cs" xml:id="c6cjq-001-a-1600">as</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c6cjq-001-a-1610">in</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-1620">the</w>
+          <w lemma="journal_n" pos="n1" xml:id="c6cjq-001-a-1630">Journal</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-1640">of</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-1650">the</w>
+          <w lemma="house_n" pos="n1" xml:id="c6cjq-001-a-1660">House</w>
+          <w lemma="do_v" pos="vvz" xml:id="c6cjq-001-a-1670">doth</w>
+          <w lemma="appear_v" pos="vvi" xml:id="c6cjq-001-a-1680">appear</w>
+          <pc xml:id="c6cjq-001-a-1690">,</pc>
+          <hi xml:id="c6cjqe-140">
+            <w lemma="book_n" pos="n1" xml:id="c6cjq-001-a-1700">Book</w>
+            <w lemma="numb._ab" pos="n-ab" xml:id="c6cjq-001-a-1710">numb.</w>
+            <w lemma="15._crd" pos="crd" xml:id="c6cjq-001-a-1730">15.</w>
+            <w lemma="fol._ab" pos="n-ab" xml:id="c6cjq-001-a-1740">fol.</w>
+            <w lemma="1090_crd" pos="crd" xml:id="c6cjq-001-a-1750">1090</w>
+            <pc xml:id="c6cjq-001-a-1760">,</pc>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-1770">and</w>
+            <w lemma="1091._crd" pos="crd" xml:id="c6cjq-001-a-1780">1091.</w>
+            <w lemma="viz._ab" pos="n-ab" xml:id="c6cjq-001-a-1790">viz.</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-1800"/>
+          </hi>
+        </p>
+        <p xml:id="c6cjqe-150">
+          <w lemma="mr._ab" pos="n-ab" xml:id="c6cjq-001-a-1810">Mr.</w>
+          <w lemma="Alderman_n" pos="n1" xml:id="c6cjq-001-a-1820">Alderman</w>
+          <hi xml:id="c6cjqe-160">
+            <w lemma="pennington_nn" pos="n1-nn" xml:id="c6cjq-001-a-1830">Pennington</w>
+          </hi>
+          <w lemma="report_v" pos="vvz" xml:id="c6cjq-001-a-1840">reports</w>
+          <w lemma="from_acp" pos="acp-p" xml:id="c6cjq-001-a-1850">from</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-1860">the</w>
+          <w lemma="lord_n" pos="n1" xml:id="c6cjq-001-a-1870">Lord</w>
+          <w lemma="maior_f-la" pos="fw-la" xml:id="c6cjq-001-a-1880">Maior</w>
+          <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-1890">and</w>
+          <w lemma="alderman_n" pos="n2" xml:id="c6cjq-001-a-1900">Aldermen</w>
+          <pc xml:id="c6cjq-001-a-1910">,</pc>
+          <w lemma="their_pn" pos="po" xml:id="c6cjq-001-a-1920">their</w>
+          <w lemma="proceed_v" pos="n2_vg" xml:id="c6cjq-001-a-1930">proceedings</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c6cjq-001-a-1940">in</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-1950">the</w>
+          <w lemma="proclaim_v" pos="n1_vg" xml:id="c6cjq-001-a-1960">proclaiming</w>
+          <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-1970">of</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-1980">the</w>
+          <w lemma="act_n" pos="n1" xml:id="c6cjq-001-a-1990">Act</w>
+          <w lemma="for_acp" pos="acp-p" xml:id="c6cjq-001-a-2000">for</w>
+          <w lemma="abolish_v" pos="n1_vg" xml:id="c6cjq-001-a-2010">abolishing</w>
+          <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-2020">the</w>
+          <w lemma="kingly_j" pos="j" xml:id="c6cjq-001-a-2030">Kingly</w>
+          <w lemma="office_n" pos="n1" xml:id="c6cjq-001-a-2040">Office</w>
+          <pc xml:id="c6cjq-001-a-2050">;</pc>
+          <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-2060">That</w>
+          <w lemma="sir_n" pos="n1" xml:id="c6cjq-001-a-2070">Sir</w>
+          <hi xml:id="c6cjqe-170">
+            <w lemma="tho._ab" pos="n-ab" xml:id="c6cjq-001-a-2080">Tho.</w>
+            <w lemma="Soame_nn" pos="n1-nn" xml:id="c6cjq-001-a-2100">Soame</w>
+          </hi>
+          <w lemma="be_v" pos="vvg" xml:id="c6cjq-001-a-2110">being</w>
+          <w lemma="in_acp" pos="acp-p" xml:id="c6cjq-001-a-2120">in</w>
+          <w lemma="town_n" pos="n1" xml:id="c6cjq-001-a-2130">Town</w>
+          <pc xml:id="c6cjq-001-a-2140">,</pc>
+          <w lemma="do_v" pos="vvd" xml:id="c6cjq-001-a-2150">did</w>
+          <w lemma="not_x" pos="xx" xml:id="c6cjq-001-a-2160">not</w>
+          <w lemma="attend_v" pos="vvi" xml:id="c6cjq-001-a-2170">attend</w>
+          <pc unit="sentence" xml:id="c6cjq-001-a-2180">.</pc>
+        </p>
+        <div type="part" xml:id="c6cjqe-180">
+          <opener xml:id="c6cjqe-190">
+            <dateline xml:id="c6cjqe-200">
+              <date xml:id="c6cjqe-210">
+                <w lemma="die_f-la" pos="fw-la" xml:id="c6cjq-001-a-2190">Die</w>
+                <w lemma="jovis_f-la" pos="fw-la" xml:id="c6cjq-001-a-2200">Jovis</w>
+                <w lemma="31_crd" pos="crd" xml:id="c6cjq-001-a-2210">31</w>
+                <w lemma="May_nn" pos="n1-nn" xml:id="c6cjq-001-a-2220">May</w>
+                <pc unit="sentence" xml:id="c6cjq-001-a-2230">.</pc>
+              </date>
+            </dateline>
+          </opener>
+          <p xml:id="c6cjqe-220">
+            <w lemma="resolve_v" pos="vvn" xml:id="c6cjq-001-a-2240">Resolved</w>
+            <pc xml:id="c6cjq-001-a-2250">,</pc>
+            <lb xml:id="c6cjqe-230"/>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-2260">That</w>
+            <w lemma="sir_n" pos="n1" xml:id="c6cjq-001-a-2270">Sir</w>
+            <hi xml:id="c6cjqe-240">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cjq-001-a-2280">Thomas</w>
+              <w lemma="Soame_nn" pos="n1-nn" xml:id="c6cjq-001-a-2290">Soame</w>
+            </hi>
+            <w lemma="be_v" pos="vvb" xml:id="c6cjq-001-a-2300">be</w>
+            <w lemma="command_v" pos="vvn" xml:id="c6cjq-001-a-2310">commanded</w>
+            <w lemma="by_acp" pos="acp-p" xml:id="c6cjq-001-a-2320">by</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-2330">the</w>
+            <w lemma="sergeant_n" pos="n1" xml:id="c6cjq-001-a-2340">Sergeant</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-2350">of</w>
+            <w lemma="this_d" pos="d" xml:id="c6cjq-001-a-2360">this</w>
+            <w lemma="house_n" pos="n1" xml:id="c6cjq-001-a-2370">House</w>
+            <w lemma="to_acp" pos="acp-cs" xml:id="c6cjq-001-a-2380">to</w>
+            <w lemma="attend_v" pos="vvi" xml:id="c6cjq-001-a-2390">attend</w>
+            <w lemma="to_acp" pos="acp-p" xml:id="c6cjq-001-a-2400">to</w>
+            <w lemma="morrow_n" pos="n1" xml:id="c6cjq-001-a-2410">morrow</w>
+            <pc xml:id="c6cjq-001-a-2420">,</pc>
+            <w lemma="to_acp" pos="acp-cs" xml:id="c6cjq-001-a-2430">to</w>
+            <w lemma="answer_v" pos="vvi" xml:id="c6cjq-001-a-2440">answer</w>
+            <w lemma="his_pn" pos="po" xml:id="c6cjq-001-a-2450">his</w>
+            <w lemma="offence_n" pos="n1" xml:id="c6cjq-001-a-2460">offence</w>
+            <w lemma="in_acp" pos="acp-p" xml:id="c6cjq-001-a-2470">in</w>
+            <w lemma="not_x" pos="xx" xml:id="c6cjq-001-a-2480">not</w>
+            <w lemma="publish_v" pos="vvg" xml:id="c6cjq-001-a-2490">publishing</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-2500">the</w>
+            <w lemma="act_n" pos="n1" xml:id="c6cjq-001-a-2510">Act</w>
+            <w lemma="by_acp" pos="acp-p" xml:id="c6cjq-001-a-2520">by</w>
+            <w lemma="order_n" pos="n1" xml:id="c6cjq-001-a-2530">Order</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-2540">of</w>
+            <w lemma="this_d" pos="d" xml:id="c6cjq-001-a-2550">this</w>
+            <w lemma="house_n" pos="n1" xml:id="c6cjq-001-a-2560">House</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-2570">.</pc>
+          </p>
+        </div>
+        <div type="part" xml:id="c6cjqe-250">
+          <opener xml:id="c6cjqe-260">
+            <dateline xml:id="c6cjqe-270">
+              <date xml:id="c6cjqe-280">
+                <w lemma="die_f-la" pos="fw-la" xml:id="c6cjq-001-a-2580">Die</w>
+                <w lemma="veneris_f-la" pos="fw-la" xml:id="c6cjq-001-a-2590">Veneris</w>
+                <pc xml:id="c6cjq-001-a-2600">,</pc>
+                <w lemma="June_nn" pos="n1-nn" xml:id="c6cjq-001-a-2610">June</w>
+                <w lemma="1._crd" pos="crd" xml:id="c6cjq-001-a-2620">1.</w>
+                <w lemma="1649._crd" pos="crd" xml:id="c6cjq-001-a-2630">1649.</w>
+                <pc unit="sentence" xml:id="c6cjq-001-a-2640"/>
+              </date>
+            </dateline>
+          </opener>
+          <p xml:id="c6cjqe-290">
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-2650">The</w>
+            <w lemma="house_n" pos="n1" xml:id="c6cjq-001-a-2660">House</w>
+            <w lemma="be_v" pos="vvg" xml:id="c6cjq-001-a-2670">being</w>
+            <w lemma="inform_v" pos="vvn" xml:id="c6cjq-001-a-2680">informed</w>
+            <w lemma="that_d" pos="d" xml:id="c6cjq-001-a-2690">that</w>
+            <w lemma="sir_n" pos="n1" xml:id="c6cjq-001-a-2700">Sir</w>
+            <hi xml:id="c6cjqe-300">
+              <w lemma="tho._ab" pos="n-ab" xml:id="c6cjq-001-a-2710">Tho.</w>
+              <w lemma="soame_nn" pos="n1-nn" xml:id="c6cjq-001-a-2730">Soame</w>
+            </hi>
+            <w lemma="do_v" pos="vvd" xml:id="c6cjq-001-a-2740">did</w>
+            <w lemma="attend_v" pos="vvi" xml:id="c6cjq-001-a-2750">attend</w>
+            <w lemma="at_acp" pos="acp-p" xml:id="c6cjq-001-a-2760">at</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-2770">the</w>
+            <w lemma="door_n" pos="n1" xml:id="c6cjq-001-a-2780">Door</w>
+            <w lemma="according_j" pos="j" xml:id="c6cjq-001-a-2790">according</w>
+            <w lemma="to_acp" pos="acp-p" xml:id="c6cjq-001-a-2800">to</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-2810">the</w>
+            <w lemma="order_n" pos="n1" xml:id="c6cjq-001-a-2820">Order</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-2830">of</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-2840">the</w>
+            <w lemma="house_n" pos="n1" xml:id="c6cjq-001-a-2850">House</w>
+            <pc xml:id="c6cjq-001-a-2860">,</pc>
+            <w lemma="he_pn" pos="pns" xml:id="c6cjq-001-a-2870">he</w>
+            <w lemma="be_v" pos="vvd" xml:id="c6cjq-001-a-2880">was</w>
+            <w lemma="call_v" pos="vvn" xml:id="c6cjq-001-a-2890">called</w>
+            <w lemma="in_acp" pos="acp-p" xml:id="c6cjq-001-a-2900">in</w>
+            <pc xml:id="c6cjq-001-a-2910">;</pc>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-2920">and</w>
+            <w lemma="be_v" pos="vvg" xml:id="c6cjq-001-a-2930">being</w>
+            <w lemma="come_v" pos="vvn" xml:id="c6cjq-001-a-2940">come</w>
+            <w lemma="to_acp" pos="acp-p" xml:id="c6cjq-001-a-2950">to</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-2960">the</w>
+            <w lemma="bar_n" pos="n1" xml:id="c6cjq-001-a-2970">Bar</w>
+            <pc xml:id="c6cjq-001-a-2980">,</pc>
+            <w lemma="mr._ab" pos="n-ab" xml:id="c6cjq-001-a-2990">Mr.</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-3000"/>
+            <hi xml:id="c6cjqe-310">
+              <w lemma="speaker_n" pos="n1" xml:id="c6cjq-001-a-3010">Speaker</w>
+              <pc xml:id="c6cjq-001-a-3020">,</pc>
+            </hi>
+            <w lemma="by_acp" pos="acp-p" xml:id="c6cjq-001-a-3030">by</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3040">the</w>
+            <w lemma="command_n" pos="n1" xml:id="c6cjq-001-a-3050">command</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-3060">of</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3070">the</w>
+            <w lemma="house_n" pos="n1" xml:id="c6cjq-001-a-3080">House</w>
+            <pc xml:id="c6cjq-001-a-3090">,</pc>
+            <w lemma="demand_v" pos="vvn" xml:id="c6cjq-001-a-3100">demanded</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-3110">of</w>
+            <w lemma="he_pn" pos="pno" xml:id="c6cjq-001-a-3120">him</w>
+            <w lemma="several_j" pos="j" xml:id="c6cjq-001-a-3130">several</w>
+            <w lemma="question_n" pos="n2" xml:id="c6cjq-001-a-3140">Questions</w>
+            <pc xml:id="c6cjq-001-a-3150">,</pc>
+            <hi xml:id="c6cjqe-320">
+              <w lemma="viz._ab" pos="n-ab" xml:id="c6cjq-001-a-3160">viz.</w>
+              <w lemma="whether_cs" pos="cs" xml:id="c6cjq-001-a-3170">Whether</w>
+              <w lemma="he_pn" pos="pns" xml:id="c6cjq-001-a-3180">he</w>
+              <w lemma="be_v" pos="vvd" xml:id="c6cjq-001-a-3190">was</w>
+              <w lemma="not_x" pos="xx" xml:id="c6cjq-001-a-3200">not</w>
+              <w lemma="make_v" pos="vvn" xml:id="c6cjq-001-a-3210">made</w>
+              <w lemma="acquaint_v" pos="vvn" xml:id="c6cjq-001-a-3220">acquainted</w>
+              <w lemma="with_acp" pos="acp-p" xml:id="c6cjq-001-a-3230">with</w>
+              <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3240">the</w>
+              <w lemma="order_n" pos="n1" xml:id="c6cjq-001-a-3250">Order</w>
+              <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-3260">of</w>
+              <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3270">the</w>
+              <w lemma="house_n" pos="n1" xml:id="c6cjq-001-a-3280">House</w>
+              <pc xml:id="c6cjq-001-a-3290">,</pc>
+              <w lemma="whereby_crq" pos="crq-cs" xml:id="c6cjq-001-a-3300">whereby</w>
+              <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3310">the</w>
+              <w lemma="alderman_n" pos="n2" xml:id="c6cjq-001-a-3320">Aldermen</w>
+              <w lemma="be_v" pos="vvd" xml:id="c6cjq-001-a-3330">were</w>
+              <w lemma="to_acp" pos="acp-cs" xml:id="c6cjq-001-a-3340">to</w>
+              <w lemma="attend_v" pos="vvi" xml:id="c6cjq-001-a-3350">attend</w>
+              <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3360">the</w>
+              <w lemma="lord_n" pos="n1" xml:id="c6cjq-001-a-3370">Lord</w>
+              <w lemma="maior_f-la" pos="fw-la" xml:id="c6cjq-001-a-3380">Maior</w>
+              <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-3390">and</w>
+              <w lemma="sheriff_n" pos="n2" xml:id="c6cjq-001-a-3400">Sheriffs</w>
+              <w lemma="at_acp" pos="acp-p" xml:id="c6cjq-001-a-3410">at</w>
+              <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3420">the</w>
+              <w lemma="proclaim_v" pos="n1_vg" xml:id="c6cjq-001-a-3430">proclaiming</w>
+              <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-3440">of</w>
+              <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3450">the</w>
+              <w lemma="act_n" pos="n1" xml:id="c6cjq-001-a-3460">Act</w>
+              <w lemma="entitle_v" pos="vvn" reg="entitled" xml:id="c6cjq-001-a-3470">entituled</w>
+              <pc xml:id="c6cjq-001-a-3480">,</pc>
+            </hi>
+            <w lemma="a_d" pos="d" xml:id="c6cjq-001-a-3490">An</w>
+            <w lemma="act_n" pos="n1" xml:id="c6cjq-001-a-3500">Act</w>
+            <w lemma="for_acp" pos="acp-p" xml:id="c6cjq-001-a-3510">for</w>
+            <w lemma="abolish_v" pos="n1_vg" xml:id="c6cjq-001-a-3520">abolishing</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3530">the</w>
+            <w lemma="kingly_j" pos="j" xml:id="c6cjq-001-a-3540">Kingly</w>
+            <w lemma="office_n" pos="n1" xml:id="c6cjq-001-a-3550">Office</w>
+            <pc xml:id="c6cjq-001-a-3560">;</pc>
+            <w lemma="do_v" pos="vvd" xml:id="c6cjq-001-a-3570">did</w>
+            <w lemma="acknowledge_v" pos="vvi" xml:id="c6cjq-001-a-3580">acknowledge</w>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-3590">that</w>
+            <w lemma="he_pn" pos="pns" xml:id="c6cjq-001-a-3600">he</w>
+            <w lemma="have_v" pos="vvd" xml:id="c6cjq-001-a-3610">had</w>
+            <w lemma="notice_n" pos="n1" xml:id="c6cjq-001-a-3620">notice</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-3630">of</w>
+            <w lemma="it_pn" pos="pn" xml:id="c6cjq-001-a-3640">it</w>
+            <w lemma="on_acp" pos="acp-p" xml:id="c6cjq-001-a-3650">on</w>
+            <hi xml:id="c6cjqe-330">
+              <w lemma="Tuesday_nn" pos="n1-nn" xml:id="c6cjq-001-a-3660">Tuesday</w>
+              <pc xml:id="c6cjq-001-a-3670">;</pc>
+            </hi>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-3680">and</w>
+            <w lemma="acknowledge_v" pos="vvd" xml:id="c6cjq-001-a-3690">acknowledged</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3700">the</w>
+            <w lemma="lord_n" pos="n1" xml:id="c6cjq-001-a-3710">Lord</w>
+            <w lemma="maior_f-la" pos="fw-la" xml:id="c6cjq-001-a-3720">Maior</w>
+            <w lemma="give_v" pos="vvd" xml:id="c6cjq-001-a-3730">gave</w>
+            <w lemma="he_pn" pos="pno" xml:id="c6cjq-001-a-3740">him</w>
+            <w lemma="notice_n" pos="n1" xml:id="c6cjq-001-a-3750">notice</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3760">the</w>
+            <w lemma="same_d" pos="d" xml:id="c6cjq-001-a-3770">same</w>
+            <w lemma="shall_vm" pos="vmd" xml:id="c6cjq-001-a-3780">should</w>
+            <w lemma="be_v" pos="vvi" xml:id="c6cjq-001-a-3790">be</w>
+            <w lemma="do_v" pos="vvn" xml:id="c6cjq-001-a-3800">done</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3810">the</w>
+            <w lemma="next_crd" pos="ord" xml:id="c6cjq-001-a-3820">next</w>
+            <w lemma="day_n" pos="n1" xml:id="c6cjq-001-a-3830">day</w>
+            <pc xml:id="c6cjq-001-a-3840">,</pc>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-3850">and</w>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-3860">that</w>
+            <w lemma="he_pn" pos="pns" xml:id="c6cjq-001-a-3870">he</w>
+            <w lemma="have_v" pos="vvd" xml:id="c6cjq-001-a-3880">had</w>
+            <w lemma="a_d" pos="d" xml:id="c6cjq-001-a-3890">a</w>
+            <w lemma="letter_n" pos="n1" xml:id="c6cjq-001-a-3900">Letter</w>
+            <w lemma="from_acp" pos="acp-p" xml:id="c6cjq-001-a-3910">from</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-3920">the</w>
+            <w lemma="lord_n" pos="n1" xml:id="c6cjq-001-a-3930">Lord</w>
+            <w lemma="maior_f-la" pos="fw-la" xml:id="c6cjq-001-a-3940">Maior</w>
+            <w lemma="to_acp" pos="acp-cs" xml:id="c6cjq-001-a-3950">to</w>
+            <w lemma="require_v" pos="vvi" xml:id="c6cjq-001-a-3960">require</w>
+            <w lemma="his_pn" pos="po" xml:id="c6cjq-001-a-3970">his</w>
+            <w lemma="attendance_n" pos="n1" xml:id="c6cjq-001-a-3980">attendance</w>
+            <w lemma="on_acp" pos="acp-p" xml:id="c6cjq-001-a-3990">on</w>
+            <w lemma="that_d" pos="d" xml:id="c6cjq-001-a-4000">that</w>
+            <w lemma="service_n" pos="n1" xml:id="c6cjq-001-a-4010">service</w>
+            <pc xml:id="c6cjq-001-a-4020">;</pc>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-4030">and</w>
+            <w lemma="acknowledge_v" pos="vvd" xml:id="c6cjq-001-a-4040">acknowledged</w>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-4050">that</w>
+            <w lemma="he_pn" pos="pns" xml:id="c6cjq-001-a-4060">he</w>
+            <w lemma="be_v" pos="vvd" xml:id="c6cjq-001-a-4070">was</w>
+            <w lemma="not_x" pos="xx" xml:id="c6cjq-001-a-4080">not</w>
+            <w lemma="there_av" pos="av" xml:id="c6cjq-001-a-4090">there</w>
+            <w lemma="on_acp" pos="acp-p" xml:id="c6cjq-001-a-4100">on</w>
+            <w lemma="that_d" pos="d" xml:id="c6cjq-001-a-4110">that</w>
+            <w lemma="day_n" pos="n1" xml:id="c6cjq-001-a-4120">day</w>
+            <pc xml:id="c6cjq-001-a-4130">;</pc>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-4140">and</w>
+            <w lemma="give_v" pos="vvd" xml:id="c6cjq-001-a-4150">gave</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-4160">the</w>
+            <w lemma="reason_n" pos="n2" xml:id="c6cjq-001-a-4170">Reasons</w>
+            <w lemma="why_crq" pos="crq-cs" xml:id="c6cjq-001-a-4180">why</w>
+            <w lemma="he_pn" pos="pns" xml:id="c6cjq-001-a-4190">he</w>
+            <w lemma="be_v" pos="vvd" xml:id="c6cjq-001-a-4200">was</w>
+            <w lemma="not_x" pos="xx" xml:id="c6cjq-001-a-4210">not</w>
+            <w lemma="there_av" pos="av" xml:id="c6cjq-001-a-4220">there</w>
+            <pc xml:id="c6cjq-001-a-4230">;</pc>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-4240">and</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-4250">the</w>
+            <w lemma="main_j" pos="j" xml:id="c6cjq-001-a-4260">main</w>
+            <w lemma="reason_n" pos="n1" xml:id="c6cjq-001-a-4270">Reason</w>
+            <w lemma="be_v" pos="vvg" xml:id="c6cjq-001-a-4280">being</w>
+            <pc xml:id="c6cjq-001-a-4290">,</pc>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-4300">that</w>
+            <w lemma="it_pn" pos="pn" xml:id="c6cjq-001-a-4310">it</w>
+            <w lemma="be_v" pos="vvd" xml:id="c6cjq-001-a-4320">was</w>
+            <w lemma="against_acp" pos="acp-p" xml:id="c6cjq-001-a-4330">against</w>
+            <w lemma="his_pn" pos="po" xml:id="c6cjq-001-a-4340">his</w>
+            <w lemma="judgement_n" pos="n1" xml:id="c6cjq-001-a-4350">Judgement</w>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-4360">and</w>
+            <w lemma="conscience_n" pos="n1" xml:id="c6cjq-001-a-4370">Conscience</w>
+            <pc xml:id="c6cjq-001-a-4380">,</pc>
+            <w lemma="because_acp" pos="acp-cs" xml:id="c6cjq-001-a-4390">because</w>
+            <w lemma="it_pn" pos="pn" xml:id="c6cjq-001-a-4400">it</w>
+            <w lemma="be_v" pos="vvd" xml:id="c6cjq-001-a-4410">was</w>
+            <w lemma="contrary_j" pos="j" xml:id="c6cjq-001-a-4420">contrary</w>
+            <w lemma="to_acp" pos="acp-p" xml:id="c6cjq-001-a-4430">to</w>
+            <w lemma="many_d" pos="d" xml:id="c6cjq-001-a-4440">many</w>
+            <w lemma="oath_n" pos="n2" xml:id="c6cjq-001-a-4450">Oaths</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-4460">of</w>
+            <w lemma="allegiance_n" pos="n1" xml:id="c6cjq-001-a-4470">Allegiance</w>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-4480">that</w>
+            <w lemma="he_pn" pos="pns" xml:id="c6cjq-001-a-4490">he</w>
+            <w lemma="have_v" pos="vvd" xml:id="c6cjq-001-a-4500">had</w>
+            <w lemma="take_v" pos="vvn" xml:id="c6cjq-001-a-4510">taken</w>
+            <pc xml:id="c6cjq-001-a-4520">:</pc>
+            <lb xml:id="c6cjqe-340"/>
+            <w lemma="resolve_v" pos="vvn" xml:id="c6cjq-001-a-4530">Resolved</w>
+            <pc xml:id="c6cjq-001-a-4540">,</pc>
+            <hi xml:id="c6cjqe-350">
+              <w lemma="etc._ab" pos="n-ab" xml:id="c6cjq-001-a-4550">&amp;c.</w>
+              <pc unit="sentence" xml:id="c6cjq-001-a-4560"/>
+            </hi>
+            <lb xml:id="c6cjqe-360"/>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-4570">That</w>
+            <w lemma="sir_n" pos="n1" xml:id="c6cjq-001-a-4580">Sir</w>
+            <hi xml:id="c6cjqe-370">
+              <w lemma="tho._ab" pos="n-ab" xml:id="c6cjq-001-a-4590">Tho.</w>
+              <w lemma="Soame_nn" pos="n1-nn" xml:id="c6cjq-001-a-4600">Soame</w>
+            </hi>
+            <w lemma="be_v" pos="vvb" xml:id="c6cjq-001-a-4610">be</w>
+            <w lemma="discharge_v" pos="vvn" xml:id="c6cjq-001-a-4620">discharged</w>
+            <w lemma="from_acp" pos="acp-p" xml:id="c6cjq-001-a-4630">from</w>
+            <w lemma="be_v" pos="vvg" xml:id="c6cjq-001-a-4640">being</w>
+            <w lemma="a_d" pos="d" xml:id="c6cjq-001-a-4650">a</w>
+            <w lemma="member_n" pos="n1" xml:id="c6cjq-001-a-4660">Member</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-4670">of</w>
+            <w lemma="this_d" pos="d" xml:id="c6cjq-001-a-4680">this</w>
+            <w lemma="house_n" pos="n1" xml:id="c6cjq-001-a-4690">House</w>
+            <w lemma="during_acp" pos="acp-p" xml:id="c6cjq-001-a-4700">during</w>
+            <w lemma="this_d" pos="d" xml:id="c6cjq-001-a-4710">this</w>
+            <w lemma="parliament_n" pos="n1" xml:id="c6cjq-001-a-4720">Parliament</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-4730">.</pc>
+          </p>
+          <p xml:id="c6cjqe-380">
+            <hi xml:id="c6cjqe-390">
+              <w lemma="resolve_v" pos="vvn" xml:id="c6cjq-001-a-4740">Resolved</w>
+              <pc xml:id="c6cjq-001-a-4750">,</pc>
+            </hi>
+            <w lemma="etc._ab" pos="n-ab" xml:id="c6cjq-001-a-4760">&amp;c.</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-4770"/>
+            <lb xml:id="c6cjqe-400"/>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-4780">That</w>
+            <hi xml:id="c6cjqe-410">
+              <w lemma="Thomas_nn" pos="n1-nn" xml:id="c6cjq-001-a-4790">Thomas</w>
+              <w lemma="Soame_nn" pos="n1-nn" xml:id="c6cjq-001-a-4800">Soame</w>
+            </hi>
+            <w lemma="be_v" pos="vvb" xml:id="c6cjq-001-a-4810">be</w>
+            <w lemma="discharge_v" pos="vvn" xml:id="c6cjq-001-a-4820">discharged</w>
+            <w lemma="from_acp" pos="acp-p" xml:id="c6cjq-001-a-4830">from</w>
+            <w lemma="be_v" pos="vvg" xml:id="c6cjq-001-a-4840">being</w>
+            <w lemma="a_d" pos="d" xml:id="c6cjq-001-a-4850">an</w>
+            <w lemma="alderman_n" pos="n1" xml:id="c6cjq-001-a-4860">Alderman</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-4870">of</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-4880">the</w>
+            <w lemma="city_n" pos="n1" xml:id="c6cjq-001-a-4890">City</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-4900">of</w>
+            <hi xml:id="c6cjqe-420">
+              <w lemma="London_nn" pos="n1-nn" xml:id="c6cjq-001-a-4910">London</w>
+              <pc xml:id="c6cjq-001-a-4920">,</pc>
+            </hi>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-4930">and</w>
+            <w lemma="from_acp" pos="acp-p" xml:id="c6cjq-001-a-4940">from</w>
+            <w lemma="bear_v" pos="vvg" xml:id="c6cjq-001-a-4950">bearing</w>
+            <w lemma="any_d" pos="d" xml:id="c6cjq-001-a-4960">any</w>
+            <w lemma="office_n" pos="n1" xml:id="c6cjq-001-a-4970">Office</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-4980">of</w>
+            <w lemma="trust_n" pos="n1" xml:id="c6cjq-001-a-4990">Trust</w>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-5000">that</w>
+            <w lemma="he_pn" pos="pns" xml:id="c6cjq-001-a-5010">he</w>
+            <w lemma="now_av" pos="av" xml:id="c6cjq-001-a-5020">now</w>
+            <w lemma="hold_v" pos="vvz" xml:id="c6cjq-001-a-5030">holdeth</w>
+            <w lemma="in_acp" pos="acp-p" xml:id="c6cjq-001-a-5040">in</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-5050">the</w>
+            <w lemma="commonwealth_n" pos="n1" xml:id="c6cjq-001-a-5060">Commonwealth</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-5070">.</pc>
+          </p>
+        </div>
+        <div type="part" xml:id="c6cjqe-430">
+          <head xml:id="c6cjqe-440">
+            <w lemma="upon_acp" pos="acp-p" xml:id="c6cjq-001-a-5080">Upon</w>
+            <w lemma="mr._ab" pos="n-ab" xml:id="c6cjq-001-a-5090">Mr.</w>
+            <w lemma="Prynne_nn" pos="n1g-nn" reg="Prynne's" xml:id="c6cjq-001-a-5100">Prynnes</w>
+            <w lemma="report_n" pos="n1" xml:id="c6cjq-001-a-5110">Report</w>
+            <pc xml:id="c6cjq-001-a-5120">,</pc>
+            <date xml:id="c6cjqe-450">
+              <w lemma="march_nn" pos="n1-nn" xml:id="c6cjq-001-a-5130">March</w>
+              <w lemma="12._crd" pos="crd" xml:id="c6cjq-001-a-5140">12.</w>
+              <w lemma="1659._crd" pos="crd" reg="1659." xml:id="c6cjq-001-a-5150">1659</w>
+            </date>
+          </head>
+          <p xml:id="c6cjqe-460">
+            <hi xml:id="c6cjqe-470">
+              <w lemma="order_v" pos="vvn" xml:id="c6cjq-001-a-5160">Ordered</w>
+              <pc xml:id="c6cjq-001-a-5170">,</pc>
+            </hi>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-5180">That</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-5190">the</w>
+            <w lemma="vote_n" pos="n2" xml:id="c6cjq-001-a-5200">Votes</w>
+            <w lemma="touch_v" pos="vvg" xml:id="c6cjq-001-a-5210">touching</w>
+            <w lemma="sir_n" pos="n1" xml:id="c6cjq-001-a-5220">Sir</w>
+            <hi xml:id="c6cjqe-480">
+              <w lemma="tho._ab" pos="n-ab" xml:id="c6cjq-001-a-5230">Tho.</w>
+              <w lemma="soame_nn" pos="n1-nn" xml:id="c6cjq-001-a-5250">Soame</w>
+            </hi>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-5260">of</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-5270">the</w>
+            <w lemma="first_crd" pos="ord" xml:id="c6cjq-001-a-5280">first</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-5290">of</w>
+            <hi xml:id="c6cjqe-490">
+              <w lemma="June_nn" pos="n1-nn" xml:id="c6cjq-001-a-5300">June</w>
+            </hi>
+            <w lemma="1649._crd" pos="crd" xml:id="c6cjq-001-a-5310">1649.</w>
+            <w lemma="be_v" pos="vvb" xml:id="c6cjq-001-a-5320">be</w>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-5330">and</w>
+            <w lemma="be_v" pos="vvb" xml:id="c6cjq-001-a-5340">are</w>
+            <w lemma="hereby_av" pos="av" xml:id="c6cjq-001-a-5350">hereby</w>
+            <w lemma="discharge_v" pos="vvn" xml:id="c6cjq-001-a-5360">discharged</w>
+            <pc xml:id="c6cjq-001-a-5370">,</pc>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-5380">and</w>
+            <w lemma="that_cs" pos="cs" xml:id="c6cjq-001-a-5390">that</w>
+            <w lemma="they_pn" pos="pns" xml:id="c6cjq-001-a-5400">they</w>
+            <w lemma="be_v" pos="vvb" xml:id="c6cjq-001-a-5410">be</w>
+            <w lemma="also_av" pos="av" xml:id="c6cjq-001-a-5420">also</w>
+            <w lemma="obliterate_j" pos="j" reg="obliterate" xml:id="c6cjq-001-a-5430">obliterated</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-5440">.</pc>
+          </p>
+          <p xml:id="c6cjqe-500">
+            <w lemma="whereupon_crq" pos="crq-cs" xml:id="c6cjq-001-a-5450">Whereupon</w>
+            <w lemma="he_pn" pos="pns" xml:id="c6cjq-001-a-5460">he</w>
+            <w lemma="stand_v" pos="vvz" xml:id="c6cjq-001-a-5470">stands</w>
+            <w lemma="restore_v" pos="vvn" xml:id="c6cjq-001-a-5480">restored</w>
+            <w lemma="to_acp" pos="acp-p" xml:id="c6cjq-001-a-5490">to</w>
+            <w lemma="his_pn" pos="po" xml:id="c6cjq-001-a-5500">his</w>
+            <w lemma="right_j" pos="j" xml:id="c6cjq-001-a-5510">right</w>
+            <w lemma="place_n" pos="n1" xml:id="c6cjq-001-a-5520">place</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-5530">of</w>
+            <w lemma="aldermanship_n" pos="n1" xml:id="c6cjq-001-a-5540">Aldermanship</w>
+            <w lemma="as_acp" pos="acp-cs" xml:id="c6cjq-001-a-5550">as</w>
+            <w lemma="well_av" pos="av" xml:id="c6cjq-001-a-5560">well</w>
+            <w lemma="as_acp" pos="acp-cs" xml:id="c6cjq-001-a-5570">as</w>
+            <w lemma="membership_n" pos="n1" xml:id="c6cjq-001-a-5580">Membership</w>
+            <w lemma="to_acp" pos="acp-p" xml:id="c6cjq-001-a-5590">to</w>
+            <w lemma="all_d" pos="d" xml:id="c6cjq-001-a-5600">all</w>
+            <w lemma="intent_n" pos="n2" xml:id="c6cjq-001-a-5610">intents</w>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-5620">and</w>
+            <w lemma="purpose_n" pos="n2" xml:id="c6cjq-001-a-5630">purposes</w>
+            <pc xml:id="c6cjq-001-a-5640">,</pc>
+            <w lemma="and_cc" pos="cc" xml:id="c6cjq-001-a-5650">and</w>
+            <w lemma="be_v" pos="vvz" xml:id="c6cjq-001-a-5660">is</w>
+            <w lemma="make_v" pos="vvn" xml:id="c6cjq-001-a-5670">made</w>
+            <w lemma="capable_j" pos="j" xml:id="c6cjq-001-a-5680">capable</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-5690">of</w>
+            <w lemma="bear_v" pos="vvg" xml:id="c6cjq-001-a-5700">bearing</w>
+            <w lemma="any_d" pos="d" xml:id="c6cjq-001-a-5710">any</w>
+            <w lemma="office_n" pos="n1" xml:id="c6cjq-001-a-5720">Office</w>
+            <w lemma="of_acp" pos="acp-p" xml:id="c6cjq-001-a-5730">of</w>
+            <w lemma="trust_n" pos="n1" xml:id="c6cjq-001-a-5740">Trust</w>
+            <w lemma="he_pn" pos="pns" xml:id="c6cjq-001-a-5750">he</w>
+            <w lemma="ever_av" pos="av" xml:id="c6cjq-001-a-5760">ever</w>
+            <w lemma="hold_v" pos="vvn" xml:id="c6cjq-001-a-5770">held</w>
+            <w lemma="in_acp" pos="acp-p" xml:id="c6cjq-001-a-5780">in</w>
+            <w lemma="the_d" pos="d" xml:id="c6cjq-001-a-5790">the</w>
+            <w lemma="commonwealth_n" pos="n1" xml:id="c6cjq-001-a-5800">Commonwealth</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-5810">.</pc>
+          </p>
+          <closer xml:id="c6cjqe-510">
+            <w lemma="lex_f-la" pos="fw-la" xml:id="c6cjq-001-a-5820">Lex</w>
+            <pc xml:id="c6cjq-001-a-5830">,</pc>
+            <w lemma="lux_f-la" pos="fw-la" xml:id="c6cjq-001-a-5840">Lux</w>
+            <pc xml:id="c6cjq-001-a-5850">,</pc>
+            <w lemma="London_nn" pos="n1-nn" xml:id="c6cjq-001-a-5860">London</w>
+            <pc unit="sentence" xml:id="c6cjq-001-a-5870">.</pc>
+          </closer>
+        </div>
+      </div>
+    </body>
+    <back xml:id="c6cjqe-520">
+      <div type="colophon" xml:id="c6cjqe-530">
+        <p xml:id="c6cjqe-540">
+          <hi xml:id="c6cjqe-550">
+            <w lemma="print_v" pos="vvn" xml:id="c6cjq-001-a-5880">Printed</w>
+            <w lemma="at_acp" pos="acp-p" xml:id="c6cjq-001-a-5890">at</w>
+          </hi>
+          <w lemma="London_nn" pos="n1-nn" xml:id="c6cjq-001-a-5900">London</w>
+          <pc xml:id="c6cjq-001-a-5910">,</pc>
+          <hi xml:id="c6cjqe-560">
+            <w lemma="by_acp" pos="acp-p" xml:id="c6cjq-001-a-5920">by</w>
+          </hi>
+          <w lemma="James_nn" pos="n1-nn" xml:id="c6cjq-001-a-5930">James</w>
+          <w lemma="Cottrel_nn" pos="n1-nn" xml:id="c6cjq-001-a-5940">Cottrel</w>
+          <pc unit="sentence" xml:id="c6cjq-001-a-5950">.</pc>
+          <w lemma="1660._crd" pos="crd" xml:id="c6cjq-001-a-5960">1660.</w>
+          <pc unit="sentence" xml:id="c6cjq-001-a-5970"/>
+        </p>
+      </div>
+    </back>
+  </text>
+</TEI>
